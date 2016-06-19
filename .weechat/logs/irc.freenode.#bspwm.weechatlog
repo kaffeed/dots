@@ -1,0 +1,156 @@
+2016-04-29 11:05:49	◥	Sinex (~Sinex@193.170.124.201) has joined #bspwm
+2016-04-29 11:05:49	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-04-29 11:05:49	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-04-29 11:05:49	ℹ 	Channel #bspwm: 56 nicks (0 ops, 0 voices, 56 normals)
+2016-04-29 11:05:49	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-04-29 11:05:49	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-04-29 11:05:51	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-04-29 11:05:52	Sinex	hi
+2016-04-29 11:06:44	anthony25	hi Sinex
+2016-04-29 11:23:11	Sinex	Short question :) i've switched to BSPWM some time ago (and love it <3)  and i'm now encountering some wireless problems - it seems i can only connect to the WLan of my university (eduroam) if I start a GNOME session first.. I start the nm-applet in my bspwmrc file and it works without any problems at home.. Somebody got some idea what the problem could be? 
+2016-04-29 12:10:27	ℹ 	irc: disconnected from server
+2016-05-19 13:22:20	◥	Sinex (~Sinex@193.170.124.201) has joined #bspwm
+2016-05-19 13:22:20	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-19 13:22:20	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-19 13:22:20	ℹ 	Channel #bspwm: 55 nicks (0 ops, 0 voices, 55 normals)
+2016-05-19 13:22:20	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-19 13:22:20	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-19 13:22:23	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-19 13:46:40	ℹ 	irc: disconnected from server
+2016-05-20 14:36:29	◥	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has joined #bspwm
+2016-05-20 14:36:29	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-20 14:36:29	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-20 14:36:29	ℹ 	Channel #bspwm: 54 nicks (0 ops, 0 voices, 54 normals)
+2016-05-20 14:36:29	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-20 14:36:29	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-20 14:36:30	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-20 14:36:33	Sinex	hi :) 
+2016-05-20 14:38:22	Sinex	Short question - is there any way to get MATLAB running with bspwm? I'm using openjdk-8 and tried to set the _JAVA_AWT_WM_NONREPARENTING environment variable but nothing works so far :/ 
+2016-05-20 14:40:04	blind	I've had lots of issues with java apps running under bspwm :\
+2016-05-20 14:40:58	Sinex	Meh, that's too bad :\
+2016-05-20 14:49:43	Sinex	anybody else got some ideas?
+2016-05-20 15:27:03	ℹ 	irc: disconnected from server
+2016-05-20 15:27:26	◥	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has joined #bspwm
+2016-05-20 15:27:26	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-20 15:27:26	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-20 15:27:26	ℹ 	Channel #bspwm: 54 nicks (0 ops, 0 voices, 54 normals)
+2016-05-20 15:27:26	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-20 15:27:26	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-20 15:27:26	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-20 15:37:34	anthony25	try bspc config wm_name LG3D
+2016-05-20 15:47:44	Sinex	okay thanks, i'm gonna try :) 
+2016-05-20 15:49:49	Sinex	gonna reboot, brb
+2016-05-20 15:49:52	ℹ 	irc: disconnected from server
+2016-05-20 15:53:39	◥	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has joined #bspwm
+2016-05-20 15:53:39	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-20 15:53:39	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-20 15:53:39	ℹ 	Channel #bspwm: 54 nicks (0 ops, 0 voices, 54 normals)
+2016-05-20 15:53:41	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-20 15:53:50	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-20 15:53:50	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-20 15:55:20	Sinex	mhh, didn't work - could it be that the wm_name option was removed? I don't see it in autocomplete and when i run it from shell it returns an errorcode
+2016-05-20 15:55:45	blind	eh if I try bspwm again... I moved back to fluxbox for the time being :p
+2016-05-20 15:56:07	Sinex	Oh, maybe i should install wmname...
+2016-05-20 15:56:58	Sinex	IT WORKS
+2016-05-20 15:57:01	Sinex	i love you
+2016-05-20 15:57:08	anthony25	oh, maybe it was removed in bspwm 0.9.1
+2016-05-20 15:57:14	anthony25	so what did you do ?
+2016-05-20 15:57:42	anthony25	just "wmname LG3D"?
+2016-05-20 15:58:30	Sinex	yep
+2016-05-20 15:58:46	blind	good to know.
+2016-05-20 15:58:52	Sinex	indeed
+2016-05-20 15:59:01	Sinex	finally, no more switching to xfce just for matlab
+2016-05-20 15:59:02	Sinex	<3
+2016-05-20 16:01:46	anthony25	you're welcome ;)
+2016-05-20 16:06:15	Sinex	I just recently (<= 3 month) switched to linux and I have to admit I'm really glad that I did.. :D I really like my current setup, even though I still have very very very much to learn :D 
+2016-05-20 16:07:07	anthony25	oh, starting with bspwm after 3 months is pretty cool
+2016-05-20 16:07:46	anthony25	I mean that I stayed a lot more times under gnome, in part because it did a lot of stuff for me :p
+2016-05-20 16:08:17	anthony25	and because I liked the useless 3d effects :D
+2016-05-20 16:09:59	anthony25	but I'm on arch for several years now
+2016-05-20 16:10:26	Sinex	Haha :D I started with ApricityOS which has gnome installed by default but I wanted to try install the system "from scratch"
+2016-05-20 16:10:40	Sinex	then installed arch with gnome
+2016-05-20 16:10:44	Sinex	then switched to i3
+2016-05-20 16:11:13	Sinex	after finding /r/unixporn :D 
+2016-05-20 16:11:24	anthony25	I see ;)
+2016-05-20 16:11:25	Sinex	then switched to herbstluft and god knows what else
+2016-05-20 16:11:26	Sinex	:D 
+2016-05-20 16:11:40	blind	I've been using fluxbox for a long time :p
+2016-05-20 16:11:52	Sinex	I wanted to try fluxbox too :D 
+2016-05-20 16:11:58	blind	tried out other WMs/DEs here and there, but bspwm was the first one that kept me for more than a few days
+2016-05-20 16:12:00	anthony25	switching on something I could not pronounce was not an option for me :DDD
+2016-05-20 16:12:27	Sinex	haha, i'm from austria so that was no problem :D 
+2016-05-20 16:15:09	anthony25	yeah, I'm french, so herbstluft sounds like a sneeze to me
+2016-05-20 16:15:30	Sinex	and herbstluftwm was pretty cool, but mainly because i found a script which changes the colorscheme according to the background image
+2016-05-20 16:15:41	anthony25	oh
+2016-05-20 16:16:18	anthony25	actually iirc you can do this quite easily in bspwm too
+2016-05-20 16:16:19	Sinex	Which i still want in bspwm and which i'm pretty sure is possible, but i don't want to invest too much energy now ;D 
+2016-05-20 16:16:38	Sinex	hahah yeah :D 
+2016-05-20 16:16:46	anthony25	but I don't remember if your can change on-the-fly the borders
+2016-05-20 16:17:11	anthony25	I mean for an already opened window
+2016-05-20 16:17:32	blind	you can, but you have to specify the window ID
+2016-05-20 16:17:36	◥	newwwwwww (59fec538@gateway/web/freenode/ip.89.254.197.56) has joined #bspwm
+2016-05-20 16:17:42	anthony25	hum, ok
+2016-05-20 16:19:20	newwwwwww	Hello, whether there is any categorized menu, like xfce4-popup-whiskermenu(don work without xfce4-panel)?
+2016-05-20 16:21:27	blind	you could make something out of dmenu probably
+2016-05-20 16:22:15	newwwwwww	hmm, how?
+2016-05-20 16:22:15	Sinex	Yeah or maybe rofi with a script? 
+2016-05-20 16:22:55	blind	printf "%s\n" xterm google-chrome some_other_program | dmenu
+2016-05-20 16:23:32	blind	or rather, $(printf "%s\n" xterm google-chrome some_other_program | dmenu)
+2016-05-20 16:27:22	newwwwwww	Thanks, i google it :)
+2016-05-20 16:32:41	ℹ 	irc: disconnected from server
+2016-05-20 16:34:24	◥	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has joined #bspwm
+2016-05-20 16:34:24	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-20 16:34:24	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-20 16:34:24	ℹ 	Channel #bspwm: 55 nicks (0 ops, 0 voices, 55 normals)
+2016-05-20 16:34:24	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-20 16:34:24	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-20 16:34:25	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-20 16:34:27	Sinex	re
+2016-05-20 16:34:45	anthony25	re Sinex
+2016-05-20 16:35:00	Sinex	:D 
+2016-05-20 16:50:48	◣	newwwwwww (59fec538@gateway/web/freenode/ip.89.254.197.56) has quit (Quit: Page closed)
+2016-05-20 16:56:29	Sinex	do you use a multimonitor setup with bsp? 
+2016-05-20 16:57:13	Sinex	i have the problem that, if i connect a second monitor, lemonbar is placed on the second monitor and the windows overflow lemonbar
+2016-05-20 16:57:44	blind	you have to set margin on the other desktop
+2016-05-20 16:57:49	blind	or tell lemonbar to not be so big
+2016-05-20 16:58:01	blind	i limited my lemonbar to one monitor
+2016-05-20 16:59:11	Sinex	okay, thx ;) 
+2016-05-20 16:59:13	Sinex	:) 
+2016-05-20 17:01:04	◣	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has left #bspwm ("gonna try something, brb")
+2016-05-20 17:01:07	Sinex	:q
+2016-05-20 17:01:07	ℹ 	#bspwm: Cannot send to channel
+2016-05-20 17:01:09	ℹ 	irc: disconnected from server
+2016-05-20 17:03:33	◥	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has joined #bspwm
+2016-05-20 17:03:33	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-20 17:03:33	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-20 17:03:33	ℹ 	Channel #bspwm: 54 nicks (0 ops, 0 voices, 54 normals)
+2016-05-20 17:03:33	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-20 17:03:33	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-20 17:03:33	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-20 17:03:37	Sinex	re
+2016-05-20 17:03:45	Sinex	well, it's not perfect but by far beter now
+2016-05-20 17:03:47	Sinex	:) 
+2016-05-20 17:04:05	Sinex	better*
+2016-05-20 18:01:31	◥	Andoriyu (~Andoriyu@cpe-76-175-61-178.socal.res.rr.com) has joined #bspwm
+2016-05-20 18:13:36	Sinex	gotta go now :) bye
+2016-05-20 18:13:50	◣	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has left #bspwm ("Obama out")
+2016-05-20 19:58:04	◥	Sinex (~Sinex@178-191-138-14.adsl.highway.telekom.at) has joined #bspwm
+2016-05-20 19:58:04	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-20 19:58:04	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-20 19:58:04	ℹ 	Channel #bspwm: 55 nicks (0 ops, 0 voices, 55 normals)
+2016-05-20 19:58:04	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-20 19:58:04	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-20 19:58:06	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-20 19:58:08	Sinex	hoihoi :) 
+2016-05-20 19:59:26	◣	ArturShaik (~ArturShai@37.218.155.32) has quit (Ping timeout: 260 seconds)
+2016-05-20 20:58:00	ℹ 	irc: disconnected from server
+2016-05-24 10:17:34	◥	Sinex (~Sinex@193.170.124.201) has joined #bspwm
+2016-05-24 10:17:34	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2016-05-24 10:17:34	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 18:12:02
+2016-05-24 10:17:34	ℹ 	Channel #bspwm: 56 nicks (0 ops, 0 voices, 56 normals)
+2016-05-24 10:17:34	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2016-05-24 10:17:34	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2016-05-24 10:17:36	ℹ 	Channel created on Wed, 06 Nov 2013 17:59:37
+2016-05-24 10:17:43	Sinex	Hiho
+2016-05-24 10:31:07	anthony25	hi Sinex
+2016-05-24 10:54:07	ℹ 	irc: disconnected from server

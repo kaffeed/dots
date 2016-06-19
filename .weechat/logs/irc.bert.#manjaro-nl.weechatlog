@@ -1,0 +1,63 @@
+2016-04-21 19:21:37	◥	kelaun (kelaun@2a01:7e00::f03c:91ff:fe6e:7f8b) has joined #manjaro-nl
+2016-04-21 19:21:37	ℹ 	Topic for #manjaro-nl is "Het Nederlandstalige Manjaro-team verwelkomt je hartelijk op het Nederlandstalige IRC-kanaal! | Onze website: www.manjaro-nl.org | http://www.manjaro-nl.org/wpnl/ | Verslag meeting 26 maart: http://www.manjaro-nl.org/smfnl/index.php?topic=70.0"
+2016-04-21 19:21:37	ℹ 	Topic set by Batch (~Batch@unaffiliated/batch) on Wed, 30 Mar 2016 17:41:52
+2016-04-21 19:21:37	ℹ 	Channel #manjaro-nl: 17 nicks (6 ops, 1 voice, 10 normals)
+2016-04-21 19:21:37	***	Buffer Playback...
+2016-04-21 19:21:37	jarco_	en er zit meestal standaard ook een wait op een keypress in voor bios en zo
+2016-04-21 19:21:37	jarco_	je kan dat allemaal uitzetten 
+2016-04-21 19:21:37	NanoSector	langste tijd zit hem in het initialiseren van de videokaart
+2016-04-21 19:21:37	jarco_	ga je nog veel snelller booten
+2016-04-21 19:21:37	NanoSector	zal s ff kijken
+2016-04-21 19:21:38	NanoSector	nee kan hem niet veel sneller meer maken
+2016-04-21 19:21:38	NanoSector	nu zegt ie, laatste bios tijd = 699,3 seconden
+2016-04-21 19:21:38	NanoSector	lol
+2016-04-21 19:21:38	NanoSector	denk wel dat ik hem voortaan ga hibernaten
+2016-04-21 19:21:38	NanoSector	want dat is dus wel echt fucked up snel
+2016-04-21 19:21:38	NanoSector	sleep, nog sneller
+2016-04-21 19:21:38	M_aD_	ik vind W10 snel booten maar dat komt omdat het systeem bij het uitzetten in een deepsleep wordt gezet werd mij ooit verteld....?
+2016-04-21 19:21:38	NanoSector	zit idd een fast boot feature in win10
+2016-04-21 19:21:38	M_aD_	klopt
+2016-04-21 19:21:38	NanoSector	wat dat doet is essentieel het systeem in een soort van 'basis' (net gebootte) staat opslaan wanneer het word afgesloten
+2016-04-21 19:21:38	NanoSector	beetje hibernation voor de volgende keer zegmaar
+2016-04-21 19:21:38	M_aD_	i see
+2016-04-21 19:21:38	NanoSector	op zich wel een slim truucje imo
+2016-04-21 19:21:38	M_aD_	yep :)
+2016-04-21 19:21:38	M_aD_	leek me wel leuk om een sufrac pro 4 aan te schaffen.... als ik de lotto win
+2016-04-21 19:21:38	NanoSector	heh
+2016-04-21 19:21:38	NanoSector	op zich leuke tablets
+2016-04-21 19:21:38	NanoSector	veel te duur thouggh
+2016-04-21 19:21:38	M_aD_	idd
+2016-04-21 19:21:38	M_aD_	sufrac.... doh, wat een typo
+2016-04-21 19:21:38	NanoSector	we weten wat je bedoelt :)
+2016-04-21 19:21:38	M_aD_	da's het belangrijkste :D
+2016-04-21 19:21:38	NanoSector	ziggo heeft hier btw de snelheid naar 150 Mbit/s gegooid :)
+2016-04-21 19:21:38	NanoSector	heerlijk zo, lekker snel 50 Steam spellen downloaden
+2016-04-21 19:21:38	M_aD_	nice
+2016-04-21 19:21:38	⚡	M_aD_ zit aan 200 Mbps
+2016-04-21 19:21:38	NanoSector	lekker toch
+2016-04-21 19:21:38	M_aD_	heerlijk
+2016-04-21 19:21:38	M_aD_	effe een iso binnentrekken van +2GB in een minuut of zo
+2016-04-21 19:21:38	NanoSector	idd
+2016-04-21 19:21:38	NanoSector	zou het alleen fijn vinden als Samba over ons netwerk ietwat sneller was
+2016-04-21 19:21:38	M_aD_	euh...?
+2016-04-21 19:21:38	M_aD_	brb
+2016-04-21 19:21:38	jarco_	M_aD, ca va?
+2016-04-21 19:21:38	jarco_	ik las net dat je ziek was. Ik ben ook al een maand af en aan ziek geweest :(
+2016-04-21 19:21:38	@M_aD	hey jarco_, niet helemaal zoals het moet. Psoriasis is weer goe komen opzetten
+2016-04-21 19:21:38	jarco_	auch
+2016-04-21 19:21:38	jarco_	daar zijn visjes voor :)
+2016-04-21 19:21:38	@M_aD	nu ben ik aan het wachten op iemand die het dakgootje achter in orde komt maken en dan een maand later kunnen ze aan de eetkamer beginnen met de schade te herstellen.
+2016-04-21 19:21:38	@M_aD	visjes? lol
+2016-04-21 19:21:38	NanoSector	oude harde schijf die aan de Wii hangt klinkt als een straaljager als je hem aanzet
+2016-04-21 19:21:38	NanoSector	https://youtu.be/IyJL2VkC0L8
+2016-04-21 19:21:38	ℹ 	Notice(FatalException): [http://is.gd/A2tjf3] SSBB Slide Glitch - YouTube
+2016-04-21 19:21:38	NanoSector	https://www.youtube.com/watch?v=gkO7e1kSG18
+2016-04-21 19:21:38	ℹ 	Notice(FatalException): [http://is.gd/Di9l9L] OC ReMix #1611: Super Mario 64 'Devastation's Doorway' [Koopa's Road, Koopa's Theme] by Sole Signal - YouTube
+2016-04-21 19:21:38	***	Playback Complete.
+2016-04-21 19:21:43	ℹ 	irc: disconnected from server
+2016-04-21 19:22:18	◥	kelaun (kelaun@2a01:7e00::f03c:91ff:fe6e:7f8b) has joined #manjaro-nl
+2016-04-21 19:22:18	ℹ 	Topic for #manjaro-nl is "Het Nederlandstalige Manjaro-team verwelkomt je hartelijk op het Nederlandstalige IRC-kanaal! | Onze website: www.manjaro-nl.org | http://www.manjaro-nl.org/wpnl/ | Verslag meeting 26 maart: http://www.manjaro-nl.org/smfnl/index.php?topic=70.0"
+2016-04-21 19:22:18	ℹ 	Topic set by Batch (~Batch@unaffiliated/batch) on Wed, 30 Mar 2016 17:41:52
+2016-04-21 19:22:18	ℹ 	Channel #manjaro-nl: 17 nicks (6 ops, 1 voice, 10 normals)
+2016-04-21 19:22:25	ℹ 	Channel created on Thu, 23 Jan 2014 17:17:30
+2016-04-21 19:22:44	ℹ 	irc: disconnected from server
