@@ -1,0 +1,62 @@
+2016-04-21 19:21:38	◥	kelaun (kelaun@2a01:7e00::f03c:91ff:fe6e:7f8b) has joined #manjaro-fr
+2016-04-21 19:21:38	ℹ 	Topic for #manjaro-fr is ""Bienvenue sur le canal francophone de Linux Manjaro ! | Merci d'éviter les grossièretés et le language SMS |"
+2016-04-21 19:21:38	ℹ 	Topic set by Esclapion on Sat, 16 Apr 2016 22:49:50
+2016-04-21 19:21:38	ℹ 	Channel #manjaro-fr: 20 nicks (3 ops, 7 voices, 10 normals)
+2016-04-21 19:21:38	***	Buffer Playback...
+2016-04-21 19:21:38	@Esclapion	http://www.auplod.com/u/apdolu7af3a.jpeg
+2016-04-21 19:21:38	@Esclapion	plutôt mieux, je trouve
+2016-04-21 19:21:38	TheSuperGeek	Esclapion: ben la colorisation avec gimp peux suffire ou alors directement faire une modif du svg
+2016-04-21 19:21:38	@Esclapion	regarde mon lien,c'estce que je suis en train defaire. Là, c'est #61852E, donc plus sombre
+2016-04-21 19:21:38	TheSuperGeek	Esclapion: oué c'est mieux là :)
+2016-04-21 19:21:38	@Esclapion	trop dur à changer, je vais améliorer mon script
+2016-04-21 19:21:38	TheSuperGeek	Esclapion: quel script ?
+2016-04-21 19:21:38	@Esclapion	ben,je change toutes les icônes d'un coup
+2016-04-21 19:21:38	TheSuperGeek	ah oki
+2016-04-21 19:21:38	@Esclapion	http://www.auplod.com/u/lduopa7af4c.jpeg
+2016-04-21 19:21:38	@Esclapion	pas mieux.Le dossier utilisateur est moche #8AA61D
+2016-04-21 19:21:38	@Esclapion	on voit mal les dossiers sur le bureau
+2016-04-21 19:21:38	TheSuperGeek	Esclapion: ouai c'est moins bien
+2016-04-21 19:21:38	@Esclapion	http://www.auplod.com/u/douapl7af5c.jpeg
+2016-04-21 19:21:38	TheSuperGeek	Esclapion: pas mal du tout :)
+2016-04-21 19:21:38	@Esclapion	là, c'est pas mal
+2016-04-21 19:21:38	@Esclapion	en même temps
+2016-04-21 19:21:38	@Esclapion	on garde ?
+2016-04-21 19:21:38	TheSuperGeek	Esclapion: oui je pense
+2016-04-21 19:21:38	@Esclapion	voté ! :-)
+2016-04-21 19:21:38	Narel	salut
+2016-04-21 19:21:38	Narel	salut TheSuperGeek
+2016-04-21 19:21:38	TheSuperGeek	salut Narel !
+2016-04-21 19:21:38	Narel	J'ai un soucis à la con
+2016-04-21 19:21:38	TheSuperGeek	Narel: ah ?
+2016-04-21 19:21:38	Narel	J'arrive à jouer avec wine à FF9 version PC qui est sorti ya peu
+2016-04-21 19:21:38	Narel	oui mais ma manette Xbox 360 n'est pas reconnue....
+2016-04-21 19:21:38	Narel	pourtant si je tape: "wine control". La manette est reconnue
+2016-04-21 19:21:38	TheSuperGeek	Narel: tu as regardé sur le site de wine ?
+2016-04-21 19:21:38	Narel	Ils ont même pas encore fait pour FF9
+2016-04-21 19:21:38	Narel	et ya rien de particulier que je n'ai pas essayé :(
+2016-04-21 19:21:38	TheSuperGeek	Narel: ah... peut-être que sur #winehq ils peuvent t'aider
+2016-04-21 19:21:38	TheSuperGeek	Narel: mais avant 1 vérif
+2016-04-21 19:21:38	Narel	et sur winehq sur freenode c'est une bande de muets :)
+2016-04-21 19:21:38	TheSuperGeek	Narel: ah ok
+2016-04-21 19:21:38	TheSuperGeek	Narel: donc tu es en mode "windows 7" ou "windows XP" sur wine ?
+2016-04-21 19:21:38	Narel	Windows 7
+2016-04-21 19:21:38	Narel	avec FF9 x64 natif
+2016-04-21 19:21:38	Narel	salut linux_dream
+2016-04-21 19:21:38	+linux_dream	Narel :) bonsoir
+2016-04-21 19:21:38	TSGeek	Bon je trouve une solution aux connexion/déconnexion... je reviens !
+2016-04-21 19:21:38	@Esclapion	dommage que je ne connaisse pas inkscape
+2016-04-21 19:21:38	+TheSuperGeek_	re
+2016-04-21 19:21:38	Narel	re
+2016-04-21 19:21:38	+TheSuperGeek_	Ptn c'est iech les pbs de freenode
+2016-04-21 19:21:38	@Esclapion	ça recommence ?
+2016-04-21 19:21:38	Narel	err:module:find_forwarded_export module not found for forward 'xinput1_3.XInputSetState' used by L"C:\\windows\\system32\\xinput1_4.dll"
+2016-04-21 19:21:38	+TheSuperGeek_	c'est quoi ça ?
+2016-04-21 19:21:38	Narel	C'est sur le log après exec de FF9
+2016-04-21 19:21:38	Narel	C'est le seul truc en rapport avec le pad
+2016-04-21 19:21:38	***	Playback Complete.
+2016-04-21 19:21:43	ℹ 	irc: disconnected from server
+2016-04-21 19:22:18	◥	kelaun (kelaun@2a01:7e00::f03c:91ff:fe6e:7f8b) has joined #manjaro-fr
+2016-04-21 19:22:18	ℹ 	Topic for #manjaro-fr is ""Bienvenue sur le canal francophone de Linux Manjaro ! | Merci d'éviter les grossièretés et le language SMS |"
+2016-04-21 19:22:18	ℹ 	Topic set by Esclapion on Sat, 16 Apr 2016 22:49:50
+2016-04-21 19:22:18	ℹ 	Channel #manjaro-fr: 20 nicks (3 ops, 7 voices, 10 normals)
+2016-04-21 19:22:44	ℹ 	irc: disconnected from server

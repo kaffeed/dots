@@ -1,0 +1,700 @@
+2016-04-21 19:21:36	ℹ 	irc: connecting to server srv3.devnox.eu/8443 (SSL)...
+2016-04-21 19:21:37	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 19:21:37	ℹ 	gnutls: receiving 1 certificate
+2016-04-21 19:21:37	ℹ 	 - certificate[1] info:
+2016-04-21 19:21:37	ℹ 	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=znc,CN=li689-53,EMAIL=znc@li689-53', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=znc,CN=li689-53,EMAIL=znc@li689-53', RSA key 2048 bits, signed using RSA-SHA1, activated `2014-01-16 07:55:12 UTC', expires `2024-01-14 07:55:12 UTC', SHA-1 fingerprint `cf40d791aebf586b81337bd07e15fe9a2b89935f'
+2016-04-21 19:21:37	⚠ 	gnutls: the hostname in the certificate does NOT match "srv3.devnox.eu"
+2016-04-21 19:21:37	⚠ 	gnutls: peer's certificate is NOT trusted
+2016-04-21 19:21:37	⚠ 	gnutls: peer's certificate issuer is unknown
+2016-04-21 19:21:37	ℹ 	irc: connected to srv3.devnox.eu/8443 (88.80.186.53)
+2016-04-21 19:21:37	ℹ 	Welcome to the freenode Internet Relay Chat Network kelaun
+2016-04-21 19:21:37	ℹ 	Your host is wolfe.freenode.net[2001:948:7:7::140/6697], running version ircd-seven-1.1.3
+2016-04-21 19:21:37	ℹ 	This server was created Tue Nov 10 2015 at 15:57:43 UTC
+2016-04-21 19:21:37	ℹ 	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 19:21:37	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 19:21:37	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 19:21:37	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 19:21:37	ℹ 	There are 137 users and 85713 invisible on 24 servers
+2016-04-21 19:21:37	ℹ 	24 :IRC Operators online
+2016-04-21 19:21:37	ℹ 	54874 :channels formed
+2016-04-21 19:21:37	ℹ 	I have 5755 clients and 1 servers
+2016-04-21 19:21:37	ℹ 	5755 12000 :Current local users 5755, max 12000
+2016-04-21 19:21:37	ℹ 	85850 97578 :Current global users 85850, max 97578
+2016-04-21 19:21:37	ℹ 	Highest connection count: 12001 (12000 clients) (816232 connections received)
+2016-04-21 19:21:37	ℹ 	- wolfe.freenode.net Message of the Day -
+2016-04-21 19:21:37	ℹ 	- Welcome to wolfe.freenode.net in Stockholm, SE.
+2016-04-21 19:21:37	ℹ 	- Thanks to http://nordu.net/ for sponsoring
+2016-04-21 19:21:37	ℹ 	- this server!
+2016-04-21 19:21:37	ℹ 	-
+2016-04-21 19:21:37	ℹ 	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2016-04-21 19:21:37	ℹ 	- novels. His best-known work is the multi-volume novel The
+2016-04-21 19:21:37	ℹ 	- Book of the New Sun. He has won multiple awards including
+2016-04-21 19:21:37	ℹ 	- the Nebula Award, the World Fantasy Award, The Campell
+2016-04-21 19:21:37	ℹ 	- Memorial Award and the Locus Award. He was awarded the World
+2016-04-21 19:21:37	ℹ 	- Fantasy Award for lifetime achievement in 1996.
+2016-04-21 19:21:37	ℹ 	-
+2016-04-21 19:21:37	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 19:21:37	ℹ 	- software communities since 1998.
+2016-04-21 19:21:37	ℹ 	-
+2016-04-21 19:21:37	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 19:21:37	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 19:21:37	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 19:21:37	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 19:21:37	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 19:21:37	ℹ 	-
+2016-04-21 19:21:37	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 19:21:37	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 19:21:37	ℹ 	- real-life collaboration.
+2016-04-21 19:21:37	ℹ 	-
+2016-04-21 19:21:37	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 19:21:37	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 19:21:37	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 19:21:37	ℹ 	- running for their sustained support.
+2016-04-21 19:21:37	ℹ 	-
+2016-04-21 19:21:37	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 19:21:37	ℹ 	- of this server, details of which can be found above.
+2016-04-21 19:21:37	ℹ 	-
+2016-04-21 19:21:37	ℹ 	End of /MOTD command.
+2016-04-21 19:21:37	ℹ 	User mode [+Zi] by kelaun
+2016-04-21 19:21:43	ℹ 	irc: disconnected from server
+2016-04-21 19:22:17	ℹ 	irc: connecting to server srv3.devnox.eu/8443 (SSL)...
+2016-04-21 19:22:17	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 19:22:17	ℹ 	gnutls: receiving 1 certificate
+2016-04-21 19:22:17	ℹ 	 - certificate[1] info:
+2016-04-21 19:22:17	ℹ 	   - subject `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=znc,CN=li689-53,EMAIL=znc@li689-53', issuer `C=US,ST=SomeState,L=SomeCity,O=SomeCompany,OU=znc,CN=li689-53,EMAIL=znc@li689-53', RSA key 2048 bits, signed using RSA-SHA1, activated `2014-01-16 07:55:12 UTC', expires `2024-01-14 07:55:12 UTC', SHA-1 fingerprint `cf40d791aebf586b81337bd07e15fe9a2b89935f'
+2016-04-21 19:22:17	⚠ 	gnutls: the hostname in the certificate does NOT match "srv3.devnox.eu"
+2016-04-21 19:22:17	⚠ 	gnutls: peer's certificate is NOT trusted
+2016-04-21 19:22:17	⚠ 	gnutls: peer's certificate issuer is unknown
+2016-04-21 19:22:17	ℹ 	irc: connected to srv3.devnox.eu/8443 (88.80.186.53)
+2016-04-21 19:22:17	ℹ 	Welcome to the freenode Internet Relay Chat Network kelaun
+2016-04-21 19:22:17	ℹ 	Your host is wolfe.freenode.net[2001:948:7:7::140/6697], running version ircd-seven-1.1.3
+2016-04-21 19:22:17	ℹ 	This server was created Tue Nov 10 2015 at 15:57:43 UTC
+2016-04-21 19:22:17	ℹ 	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 19:22:17	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 19:22:17	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 19:22:17	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 19:22:17	ℹ 	There are 137 users and 85713 invisible on 24 servers
+2016-04-21 19:22:17	ℹ 	24 :IRC Operators online
+2016-04-21 19:22:17	ℹ 	54874 :channels formed
+2016-04-21 19:22:17	ℹ 	I have 5755 clients and 1 servers
+2016-04-21 19:22:17	ℹ 	5755 12000 :Current local users 5755, max 12000
+2016-04-21 19:22:17	ℹ 	85850 97578 :Current global users 85850, max 97578
+2016-04-21 19:22:17	ℹ 	Highest connection count: 12001 (12000 clients) (816232 connections received)
+2016-04-21 19:22:17	ℹ 	- wolfe.freenode.net Message of the Day -
+2016-04-21 19:22:17	ℹ 	- Welcome to wolfe.freenode.net in Stockholm, SE.
+2016-04-21 19:22:17	ℹ 	- Thanks to http://nordu.net/ for sponsoring
+2016-04-21 19:22:17	ℹ 	- this server!
+2016-04-21 19:22:17	ℹ 	-
+2016-04-21 19:22:17	ℹ 	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2016-04-21 19:22:17	ℹ 	- novels. His best-known work is the multi-volume novel The
+2016-04-21 19:22:17	ℹ 	- Book of the New Sun. He has won multiple awards including
+2016-04-21 19:22:17	ℹ 	- the Nebula Award, the World Fantasy Award, The Campell
+2016-04-21 19:22:17	ℹ 	- Memorial Award and the Locus Award. He was awarded the World
+2016-04-21 19:22:17	ℹ 	- Fantasy Award for lifetime achievement in 1996.
+2016-04-21 19:22:17	ℹ 	-
+2016-04-21 19:22:17	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 19:22:17	ℹ 	- software communities since 1998.
+2016-04-21 19:22:17	ℹ 	-
+2016-04-21 19:22:17	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 19:22:17	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 19:22:17	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 19:22:17	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 19:22:17	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 19:22:17	ℹ 	-
+2016-04-21 19:22:17	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 19:22:17	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 19:22:17	ℹ 	- real-life collaboration.
+2016-04-21 19:22:17	ℹ 	-
+2016-04-21 19:22:17	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 19:22:17	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 19:22:17	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 19:22:17	ℹ 	- running for their sustained support.
+2016-04-21 19:22:17	ℹ 	-
+2016-04-21 19:22:17	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 19:22:17	ℹ 	- of this server, details of which can be found above.
+2016-04-21 19:22:17	ℹ 	-
+2016-04-21 19:22:17	ℹ 	End of /MOTD command.
+2016-04-21 19:22:17	ℹ 	User mode [+Zi] by kelaun
+2016-04-21 19:22:44	ℹ 	irc: disconnected from server
+2016-04-21 19:27:01	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 19:27:01	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 19:27:01	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 19:27:01	ℹ 	 - certificate[1] info:
+2016-04-21 19:27:01	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 19:27:01	ℹ 	 - certificate[2] info:
+2016-04-21 19:27:01	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 19:27:01	ℹ 	 - certificate[3] info:
+2016-04-21 19:27:01	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 19:27:01	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 19:27:01	ℹ 	irc: connected to chat.freenode.net/6697 (164.132.77.237)
+2016-04-21 19:27:01	ℹ 	wilhelm.freenode.net: *** Looking up your hostname...
+2016-04-21 19:27:01	ℹ 	wilhelm.freenode.net: *** Checking Ident
+2016-04-21 19:27:01	ℹ 	wilhelm.freenode.net: *** Found your hostname
+2016-04-21 19:27:09	ℹ 	wilhelm.freenode.net: *** No Ident response
+2016-04-21 19:27:09	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 19:27:09	ℹ 	Your host is wilhelm.freenode.net[164.132.77.237/6697], running version ircd-seven-1.1.3
+2016-04-21 19:27:09	ℹ 	This server was created Sun Feb 7 2016 at 21:13:13 UTC
+2016-04-21 19:27:09	ℹ 	wilhelm.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 19:27:09	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 19:27:09	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 19:27:09	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 19:27:09	ℹ 	There are 147 users and 87664 invisible on 24 servers
+2016-04-21 19:27:09	ℹ 	24 :IRC Operators online
+2016-04-21 19:27:09	ℹ 	16 :unknown connection(s)
+2016-04-21 19:27:09	ℹ 	55496 :channels formed
+2016-04-21 19:27:09	ℹ 	I have 12874 clients and 1 servers
+2016-04-21 19:27:09	ℹ 	12874 15265 :Current local users 12874, max 15265
+2016-04-21 19:27:09	ℹ 	87811 97579 :Current global users 87811, max 97579
+2016-04-21 19:27:09	ℹ 	Highest connection count: 15266 (15265 clients) (998322 connections received)
+2016-04-21 19:27:09	ℹ 	- wilhelm.freenode.net Message of the Day -
+2016-04-21 19:27:09	ℹ 	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2016-04-21 19:27:09	ℹ 	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2016-04-21 19:27:09	ℹ 	- this server!
+2016-04-21 19:27:09	ℹ 	-
+2016-04-21 19:27:09	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 19:27:09	ℹ 	- software communities since 1998.
+2016-04-21 19:27:09	ℹ 	-
+2016-04-21 19:27:09	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 19:27:09	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 19:27:09	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 19:27:09	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 19:27:09	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 19:27:09	ℹ 	-
+2016-04-21 19:27:09	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 19:27:09	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 19:27:09	ℹ 	- real-life collaboration.
+2016-04-21 19:27:09	ℹ 	-
+2016-04-21 19:27:09	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 19:27:09	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 19:27:09	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 19:27:09	ℹ 	- running for their sustained support.
+2016-04-21 19:27:09	ℹ 	-
+2016-04-21 19:27:09	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 19:27:09	ℹ 	- of this server, details of which can be found above.
+2016-04-21 19:27:09	ℹ 	-
+2016-04-21 19:27:09	ℹ 	End of /MOTD command.
+2016-04-21 19:27:09	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 19:27:09	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 19:27:09	ℹ 	NickServ (NickServ@services.): Invalid password for Sinex.
+2016-04-21 19:27:21	⚠ 	irc: this buffer is not a channel!
+2016-04-21 19:27:25	ℹ 	irc: disconnected from server
+2016-04-21 19:28:05	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 19:28:05	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 19:28:05	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 19:28:05	ℹ 	 - certificate[1] info:
+2016-04-21 19:28:05	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 19:28:05	ℹ 	 - certificate[2] info:
+2016-04-21 19:28:05	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 19:28:05	ℹ 	 - certificate[3] info:
+2016-04-21 19:28:05	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 19:28:05	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 19:28:05	ℹ 	irc: connected to chat.freenode.net/6697 (94.125.182.252)
+2016-04-21 19:28:05	ℹ 	adams.freenode.net: *** Looking up your hostname...
+2016-04-21 19:28:05	ℹ 	adams.freenode.net: *** Checking Ident
+2016-04-21 19:28:05	ℹ 	adams.freenode.net: *** Found your hostname
+2016-04-21 19:28:16	ℹ 	adams.freenode.net: *** No Ident response
+2016-04-21 19:28:16	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 19:28:16	ℹ 	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.3
+2016-04-21 19:28:16	ℹ 	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2016-04-21 19:28:16	ℹ 	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 19:28:16	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 19:28:16	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 19:28:16	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 19:28:16	ℹ 	There are 148 users and 87759 invisible on 24 servers
+2016-04-21 19:28:16	ℹ 	24 :IRC Operators online
+2016-04-21 19:28:16	ℹ 	11 :unknown connection(s)
+2016-04-21 19:28:16	ℹ 	55541 :channels formed
+2016-04-21 19:28:16	ℹ 	I have 6154 clients and 1 servers
+2016-04-21 19:28:16	ℹ 	6154 12000 :Current local users 6154, max 12000
+2016-04-21 19:28:16	ℹ 	87907 97578 :Current global users 87907, max 97578
+2016-04-21 19:28:16	ℹ 	Highest connection count: 12001 (12000 clients) (720704 connections received)
+2016-04-21 19:28:16	ℹ 	- adams.freenode.net Message of the Day -
+2016-04-21 19:28:16	ℹ 	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2016-04-21 19:28:16	ℹ 	- (http://www.atw.hu) for sponsoring this server!
+2016-04-21 19:28:16	ℹ 	-
+2016-04-21 19:28:16	ℹ 	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2016-04-21 19:28:16	ℹ 	- to the Galaxy and many other witty and humourous books,
+2016-04-21 19:28:16	ℹ 	- portrayed in his uniquely British irony. He is sorely missed
+2016-04-21 19:28:16	ℹ 	- by many millions of devoted fans. "So long and thanks for all
+2016-04-21 19:28:16	ℹ 	- the books!"
+2016-04-21 19:28:16	ℹ 	-
+2016-04-21 19:28:16	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 19:28:16	ℹ 	- software communities since 1998.
+2016-04-21 19:28:16	ℹ 	-
+2016-04-21 19:28:16	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 19:28:16	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 19:28:16	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 19:28:16	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 19:28:16	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 19:28:16	ℹ 	-
+2016-04-21 19:28:16	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 19:28:16	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 19:28:16	ℹ 	- real-life collaboration.
+2016-04-21 19:28:16	ℹ 	-
+2016-04-21 19:28:16	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 19:28:16	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 19:28:16	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 19:28:16	ℹ 	- running for their sustained support.
+2016-04-21 19:28:16	ℹ 	-
+2016-04-21 19:28:16	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 19:28:16	ℹ 	- of this server, details of which can be found above.
+2016-04-21 19:28:16	ℹ 	-
+2016-04-21 19:28:16	ℹ 	End of /MOTD command.
+2016-04-21 19:28:16	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 19:28:16	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 19:28:16	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
+2016-04-21 19:28:16	ℹ 	NickServ (NickServ@services.): 1 failed login since last login.
+2016-04-21 19:28:16	ℹ 	NickServ (NickServ@services.): Last failed attempt from: Sinex!~Sinex@93-82-78-242.adsl.highway.telekom.at on Apr 21 17:27:15 2016.
+2016-04-21 19:28:42	ℹ 	irc: disconnected from server
+2016-04-21 19:28:45	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 19:28:46	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 19:28:46	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 19:28:46	ℹ 	 - certificate[1] info:
+2016-04-21 19:28:46	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 19:28:46	ℹ 	 - certificate[2] info:
+2016-04-21 19:28:46	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 19:28:46	ℹ 	 - certificate[3] info:
+2016-04-21 19:28:46	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 19:28:46	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 19:28:46	ℹ 	irc: connected to chat.freenode.net/6697 (185.30.166.37)
+2016-04-21 19:28:47	ℹ 	verne.freenode.net: *** Looking up your hostname...
+2016-04-21 19:28:47	ℹ 	verne.freenode.net: *** Checking Ident
+2016-04-21 19:28:47	ℹ 	verne.freenode.net: *** Found your hostname
+2016-04-21 19:28:49	ℹ 	irc: disconnected from server
+2016-04-21 19:28:52	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 19:28:53	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 19:28:53	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 19:28:53	ℹ 	 - certificate[1] info:
+2016-04-21 19:28:53	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 19:28:53	ℹ 	 - certificate[2] info:
+2016-04-21 19:28:53	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 19:28:53	ℹ 	 - certificate[3] info:
+2016-04-21 19:28:53	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 19:28:53	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 19:28:53	ℹ 	irc: connected to chat.freenode.net/6697 (192.186.157.43)
+2016-04-21 19:28:53	ℹ 	tepper.freenode.net: *** Looking up your hostname...
+2016-04-21 19:28:53	ℹ 	tepper.freenode.net: *** Checking Ident
+2016-04-21 19:28:53	ℹ 	tepper.freenode.net: *** Found your hostname
+2016-04-21 19:29:01	ℹ 	tepper.freenode.net: *** No Ident response
+2016-04-21 19:29:01	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 19:29:01	ℹ 	Your host is tepper.freenode.net[192.186.157.43/6697], running version ircd-seven-1.1.3
+2016-04-21 19:29:01	ℹ 	This server was created Thu Jun 18 2015 at 19:57:19 UTC
+2016-04-21 19:29:01	ℹ 	tepper.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 19:29:01	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 19:29:01	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 19:29:01	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 19:29:01	ℹ 	There are 148 users and 87815 invisible on 24 servers
+2016-04-21 19:29:01	ℹ 	24 :IRC Operators online
+2016-04-21 19:29:01	ℹ 	13 :unknown connection(s)
+2016-04-21 19:29:01	ℹ 	55526 :channels formed
+2016-04-21 19:29:01	ℹ 	I have 4750 clients and 1 servers
+2016-04-21 19:29:01	ℹ 	4750 10446 :Current local users 4750, max 10446
+2016-04-21 19:29:01	ℹ 	87963 97577 :Current global users 87963, max 97577
+2016-04-21 19:29:01	ℹ 	Highest connection count: 10447 (10446 clients) (848430 connections received)
+2016-04-21 19:29:01	ℹ 	- tepper.freenode.net Message of the Day -
+2016-04-21 19:29:01	ℹ 	- Welcome to tepper.freenode.net in Buffalo, NY.
+2016-04-21 19:29:01	ℹ 	- Thanks to http://www.servermania.com/ for sponsoring
+2016-04-21 19:29:01	ℹ 	- this server!
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	- TEPPER, SHERI S. (1929-), an American science fiction,
+2016-04-21 19:29:01	ℹ 	- horror and mystery novel author, behind more than thirty
+2016-04-21 19:29:01	ℹ 	- books, many themed unapologetically eco-feminist. Her
+2016-04-21 19:29:01	ℹ 	- writing career started composing children's stories, but
+2016-04-21 19:29:01	ℹ 	- moved to adult fiction in 1982. With the 1991 novel
+2016-04-21 19:29:01	ℹ 	- 'Beauty' she won the Locus award for Best Fantasy Novel.
+2016-04-21 19:29:01	ℹ 	- Her other well-known works include 'Grass' (1989, nominated
+2016-04-21 19:29:01	ℹ 	- for Hugo and Locus Awards in 1990) and 'Gate to Women's
+2016-04-21 19:29:01	ℹ 	- Country' (1988).
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 19:29:01	ℹ 	- software communities since 1998.
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 19:29:01	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 19:29:01	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 19:29:01	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 19:29:01	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 19:29:01	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 19:29:01	ℹ 	- real-life collaboration.
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 19:29:01	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 19:29:01	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 19:29:01	ℹ 	- running for their sustained support.
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 19:29:01	ℹ 	- of this server, details of which can be found above.
+2016-04-21 19:29:01	ℹ 	-
+2016-04-21 19:29:01	ℹ 	End of /MOTD command.
+2016-04-21 19:29:01	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 19:29:01	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 19:29:01	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
+2016-04-21 19:29:07	ℹ 	anime: No such channel
+2016-04-21 19:50:18	ℹ 	irc: disconnected from server
+2016-04-21 20:09:42	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 20:09:42	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 20:09:42	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 20:09:42	ℹ 	 - certificate[1] info:
+2016-04-21 20:09:42	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 20:09:42	ℹ 	 - certificate[2] info:
+2016-04-21 20:09:42	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 20:09:42	ℹ 	 - certificate[3] info:
+2016-04-21 20:09:42	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 20:09:42	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 20:09:42	ℹ 	irc: connected to chat.freenode.net/6697 (94.125.182.252)
+2016-04-21 20:09:42	ℹ 	adams.freenode.net: *** Looking up your hostname...
+2016-04-21 20:09:42	ℹ 	adams.freenode.net: *** Checking Ident
+2016-04-21 20:09:42	ℹ 	adams.freenode.net: *** Found your hostname
+2016-04-21 20:09:48	ℹ 	adams.freenode.net: *** No Ident response
+2016-04-21 20:09:48	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 20:09:48	ℹ 	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.3
+2016-04-21 20:09:48	ℹ 	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2016-04-21 20:09:48	ℹ 	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 20:09:48	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 20:09:48	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 20:09:48	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 20:09:48	ℹ 	There are 148 users and 88330 invisible on 24 servers
+2016-04-21 20:09:48	ℹ 	24 :IRC Operators online
+2016-04-21 20:09:48	ℹ 	10 :unknown connection(s)
+2016-04-21 20:09:48	ℹ 	55619 :channels formed
+2016-04-21 20:09:48	ℹ 	I have 6156 clients and 1 servers
+2016-04-21 20:09:48	ℹ 	6156 12000 :Current local users 6156, max 12000
+2016-04-21 20:09:48	ℹ 	88478 97578 :Current global users 88478, max 97578
+2016-04-21 20:09:48	ℹ 	Highest connection count: 12001 (12000 clients) (721407 connections received)
+2016-04-21 20:09:48	ℹ 	- adams.freenode.net Message of the Day -
+2016-04-21 20:09:48	ℹ 	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2016-04-21 20:09:48	ℹ 	- (http://www.atw.hu) for sponsoring this server!
+2016-04-21 20:09:48	ℹ 	-
+2016-04-21 20:09:48	ℹ 	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2016-04-21 20:09:48	ℹ 	- to the Galaxy and many other witty and humourous books,
+2016-04-21 20:09:48	ℹ 	- portrayed in his uniquely British irony. He is sorely missed
+2016-04-21 20:09:48	ℹ 	- by many millions of devoted fans. "So long and thanks for all
+2016-04-21 20:09:48	ℹ 	- the books!"
+2016-04-21 20:09:48	ℹ 	-
+2016-04-21 20:09:48	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 20:09:48	ℹ 	- software communities since 1998.
+2016-04-21 20:09:48	ℹ 	-
+2016-04-21 20:09:48	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 20:09:48	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 20:09:48	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 20:09:48	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 20:09:48	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 20:09:48	ℹ 	-
+2016-04-21 20:09:48	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 20:09:48	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 20:09:48	ℹ 	- real-life collaboration.
+2016-04-21 20:09:48	ℹ 	-
+2016-04-21 20:09:48	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 20:09:48	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 20:09:48	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 20:09:48	ℹ 	- running for their sustained support.
+2016-04-21 20:09:48	ℹ 	-
+2016-04-21 20:09:48	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 20:09:48	ℹ 	- of this server, details of which can be found above.
+2016-04-21 20:09:48	ℹ 	-
+2016-04-21 20:09:48	ℹ 	End of /MOTD command.
+2016-04-21 20:09:48	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 20:09:48	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 20:09:48	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
+2016-04-21 20:19:34	ℹ 	irc: disconnected from server
+2016-04-21 20:29:35	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 20:29:36	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 20:29:36	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 20:29:36	ℹ 	 - certificate[1] info:
+2016-04-21 20:29:36	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 20:29:36	ℹ 	 - certificate[2] info:
+2016-04-21 20:29:36	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 20:29:36	ℹ 	 - certificate[3] info:
+2016-04-21 20:29:36	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 20:29:36	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 20:29:36	ℹ 	irc: connected to chat.freenode.net/6697 (130.185.232.126)
+2016-04-21 20:29:36	ℹ 	hitchcock.freenode.net: *** Looking up your hostname...
+2016-04-21 20:29:36	ℹ 	hitchcock.freenode.net: *** Checking Ident
+2016-04-21 20:29:36	ℹ 	hitchcock.freenode.net: *** Found your hostname
+2016-04-21 20:29:45	ℹ 	hitchcock.freenode.net: *** No Ident response
+2016-04-21 20:29:45	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 20:29:45	ℹ 	Your host is hitchcock.freenode.net[130.185.232.126/6697], running version ircd-seven-1.1.3
+2016-04-21 20:29:45	ℹ 	This server was created Tue Jul 21 2015 at 18:44:23 UTC
+2016-04-21 20:29:45	ℹ 	hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 20:29:45	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 20:29:45	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 20:29:45	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 20:29:45	ℹ 	There are 149 users and 88618 invisible on 24 servers
+2016-04-21 20:29:45	ℹ 	24 :IRC Operators online
+2016-04-21 20:29:45	ℹ 	20 :unknown connection(s)
+2016-04-21 20:29:45	ℹ 	55616 :channels formed
+2016-04-21 20:29:45	ℹ 	I have 4951 clients and 1 servers
+2016-04-21 20:29:45	ℹ 	4951 4995 :Current local users 4951, max 4995
+2016-04-21 20:29:45	ℹ 	88767 95832 :Current global users 88767, max 95832
+2016-04-21 20:29:45	ℹ 	Highest connection count: 4996 (4995 clients) (72468 connections received)
+2016-04-21 20:29:45	ℹ 	- hitchcock.freenode.net Message of the Day -
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	- Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2016-04-21 20:29:45	ℹ 	- Neterra Communications (www.neterra.net)
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	- HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2016-04-21 20:29:45	ℹ 	- England, Sir Alfred Hitchcock was a noted film director
+2016-04-21 20:29:45	ℹ 	- and producer. Over a long career he pioneered many modern
+2016-04-21 20:29:45	ℹ 	- techniques in film-making, made more than 50 feature films,
+2016-04-21 20:29:45	ℹ 	- and influenced many present-day directors and producers.
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 20:29:45	ℹ 	- software communities since 1998.
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 20:29:45	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 20:29:45	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 20:29:45	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 20:29:45	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 20:29:45	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 20:29:45	ℹ 	- real-life collaboration.
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 20:29:45	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 20:29:45	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 20:29:45	ℹ 	- running for their sustained support.
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 20:29:45	ℹ 	- of this server, details of which can be found above.
+2016-04-21 20:29:45	ℹ 	-
+2016-04-21 20:29:45	ℹ 	End of /MOTD command.
+2016-04-21 20:29:45	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 20:29:45	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 20:29:45	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
+2016-04-21 20:37:14	ℹ 	irc: disconnected from server
+2016-04-21 20:56:13	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 20:56:13	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 20:56:13	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 20:56:13	ℹ 	 - certificate[1] info:
+2016-04-21 20:56:13	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 20:56:13	ℹ 	 - certificate[2] info:
+2016-04-21 20:56:13	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 20:56:13	ℹ 	 - certificate[3] info:
+2016-04-21 20:56:13	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 20:56:13	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 20:56:13	ℹ 	irc: connected to chat.freenode.net/6697 (94.125.182.252)
+2016-04-21 20:56:13	ℹ 	adams.freenode.net: *** Looking up your hostname...
+2016-04-21 20:56:13	ℹ 	adams.freenode.net: *** Checking Ident
+2016-04-21 20:56:13	ℹ 	adams.freenode.net: *** Found your hostname
+2016-04-21 20:56:22	ℹ 	adams.freenode.net: *** No Ident response
+2016-04-21 20:56:22	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 20:56:22	ℹ 	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.3
+2016-04-21 20:56:22	ℹ 	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2016-04-21 20:56:22	ℹ 	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 20:56:22	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 20:56:22	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 20:56:22	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 20:56:22	ℹ 	There are 149 users and 88680 invisible on 24 servers
+2016-04-21 20:56:22	ℹ 	24 :IRC Operators online
+2016-04-21 20:56:22	ℹ 	24 :unknown connection(s)
+2016-04-21 20:56:22	ℹ 	55640 :channels formed
+2016-04-21 20:56:22	ℹ 	I have 6142 clients and 1 servers
+2016-04-21 20:56:22	ℹ 	6142 12000 :Current local users 6142, max 12000
+2016-04-21 20:56:22	ℹ 	88829 97578 :Current global users 88829, max 97578
+2016-04-21 20:56:22	ℹ 	Highest connection count: 12001 (12000 clients) (722174 connections received)
+2016-04-21 20:56:22	ℹ 	- adams.freenode.net Message of the Day -
+2016-04-21 20:56:22	ℹ 	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2016-04-21 20:56:22	ℹ 	- (http://www.atw.hu) for sponsoring this server!
+2016-04-21 20:56:22	ℹ 	-
+2016-04-21 20:56:22	ℹ 	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2016-04-21 20:56:22	ℹ 	- to the Galaxy and many other witty and humourous books,
+2016-04-21 20:56:22	ℹ 	- portrayed in his uniquely British irony. He is sorely missed
+2016-04-21 20:56:22	ℹ 	- by many millions of devoted fans. "So long and thanks for all
+2016-04-21 20:56:22	ℹ 	- the books!"
+2016-04-21 20:56:22	ℹ 	-
+2016-04-21 20:56:22	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 20:56:22	ℹ 	- software communities since 1998.
+2016-04-21 20:56:22	ℹ 	-
+2016-04-21 20:56:22	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 20:56:22	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 20:56:22	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 20:56:22	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 20:56:22	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 20:56:22	ℹ 	-
+2016-04-21 20:56:22	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 20:56:22	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 20:56:22	ℹ 	- real-life collaboration.
+2016-04-21 20:56:22	ℹ 	-
+2016-04-21 20:56:22	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 20:56:22	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 20:56:22	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 20:56:22	ℹ 	- running for their sustained support.
+2016-04-21 20:56:22	ℹ 	-
+2016-04-21 20:56:22	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 20:56:22	ℹ 	- of this server, details of which can be found above.
+2016-04-21 20:56:22	ℹ 	-
+2016-04-21 20:56:22	ℹ 	End of /MOTD command.
+2016-04-21 20:56:22	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 20:56:22	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 20:56:22	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
+2016-04-21 20:56:28	ℹ 	anime: No such channel
+2016-04-21 20:57:29	ℹ 	anime: No such channel
+2016-04-21 20:57:39	ℹ 	irc: disconnected from server
+2016-04-21 20:59:00	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 20:59:00	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 20:59:00	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 20:59:00	ℹ 	 - certificate[1] info:
+2016-04-21 20:59:00	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 20:59:00	ℹ 	 - certificate[2] info:
+2016-04-21 20:59:00	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 20:59:00	ℹ 	 - certificate[3] info:
+2016-04-21 20:59:00	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 20:59:00	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 20:59:00	ℹ 	irc: connected to chat.freenode.net/6697 (193.219.128.49)
+2016-04-21 20:59:00	ℹ 	sendak.freenode.net: *** Looking up your hostname...
+2016-04-21 20:59:00	ℹ 	sendak.freenode.net: *** Checking Ident
+2016-04-21 20:59:00	ℹ 	sendak.freenode.net: *** Found your hostname
+2016-04-21 20:59:09	ℹ 	sendak.freenode.net: *** No Ident response
+2016-04-21 20:59:09	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 20:59:09	ℹ 	Your host is sendak.freenode.net[193.219.128.49/6697], running version ircd-seven-1.1.3
+2016-04-21 20:59:09	ℹ 	This server was created Wed Jul 15 2015 at 16:52:09 UTC
+2016-04-21 20:59:09	ℹ 	sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 20:59:09	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 20:59:09	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 20:59:09	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 20:59:09	ℹ 	There are 149 users and 88711 invisible on 24 servers
+2016-04-21 20:59:09	ℹ 	24 :IRC Operators online
+2016-04-21 20:59:09	ℹ 	25 :unknown connection(s)
+2016-04-21 20:59:09	ℹ 	55624 :channels formed
+2016-04-21 20:59:09	ℹ 	I have 3812 clients and 1 servers
+2016-04-21 20:59:09	ℹ 	3812 3812 :Current local users 3812, max 3812
+2016-04-21 20:59:09	ℹ 	88860 92342 :Current global users 88860, max 92342
+2016-04-21 20:59:09	ℹ 	Highest connection count: 3813 (3812 clients) (61525 connections received)
+2016-04-21 20:59:09	ℹ 	- sendak.freenode.net Message of the Day -
+2016-04-21 20:59:09	ℹ 	- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2016-04-21 20:59:09	ℹ 	- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2016-04-21 20:59:09	ℹ 	- server!
+2016-04-21 20:59:09	ℹ 	-
+2016-04-21 20:59:09	ℹ 	- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2016-04-21 20:59:09	ℹ 	- Monsters and Where the Wild Things Are, Maurice Sendak was
+2016-04-21 20:59:09	ℹ 	- born in Brooklyn, NY, US, to a family of poor Polish
+2016-04-21 20:59:09	ℹ 	- immigrants who moved to the US before World War II.  He
+2016-04-21 20:59:09	ℹ 	- became an illustrator while in high school.
+2016-04-21 20:59:09	ℹ 	-
+2016-04-21 20:59:09	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 20:59:09	ℹ 	- software communities since 1998.
+2016-04-21 20:59:09	ℹ 	-
+2016-04-21 20:59:09	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 20:59:09	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 20:59:09	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 20:59:09	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 20:59:09	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 20:59:09	ℹ 	-
+2016-04-21 20:59:09	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 20:59:09	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 20:59:09	ℹ 	- real-life collaboration.
+2016-04-21 20:59:09	ℹ 	-
+2016-04-21 20:59:09	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 20:59:09	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 20:59:09	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 20:59:09	ℹ 	- running for their sustained support.
+2016-04-21 20:59:09	ℹ 	-
+2016-04-21 20:59:09	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 20:59:09	ℹ 	- of this server, details of which can be found above.
+2016-04-21 20:59:09	ℹ 	-
+2016-04-21 20:59:09	ℹ 	End of /MOTD command.
+2016-04-21 20:59:09	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 20:59:09	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 20:59:09	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
+2016-04-21 20:59:20	ℹ 	irc: disconnected from server
+2016-04-21 21:07:01	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 21:07:02	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 21:07:02	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 21:07:02	ℹ 	 - certificate[1] info:
+2016-04-21 21:07:02	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 21:07:02	ℹ 	 - certificate[2] info:
+2016-04-21 21:07:02	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 21:07:02	ℹ 	 - certificate[3] info:
+2016-04-21 21:07:02	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 21:07:02	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 21:07:02	ℹ 	irc: connected to chat.freenode.net/6697 (164.132.77.237)
+2016-04-21 21:07:02	ℹ 	wilhelm.freenode.net: *** Looking up your hostname...
+2016-04-21 21:07:02	ℹ 	wilhelm.freenode.net: *** Checking Ident
+2016-04-21 21:07:02	ℹ 	wilhelm.freenode.net: *** Found your hostname
+2016-04-21 21:07:03	ℹ 	irc: disconnected from server
+2016-04-21 21:07:05	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 21:07:05	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 21:07:05	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 21:07:05	ℹ 	 - certificate[1] info:
+2016-04-21 21:07:05	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 21:07:05	ℹ 	 - certificate[2] info:
+2016-04-21 21:07:05	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 21:07:05	ℹ 	 - certificate[3] info:
+2016-04-21 21:07:05	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 21:07:05	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 21:07:05	ℹ 	irc: connected to chat.freenode.net/6697 (94.125.182.252)
+2016-04-21 21:07:06	ℹ 	adams.freenode.net: *** Looking up your hostname...
+2016-04-21 21:07:06	ℹ 	adams.freenode.net: *** Checking Ident
+2016-04-21 21:07:06	ℹ 	adams.freenode.net: *** Found your hostname
+2016-04-21 21:07:15	ℹ 	adams.freenode.net: *** No Ident response
+2016-04-21 21:07:15	ℹ 	Welcome to the freenode Internet Relay Chat Network Sinex
+2016-04-21 21:07:15	ℹ 	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.3
+2016-04-21 21:07:15	ℹ 	This server was created Mon Jul 20 2015 at 16:58:36 UTC
+2016-04-21 21:07:15	ℹ 	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-04-21 21:07:15	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-04-21 21:07:15	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-04-21 21:07:15	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-04-21 21:07:15	ℹ 	There are 149 users and 88678 invisible on 24 servers
+2016-04-21 21:07:15	ℹ 	24 :IRC Operators online
+2016-04-21 21:07:15	ℹ 	15 :unknown connection(s)
+2016-04-21 21:07:15	ℹ 	55639 :channels formed
+2016-04-21 21:07:15	ℹ 	I have 6154 clients and 1 servers
+2016-04-21 21:07:15	ℹ 	6154 12000 :Current local users 6154, max 12000
+2016-04-21 21:07:15	ℹ 	88827 97578 :Current global users 88827, max 97578
+2016-04-21 21:07:15	ℹ 	Highest connection count: 12001 (12000 clients) (722352 connections received)
+2016-04-21 21:07:15	ℹ 	- adams.freenode.net Message of the Day -
+2016-04-21 21:07:15	ℹ 	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2016-04-21 21:07:15	ℹ 	- (http://www.atw.hu) for sponsoring this server!
+2016-04-21 21:07:15	ℹ 	-
+2016-04-21 21:07:15	ℹ 	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2016-04-21 21:07:15	ℹ 	- to the Galaxy and many other witty and humourous books,
+2016-04-21 21:07:15	ℹ 	- portrayed in his uniquely British irony. He is sorely missed
+2016-04-21 21:07:15	ℹ 	- by many millions of devoted fans. "So long and thanks for all
+2016-04-21 21:07:15	ℹ 	- the books!"
+2016-04-21 21:07:15	ℹ 	-
+2016-04-21 21:07:15	ℹ 	- Welcome to freenode - supporting the free and open source
+2016-04-21 21:07:15	ℹ 	- software communities since 1998.
+2016-04-21 21:07:15	ℹ 	-
+2016-04-21 21:07:15	ℹ 	- By connecting to freenode you indicate that you have read and
+2016-04-21 21:07:15	ℹ 	- accept our policies as set out on http://www.freenode.net
+2016-04-21 21:07:15	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2016-04-21 21:07:15	ℹ 	- any network-related questions or queries, where a number of
+2016-04-21 21:07:15	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2016-04-21 21:07:15	ℹ 	-
+2016-04-21 21:07:15	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-04-21 21:07:15	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2016-04-21 21:07:15	ℹ 	- real-life collaboration.
+2016-04-21 21:07:15	ℹ 	-
+2016-04-21 21:07:15	ℹ 	- We would like to thank Private Internet Access
+2016-04-21 21:07:15	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2016-04-21 21:07:15	ℹ 	- organisations that help keep freenode and our other projects
+2016-04-21 21:07:15	ℹ 	- running for their sustained support.
+2016-04-21 21:07:15	ℹ 	-
+2016-04-21 21:07:15	ℹ 	- In particular we would like to thank the sponsor
+2016-04-21 21:07:15	ℹ 	- of this server, details of which can be found above.
+2016-04-21 21:07:15	ℹ 	-
+2016-04-21 21:07:15	ℹ 	End of /MOTD command.
+2016-04-21 21:07:15	ℹ 	User mode [+Zi] by Sinex
+2016-04-21 21:07:15	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-04-21 21:07:15	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
+2016-04-21 21:08:08	ℹ 	irc: disconnected from server
+2016-04-21 21:08:18	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-04-21 21:08:18	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-04-21 21:08:18	ℹ 	gnutls: receiving 3 certificates
+2016-04-21 21:08:18	ℹ 	 - certificate[1] info:
+2016-04-21 21:08:18	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-04-21 21:08:18	ℹ 	 - certificate[2] info:
+2016-04-21 21:08:18	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-04-21 21:08:18	ℹ 	 - certificate[3] info:
+2016-04-21 21:08:18	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-04-21 21:08:18	ℹ 	gnutls: peer's certificate is trusted
+2016-04-21 21:08:19	ℹ 	irc: connected to chat.freenode.net/6697 (162.213.39.42)
+2016-04-21 21:08:19	ℹ 	weber.freenode.net: *** Looking up your hostname...
+2016-04-21 21:08:19	ℹ 	weber.freenode.net: *** Checking Ident
+2016-04-21 21:08:19	ℹ 	weber.freenode.net: *** Found your hostname
+2016-04-21 21:08:21	ℹ 	irc: disconnected from server
