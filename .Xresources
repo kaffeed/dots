@@ -1,6 +1,3 @@
-
-
-
 ! clean up urxvt, add keybinds
 URxvt.intensityStyles: false
 URxvt.scrollBar: false
@@ -9,7 +6,7 @@ URxvt.keysym.Shift-Down: command:\033]721;1\007
 URxvt.resize-font.smaller: C-Down
 URxvt.resize-font.bigger: C-Up
 URxvt.iso14755: false
-URxvt.iso14755_52: falsei
+URxvt.iso14755_52: false
 
 Xft.dpi: 96
 Xft.antialias: true
@@ -19,14 +16,29 @@ Xft.autohint: false
 Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
+! make otf / ttf fonts look pretty.  does not matter if you are using a bitmap font.
+!Xft.autohint: 0
+!Xft.lcdfilter:  lcddefault
+!Xft.hintstyle:  hintfull
+!Xft.hinting: 1
+!Xft.antialias: 1
+!Xft.rgba: rgb
+
+! clickable links, clipboard support, mouse wheel support, and on the fly font resizing
+! you will need to install the relevent perl extensions for these to work
+URxvt.perl-ext-common: default,matcher,clipboard,vtwheel,resize-font
+URxvt.url-launcher: /usr/bin/google-chrome-stable
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
+
 ! rofi
 rofi.modi: run
-rofi.font: Hack 15
+rofi.font: Hack 13
 rofi.width: 100
 rofi.lines: 5
 rofi.columns: 1
 rofi.opacity: 80
-!                    bg       fg      altbg    hlbg     hlfg
+! !                    bg       fg      altbg    hlbg     hlfg
 rofi.color-normal: #282828, #ebdbb2, #282828, #ebdbb2, #282828
 rofi.color-urgent: #282828, #ebdbb2, #282828, #ebdbb2, #282828
 rofi.color-active: #282828, #ebdbb2, #282828, #ebdbb2, #282828
@@ -43,12 +55,6 @@ URxvt*font: xft:envypn:size=13:antialias=true:hinting=true,xft:Liberation Mono:a
 ! terminal padding
 URxvt.internalBorder: 25
 
-! clickable links, clipboard support, mouse wheel support, and on the fly font resizing
-! ! you will need to install the relevent perl extensions for these to work
-URxvt.perl-ext-common: default,matcher,clipboard,vtwheel,resize-font
-URxvt.url-launcher: /usr/bin/google-chrome-stable
-URxvt.matcher.button: 1
-URxvt.matcher.rend.0: Uline Bold fg5
 
 ! === gruvbox color scheme ===
 *background: #1d2021
