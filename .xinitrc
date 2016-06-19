@@ -8,19 +8,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 #export QT_STYLE_OVERRIDE=GTK+
 
 # merge in defaults and keymaps
-
-if [ -f $sysresources ]; then
-    xrdb -merge $sysresources
-fi
-
-if [ -f "$userresources" ]; then
-    xrdb -merge "$userresources"
-fi
-
-if [ -f "$usermodmap" ]; then
-    xmodmap "$usermodmap"
-fi
-
+xrdb -load ~/.Xresources
 # start some nice programs
 
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
@@ -30,13 +18,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# keyboard shortcuts for bspwm
-sxhkd -f 100 &
+xset s off
+xset -dpms
+xset s noblank
 
-# screen temperature adjustment
-# adjust the coordinates for your location.  in case you were thinknig of going to the coordinates listed
-# below, my she-devil of an ex flatmate lives there, and it is probably best to avoid Charlotte altogether.
-# redshift -r -l 35.22:-80.84 &
+#us international, yaaay
+setxkbmap -layout us -variant altgr-intl -option nodeadkeys
+
 
 # desktop wallpaper
 sh ~/.fehbg &
@@ -51,4 +39,4 @@ compton --config ~/.config/compton.conf -b
 urxvtd -q -f -o &
 
 # window manager
-exec bspwm 
+exec i3
