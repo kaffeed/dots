@@ -1,2 +1,2 @@
 #!/bin/sh
-feh  --bg-scale '/home/sebastian/.wallpapers/image_072.jpg' 
+feh  --bg-fill '/home/sebastian/.config/wallpapers/simple.png' 

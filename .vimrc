@@ -8,7 +8,7 @@ set showmatch
 set viminfo="NONE"
 " Set color scheme
 set t_Co=16
-colorscheme base16-paraiso
+colorscheme gruvbox 
 set background=dark
 
 " Enable syntax highlight
