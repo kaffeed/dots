@@ -1,0 +1,333 @@
+2016-04-24 10:33:44	◥	Sinex (~Sinex@62-47-249-237.adsl.highway.telekom.at) has joined #archlinux
+2016-04-24 10:33:44	ℹ 	Topic for #archlinux is ""Welcome to Arch Linux World Domination, Inc. <+> Channel stats at <https://theos.kyriasis.com/~kyrias/stats/archlinux.html> Contact demize to opt out <+> important pacman news on the Arch homepage <+> gtk+ 3.20: if your 3rd-party theme broke after the update switch to adwaita or update your theme""
+2016-04-24 10:33:44	ℹ 	Topic set by Namarrgon (~Namarrgon@archlinux/op/namarrgon) on Tue, 12 Apr 2016 21:01:44
+2016-04-24 10:33:44	ℹ 	Channel #archlinux: 1618 nicks (1 op, 0 voices, 1617 normals)
+2016-04-24 10:33:46	ℹ 	Channel created on Sun, 15 Feb 2004 06:08:31
+2016-04-24 10:34:24	jeromelanteri	Celti, yes all of them are installed, va-api works, but there is something wrong i don't know what... now i moved my intel config, and remove the xf86-video-intel driver (stay intel-ucode)
+2016-04-24 10:34:37	◣	A124 (~Username@unaffiliated/a124) has quit (Ping timeout: 250 seconds)
+2016-04-24 10:34:39	ozmage	Celti how you enable dri 3 for modesettings
+2016-04-24 10:34:41	ozmage	?
+2016-04-24 10:34:42	◣	z3ntu (~z3ntu@2a02:8388:6881:c400:3a2c:4aff:fe17:828c) has quit (Quit: Leaving)
+2016-04-24 10:34:52	◥	z3ntu (~z3ntu@2a02:8388:6881:c400:3a2c:4aff:fe17:828c) has joined #archlinux
+2016-04-24 10:34:56	jeromelanteri	phonon-qt5 and phono-qt5-gsreamer, also gsreamer-vaapi are installed too...
+2016-04-24 10:35:39	Celti	ozmage: It enables itself when you try and use it.
+2016-04-24 10:35:39	jeromelanteri	netz, yes ok, now i just try to remove systemd-modules-load vboxguest call...
+2016-04-24 10:35:51	◥	opalepatrick (~opalepatr@242.104.125.91.dyn.plus.net) has joined #archlinux
+2016-04-24 10:36:03	ozmage	Celti, i dont see Dri3 on journal 
+2016-04-24 10:36:06	jeromelanteri	ok, i do reboot now... and cross fingers
+2016-04-24 10:36:12	netz	jeromelanteri: do you not speak english natively?
+2016-04-24 10:36:27	jeromelanteri	never
+2016-04-24 10:36:31	◥	lero (~lero@unaffiliated/lero) has joined #archlinux
+2016-04-24 10:36:31	◣	jeromelanteri (~jeromelan@cm-119-76-54-163.revip17.asianet.co.th) has quit (Remote host closed the connection)
+2016-04-24 10:36:47	Celti	ozmage: That's because you haven't tried using DRI3. Trust me, try and use anything DRI3 and it will work (i.e., if you're on Optimus do `DRI_PRIME=1 glxgears`)
+2016-04-24 10:36:51	ozmage	II) modeset(0): [DRI2] Setup complete
+2016-04-24 10:36:51	ozmage	Apr 24 04:24:00 ozmage-lappy /usr/lib/gdm/gdm-x-session[700]: (II) modeset(0): [DRI2]   DRI driver: i965
+2016-04-24 10:36:51	ozmage	Apr 24 04:24:00 ozmage-lappy /usr/lib/gdm/gdm-x-session[700]: (II) modeset(0): [DRI2]   VDPAU driver: i965
+2016-04-24 10:36:51	ozmage	Apr 24 04:24:00 ozmage-lappy /usr/lib/gdm/gdm-x-session[700]: (--) RandR disabled
+2016-04-24 10:36:51	netz	gah
+2016-04-24 10:36:59	Celti	ozmage: don't paste into the channel
+2016-04-24 10:37:00	◥	mathemancer (~mathemanc@gateway/vpn/privateinternetaccess/mathemancer) has joined #archlinux
+2016-04-24 10:37:02	Celti	!paste
+2016-04-24 10:37:03	phrik	Some good, sane pastebins are: https://ptpb.pw/f (https://ptpb.pw) https://gist.github.com. Also see !ptpb for an easy way to paste from a pipe.
+2016-04-24 10:37:15	◣	TheLemonMan (~root@unaffiliated/thelemonman) has quit (Quit: "It's now safe to turn off your computer.")
+2016-04-24 10:37:20	netz	!ptpb
+2016-04-24 10:37:20	phrik	“<command> | curl -F c=@- https://ptpb.pw” OR “curl -F c=@path/to/a/file https://ptpb.pw” OR install community/pbpst
+2016-04-24 10:37:33	◣	mohabaks (~zer0ph@105.231.31.108) has quit (Ping timeout: 260 seconds)
+2016-04-24 10:37:42	◥	syslock (~syslock@80.88.27.236) has joined #archlinux
+2016-04-24 10:37:46	◥	A124 (~Username@unaffiliated/a124) has joined #archlinux
+2016-04-24 10:37:49	◥	bluepixel (~chris@unaffiliated/bluepixel) has joined #archlinux
+2016-04-24 10:37:55	◥	prth (~prth@59.94.160.145) has joined #archlinux
+2016-04-24 10:38:01	◣	mkoskar (~mkoskar@unaffiliated/mkoskar) has quit (Ping timeout: 250 seconds)
+2016-04-24 10:38:12	◥	jeromelanteri (~jeromelan@cm-119-76-54-163.revip17.asianet.co.th) has joined #archlinux
+2016-04-24 10:39:03	◣	j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2016-04-24 10:39:16	ozmage	oh yeah is using libGL: Using DRI3 for screen 0
+2016-04-24 10:39:36	jeromelanteri	tada... ne need xf86-video-driver, and then, my sddm config works better than before (movie on background is fitting well on screen...)
+2016-04-24 10:39:40	jeromelanteri	very happy !
+2016-04-24 10:40:01	◥	stooj (~stooj@181.198.151.122.dynamic.dsl.dv.iprimus.net.au) has joined #archlinux
+2016-04-24 10:40:07	◥	frenchbeard (~frenchbea@2a01cb088943b00082000bfffe0e08bc.ipv6.abo.wanadoo.fr) has joined #archlinux
+2016-04-24 10:40:08	ozmage	now lets see if hdmi works
+2016-04-24 10:40:10	jeromelanteri	netz, my english is so bad ? (i would like to do something for write/speak english better)
+2016-04-24 10:40:26	netz	jeromelanteri: no, I just think you simply do not understand what I'm telling you.
+2016-04-24 10:40:37	◥	lubarch (~lubarch@unaffiliated/lubarch) has joined #archlinux
+2016-04-24 10:40:38	Celti	jeromelanteri: It's understandable, just obviously not native.
+2016-04-24 10:40:59	netz	its better than my $language_here
+2016-04-24 10:41:10	jeromelanteri	ozmage, tested... two monitors, one hdmi, the other one in dvi-dual works together in same time... great !
+2016-04-24 10:41:28	netz	jeromelanteri: pienzo to no comprende que digo
+2016-04-24 10:41:39	jeromelanteri	netz, yes that is more than probable. If you tell this, so it is the true for sure.
+2016-04-24 10:41:56	◥	z4kst4r (~css106820@123.136.212.140) has joined #archlinux
+2016-04-24 10:41:58	◥	kotto (~kotto@189-74-60-9.cbace700.dsl.brasiltelecom.net.br) has joined #archlinux
+2016-04-24 10:42:13	jeromelanteri	netz, oui mais je parle en français à la base... 
+2016-04-24 10:42:19	netz	shit.
+2016-04-24 10:42:27	jeromelanteri	lol
+2016-04-24 10:42:36	netz	could have sworn I saw you speaking spanish here already XD
+2016-04-24 10:42:42	netz	s/already/earlier/
+2016-04-24 10:43:00	z4kst4r	what is the diffecrence between bash: a='I am value a'; b=(I am value b); ....????
+2016-04-24 10:43:00	jeromelanteri	netz, i'm very bad for langages (but i think... french guys many times are bad for speak other langages, i don't know why)
+2016-04-24 10:43:03	◥	dude42_ (~dude42@124-169-182-109.dyn.iinet.net.au) has joined #archlinux
+2016-04-24 10:43:47	jeromelanteri	netz, no me, an other one who had difficulties with chromebook and arch installation (confused with bios/uefi, mbr/gpt)...
+2016-04-24 10:43:48	netz	jeromelanteri: here. right now, with your virtualbox thing. you have it like this, no? hardware=>arch linux=>virtualbox=>windows, yes?
+2016-04-24 10:44:03	z4kst4r	using quotes and brackets ?
+2016-04-24 10:44:08	◣	siidney (~siid@190.106.200.199) has quit (Remote host closed the connection)
+2016-04-24 10:44:31	◣	ozmage (~javashin@unaffiliated/javashin) has quit (Ping timeout: 250 seconds)
+2016-04-24 10:44:47	netz	z4kst4r: a is a string, b is an array of strings.
+2016-04-24 10:44:53	netz	z4kst4r: more or less.
+2016-04-24 10:44:57	jeromelanteri	netz, yes, archlinux (antegros) is the host, windows 7 is the guest. working fine. just the systemd-modules-load failed and heard for vboxguest module (this same module i can not modprobe)
+2016-04-24 10:45:23	◣	prth (~prth@59.94.160.145) has quit (Ping timeout: 250 seconds)
+2016-04-24 10:45:26	netz	jeromelanteri: what virtualbox related packages do you have installed?
+2016-04-24 10:45:27	z4kst4r	netz: thanks
+2016-04-24 10:45:49	◣	awidegreen (~awidegree@2001:16d8:ff00:860c:3caf:5d4:ca3e:90ea) has quit (Ping timeout: 250 seconds)
+2016-04-24 10:46:09	jeromelanteri	netz, now is it currently the binary last version virtualbox-bin-5.0.18
+2016-04-24 10:46:17	jeromelanteri	it is
+2016-04-24 10:46:55	◥	ozmage (~javashin@unaffiliated/javashin) has joined #archlinux
+2016-04-24 10:47:36	◥	ravior (~ravior@5-13-140-54.residential.rdsnet.ro) has joined #archlinux
+2016-04-24 10:47:44	ozmage	nope the hdmi wont work
+2016-04-24 10:47:49	jeromelanteri	netz, in fact, i just need to remove the call of this vboxguest module from the systemd-modules-load. do you know how to do that ?
+2016-04-24 10:47:57	ozmage	is a kernel problem
+2016-04-24 10:48:01	jeromelanteri	ozmage, wow... no luck man !
+2016-04-24 10:48:07	netz	jeromelanteri: does /etc/modprobe.d/ have files
+2016-04-24 10:48:39	◥	Xakersas (uid72341@gateway/web/irccloud.com/x-pusyilofhkjoswua) has joined #archlinux
+2016-04-24 10:48:39	Xakersas	Hello
+2016-04-24 10:48:40	jeromelanteri	netz, empty directory
+2016-04-24 10:48:49	slappymcfry	netz: modprobe.d is for module options. modules-load.d is for autoloading
+2016-04-24 10:49:01	◣	oconnorct1 (~connor@nc-76-4-9-193.dhcp.embarqhsd.net) has quit (Ping timeout: 252 seconds)
+2016-04-24 10:49:04	Xakersas	Can you read me? 
+2016-04-24 10:49:32	netz	slappymcfry: ah
+2016-04-24 10:49:34	◥	Nahra (~user@unaffiliated/nahra) has joined #archlinux
+2016-04-24 10:49:36	jeromelanteri	slappymcfry, right, i have the virtualbox.conf module...
+2016-04-24 10:49:36	netz	Xakersas: nope
+2016-04-24 10:49:38	jeromelanteri	open it
+2016-04-24 10:49:41	◥	Xakersas_ (uid72341@gateway/web/irccloud.com/x-plybchbyxxjzlsub) has joined #archlinux
+2016-04-24 10:49:44	ozmage	glamor seems to be faster
+2016-04-24 10:49:54	◣	bootkiller (~bootkille@a89-154-162-166.cpe.netcabo.pt) has quit (Ping timeout: 246 seconds)
+2016-04-24 10:49:58	Xakersas	Haha, great 
+2016-04-24 10:50:11	ozmage	but im going to continue using intel
+2016-04-24 10:50:17	◥	ruu (~ruu@aftr-37-201-214-50.unity-media.net) has joined #archlinux
+2016-04-24 10:50:17	netz	jeromelanteri: yes, whats in it.
+2016-04-24 10:50:38	jeromelanteri	slappymcfry, netz, but inside, there is no vboxguest call... maybe vboxsf call it i think...
+2016-04-24 10:50:48	Xakersas	So during installation I forgot this command: grub-mkconfig - O /boot/grub/grub.cfg
+2016-04-24 10:51:12	jeromelanteri	from lsmod, i seen that vboxdrv, vboxnetadp, vboxvideo was here, not vboxsf...
+2016-04-24 10:51:20	◥	Forgo (~confident@91.214.169.174) has joined #archlinux
+2016-04-24 10:51:20	netz	z4kst4r: you can access members of the array like export B=(I am value b); echo $B[1] // the array is 1-indexed
+2016-04-24 10:51:23	Forgo	hello
+2016-04-24 10:51:25	netz	Xakersas: spit it out
+2016-04-24 10:51:33	◣	ak5 (~ak5@unaffiliated/ak5) has quit (Ping timeout: 260 seconds)
+2016-04-24 10:51:43	Forgo	I want to remove dmenu and break dependencies on purpose, how do I do it?
+2016-04-24 10:51:49	slappymcfry	jeromelanteri: vboxsf should be loaded by the guest, not the host. I believe.
+2016-04-24 10:52:04	ozmage	Forgo, pacman -Rdd
+2016-04-24 10:52:05	Sapphirus	https://bugzilla.mozilla.org/show_bug.cgi?id=1266213 gg
+2016-04-24 10:52:07	phrik	Title: 1266213 – [e10s] Block users of GTK+ 3.20+ from e10s experiments on Beta (at bugzilla.mozilla.org)
+2016-04-24 10:52:13	Forgo	ozmage: thanks, I tried single d
+2016-04-24 10:52:18	slappymcfry	jeromelanteri: automatically when indicated as fstype in fstab
+2016-04-24 10:52:25	Xakersas	I tried going back, mounting chrooting in and running it again but it won't work 
+2016-04-24 10:52:35	netz	Xakersas: define 'won't work'
+2016-04-24 10:52:42	Celti	!errors
+2016-04-24 10:52:43	◣	ruu (~ruu@aftr-37-201-214-50.unity-media.net) has quit (Quit: WeeChat 1.4)
+2016-04-24 10:52:43	phrik	Don't just say it doesn't work. Give the exact error. If you think that more information than a line or two will be useful, see !paste
+2016-04-24 10:52:44	◥	random-nick (~random-ni@95.180.65.165) has joined #archlinux
+2016-04-24 10:52:48	Celti	!paste
+2016-04-24 10:52:50	phrik	Some good, sane pastebins are: https://ptpb.pw/f (https://ptpb.pw) https://gist.github.com. Also see !ptpb for an easy way to paste from a pipe.
+2016-04-24 10:52:59	Xakersas	I suspect the problem is that my boot partition is sda1 and the one I was mounting was sda3
+2016-04-24 10:53:05	Sapphirus	Won't be able to use E10S in Firefox 47 beta with gtk 3.20
+2016-04-24 10:53:09	◥	awidegreen (~awidegree@2001:16d8:ff00:860c:3caf:5d4:ca3e:90ea) has joined #archlinux
+2016-04-24 10:53:14	Xakersas	It does the same thing it did before which is not to boot 
+2016-04-24 10:53:36	◥	qubitnerd (~neutrino@unaffiliated/electron/x-8286743) has joined #archlinux
+2016-04-24 10:53:46	◣	Shinryuu (~shn@85-76-130-14-nat.elisa-mobile.fi) has quit (Ping timeout: 268 seconds)
+2016-04-24 10:53:59	◥	sven_ (~sven@2a02:a03f:a75:d800:89d8:4bdb:7c3c:2f69) has joined #archlinux
+2016-04-24 10:54:00	Sapphirus	"One option we have available to consider is blocking updates to users with GTK 3.20 already installed.  That prevents this looking like a regression from a Mozilla update.  That doesn't prevent the user updating to 3.20 after updating Firefox, but that is only going on happen in on-the-edge distributions."
+2016-04-24 10:54:07	◣	aaro (~aaro@unaffiliated/xyox/x-040147) has quit (Ping timeout: 250 seconds)
+2016-04-24 10:54:11	Xakersas	https://www.irccloud.com/pastebin/3yiASu1N
+2016-04-24 10:54:12	phrik	Title: Pastebin | IRCCloud (at www.irccloud.com)
+2016-04-24 10:54:19	netz	Xakersas: quite possible. was /boot mounted when you installed grub and pacstrap /mnt base ?
+2016-04-24 10:54:27	jeromelanteri	slappymcfry, yes, but in fact, i no need it. I tried to remove vboxfs from the module-loader file, but when i try again to start systemd-modules-load, it failed.
+2016-04-24 10:54:37	Sapphirus	CONFIRMED, GTK 3.20 is shit /semi-sarcastic
+2016-04-24 10:54:41	Xakersas	Not sure, wanna walk me through this? 
+2016-04-24 10:54:55	netz	Xakersas: are you chrooted in, and is /boot mounted?
+2016-04-24 10:55:03	◣	ozmage (~javashin@unaffiliated/javashin) has quit (Remote host closed the connection)
+2016-04-24 10:55:18	◥	ruu (~ruu@aftr-37-201-214-50.unity-media.net) has joined #archlinux
+2016-04-24 10:55:24	random-nick	Sapphirus: no, it's just that mozila doesn't want to patch firefox for gtk 3.20
+2016-04-24 10:55:33	Xakersas	Boot is mounted 
+2016-04-24 10:55:45	netz	fuck it, gtk is being cunty, port all the things to Qt
+2016-04-24 10:55:55	Sapphirus	random-nick: too late in the dev cycle 
+2016-04-24 10:56:04	Sapphirus	E10S is going into the beta branch soon
+2016-04-24 10:56:07	◥	slappymc1ry (~slappymcf@122-57-149-199.jetstream.xtra.co.nz) has joined #archlinux
+2016-04-24 10:56:14	◣	andyrtr (~andyrtr@archlinux/developer/andyrtr) has quit (Quit: Ex-Chat)
+2016-04-24 10:56:16	Xakersas	Do i chrooting in /boot or /mnt
+2016-04-24 10:56:20	Sapphirus	too bad for those who didn't freeze their gtk libs
+2016-04-24 10:56:22	netz	Xakersas: ls /boot; you should have, at bare minimum, grub/, initramfs-linux-fallback.img, initramfs-linux.img, lost+found, and vmlinuz-linux
+2016-04-24 10:56:28	jeromelanteri	do i need to do an pther thing after change a file from /etc/modules-load.d/ for the process of systemd-modules-load see the difference ? or not ?
+2016-04-24 10:56:35	◣	kelnoky (~shao@ip1f12aa3d.dynamic.kabel-deutschland.de) has quit (Quit: WeeChat 1.4)
+2016-04-24 10:56:36	◥	mkoskar (~mkoskar@unaffiliated/mkoskar) has joined #archlinux
+2016-04-24 10:56:37	netz	Xakersas: you can't chroot into /boot, it lacks the proper parts.
+2016-04-24 10:56:53	netz	jeromelanteri: you don't try to rerun systemd-modules-load again. thats a startup thing, I think.
+2016-04-24 10:57:17	◥	kelnoky (~shao@ip1f12aa3d.dynamic.kabel-deutschland.de) has joined #archlinux
+2016-04-24 10:57:22	Xakersas	Okay I have all those, grub and lost+found are in blue 
+2016-04-24 10:57:27	jeromelanteri	netz, i try to do sudo systemctl start systemd-modules-load
+2016-04-24 10:57:29	netz	Xakersas: good. that just means they are directories.
+2016-04-24 10:57:37	netz	jeromelanteri: you don't.
+2016-04-24 10:57:37	jeromelanteri	netz, it failed
+2016-04-24 10:57:44	Xakersas	I just want to say I have bios and not uefi
+2016-04-24 10:57:44	◣	tumbler (~tumbler@unaffiliated/tumbler) has quit (Remote host closed the connection)
+2016-04-24 10:57:44	netz	jeromelanteri: you don't do that.
+2016-04-24 10:57:50	◥	raingloom (~raingloom@81-0-109-104.pool.invitel.hu) has joined #archlinux
+2016-04-24 10:57:50	netz	Xakersas: matters not.
+2016-04-24 10:57:52	◥	prth (~prth@59.94.160.145) has joined #archlinux
+2016-04-24 10:57:54	jeromelanteri	netz, why ? yes i done it
+2016-04-24 10:57:58	Xakersas	Okay good
+2016-04-24 10:58:03	◥	oconnorct1 (~connor@nc-76-4-9-193.dhcp.embarqhsd.net) has joined #archlinux
+2016-04-24 10:58:05	netz	jeromelanteri: but you shouldn't.
+2016-04-24 10:58:11	Sapphirus	https://git.gnome.org/browse/gtk+/commit/?id=5bb12474d975ee4b790c56e907e4e627120955a0 blame this patch for firefox's problems
+2016-04-24 10:58:12	phrik	Title: gtk+ - Multi-platform toolkit (at git.gnome.org)
+2016-04-24 10:58:24	jeromelanteri	netz... ho ok... what i should do instead ? restart ? reload ?
+2016-04-24 10:58:24	random-nick	Sapphirus: so mozila does no patches outside the dev cycle? at all? even for bugs that make it unusable?
+2016-04-24 10:58:38	netz	jeromelanteri: modprobe vboxdrv
+2016-04-24 10:58:50	◥	Kiyan (5585b8e2@gateway/web/freenode/ip.85.133.184.226) has joined #archlinux
+2016-04-24 10:58:57	Sapphirus	random-nick: their justification is most other distributions don't include the updated libraries yet
+2016-04-24 10:59:13	Sapphirus	so they can overlook it for now
+2016-04-24 10:59:19	◣	slappymcfry (~slappymcf@122-57-149-199.jetstream.xtra.co.nz) has quit (Ping timeout: 250 seconds)
+2016-04-24 10:59:19	random-nick	they shouldn't care, they are the upstream!
+2016-04-24 10:59:30	jeromelanteri	netz, ok, i done it... then ?
+2016-04-24 10:59:33	netz	random-nick: yeah, they're the bosses, sorta.
+2016-04-24 10:59:34	Xakersas	One more thing you may want to know is that I have 3 partitions a 100mb boot one,  an 1gig swap and a 20 gig one 
+2016-04-24 10:59:37	Sapphirus	just force e10s to be disabled for gtk 3.20 with nightly, aurora, and the soon to be beta
+2016-04-24 10:59:53	Xakersas	So what's next? 
+2016-04-24 11:00:03	◥	choru (~choru@78.56.154.238) has joined #archlinux
+2016-04-24 11:00:06	Sapphirus	random-nick: Yeah, but they don't want to derail their plans to throw e10s into the beta branch
+2016-04-24 11:00:25	Sapphirus	finding a proper fix would delay e10s
+2016-04-24 11:00:36	◥	mochi (~mochi@unaffiliated/mochi) has joined #archlinux
+2016-04-24 11:00:37	netz	jeromelanteri: you need the proper kernel modules listed in that file
+2016-04-24 11:00:51	z4kst4r	netz: got it. So in this https://ptpb.pw/Y0f7 ;  why does ${#datafiles[@]} has a '#', what it signifies. and does the same without hash ${datafiles[@]} signifies. and why are they in curly brackets ?
+2016-04-24 11:01:15	◣	lero (~lero@unaffiliated/lero) has quit (Quit: .)
+2016-04-24 11:01:19	netz	Xakersas: well, did you do the grub-install step? if so, what exactly did you type?
+2016-04-24 11:01:22	alyptik	z4kst4r: is the # of values in the array i think
+2016-04-24 11:01:49	netz	z4kst4r: dunno. I know the braces let you do interesting things if you're a wizard.
+2016-04-24 11:01:52	alyptik	or chars not sure
+2016-04-24 11:01:57	◥	obsrwr_home (~obsrwr@188.24.197.157) has joined #archlinux
+2016-04-24 11:02:03	Sapphirus	Further justification to keep my GTK libraries frozen on my system til this storm passes over :P
+2016-04-24 11:02:24	◣	sven_ (~sven@2a02:a03f:a75:d800:89d8:4bdb:7c3c:2f69) has quit (Ping timeout: 268 seconds)
+2016-04-24 11:02:27	netz	alyptik: just checked, its the size of the array
+2016-04-24 11:02:30	Xakersas	grub-install --target=i386-pc /dev/sda 
+2016-04-24 11:02:31	◥	bootkiller (~bootkille@a89-154-162-166.cpe.netcabo.pt) has joined #archlinux
+2016-04-24 11:02:38	jeromelanteri	netz, but... when i call systemctl start systemd-modules-load, the command not goes to modprobe all module list that are inside the file is inside /etc/modules-load.d/virtualbox.conf ? what it does ?
+2016-04-24 11:02:39	◣	kotto (~kotto@189-74-60-9.cbace700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 276 seconds)
+2016-04-24 11:02:43	alyptik	netz: ah ok, i need read my man bash again lol
+2016-04-24 11:02:52	alyptik	that shit is comprehensive
+2016-04-24 11:02:54	Xakersas	Grub comes up at startup but I get an error in grub 
+2016-04-24 11:03:02	netz	Xakersas: what's the error?
+2016-04-24 11:03:06	◣	syedomar (~so@175.139.12.197) has quit (Ping timeout: 276 seconds)
+2016-04-24 11:04:07	Xakersas	No such Device: ad4103fa-d940-47ca-8506-301d8071d467.
+2016-04-24 11:04:07	Xakersas	Loading Linux core repo kernel ...
+2016-04-24 11:04:07	Xakersas	error: no such partition.
+2016-04-24 11:04:07	Xakersas	Loading initial ramdisk ...
+2016-04-24 11:04:07	Xakersas	error: you need to load the kernel first.
+2016-04-24 11:04:07	Xakersas	Press any key to continue...
+2016-04-24 11:04:15	◣	lubarch (~lubarch@unaffiliated/lubarch) has quit (Ping timeout: 268 seconds)
+2016-04-24 11:04:27	jeromelanteri	netz, https://gist.github.com/jerome-diver/145d258ceedb6008938b83e9f7325389
+2016-04-24 11:04:27	Xakersas	But with different device ID 
+2016-04-24 11:04:28	phrik	Title: remove call of vboxsf and vboxguest for be able to make running systemd-modules-load again... how to ? · GitHub (at gist.github.com)
+2016-04-24 11:04:56	netz	jeromelanteri: man 8 systemd-modules-load; 'Load kernel modules at boot'
+2016-04-24 11:05:02	◣	Kiyan (5585b8e2@gateway/web/freenode/ip.85.133.184.226) has left #archlinux
+2016-04-24 11:05:12	netz	Xakersas: is this before or after the grub menu?
+2016-04-24 11:05:20	Xakersas	After 
+2016-04-24 11:05:24	jeromelanteri	Xakersas, do you make fstab call UUID partition or device partition ? did you uuid are the good ones (not partuuid) ?
+2016-04-24 11:05:27	◥	niemal (~mein@unaffiliated/anoniem4l) has joined #archlinux
+2016-04-24 11:05:51	netz	jeromelanteri: uuid or partuuid; they generally don't change. I'd recommend labels, though.
+2016-04-24 11:06:10	alyptik	i named my partition "Arch" for LABEL=Arch ez mode
+2016-04-24 11:06:19	◥	setty1 (~ale@217.188.79.188.dynamic.jazztel.es) has joined #archlinux
+2016-04-24 11:06:21	jeromelanteri	netz, if yu give the partuuid on place of the UUID, this change all, and can never boot.
+2016-04-24 11:06:21	◥	asch (~asch@unaffiliated/asch) has joined #archlinux
+2016-04-24 11:06:23	netz	Xakersas: I'd suggest redoing the grub-mkconfig bit again.
+2016-04-24 11:06:46	netz	jeromelanteri: not if you specify the root parameter in /etc/default/grub manually
+2016-04-24 11:06:56	jeromelanteri	sure
+2016-04-24 11:07:05	Xakersas	So I chroot on /mnt and then redo that? 
+2016-04-24 11:07:36	Xakersas	jeromelanteri: genfstab -U /mnt >> /mnt/etc/fstab is what I did
+2016-04-24 11:08:43	netz	Xakersas: that should be fine, and yes, chroot back into /mnt and redo
+2016-04-24 11:09:22	jeromelanteri	Xakersas, do compare /mnt/etc/fstab with ls /dev/disk/by-uuid -lu
+2016-04-24 11:09:44	ℹ 	Dinkleberg is now known as DrDoofenshmirtz
+2016-04-24 11:09:50	jeromelanteri	it should have same uuid to find, then the autoconfig of grub should works
+2016-04-24 11:09:54	◥	ngkaho1234 (~ngkaho123@unaffiliated/ngkaho1234) has joined #archlinux
+2016-04-24 11:10:06	◣	Thraul (~moe@203-219-136-144.static.tpgi.com.au) has quit (Quit: WeeChat 1.0.1)
+2016-04-24 11:10:40	◥	ozmage (~javashin@unaffiliated/javashin) has joined #archlinux
+2016-04-24 11:10:43	Xakersas	Wait is /mnt/etc/fstab a file? 
+2016-04-24 11:10:51	Xakersas	If so,  it looks empty
+2016-04-24 11:11:04	netz	Xakersas: outside of the chroot, yes. inside, its /etc/fstab
+2016-04-24 11:11:46	ozmage	none of my combinations works modesettings glamor , sna tear free , uxa none of them are the problem with the hdmi is a kernel problem
+2016-04-24 11:11:57	jeromelanteri	netz, i just back from read the man 8 systemd-modules-load pages... and there is nothing relevent inside for make me understand better why it search again to load these f... modules. Where he goes to serach this list again ? i think there is an other one directory somewhere or a special fiel or what again more special thing anywhere... ???
+2016-04-24 11:12:39	jeromelanteri	ozmage, which kernel do u use ?
+2016-04-24 11:13:07	netz	jeromelanteri: what I'm saying is, you are not supposed to run it yourself.
+2016-04-24 11:13:08	ngkaho1234	I am going to buy an Alienware tmr. :-)
+2016-04-24 11:13:31	netz	jeromelanteri: also see man 5 modules-load.d
+2016-04-24 11:13:43	◣	ngkaho1234 (~ngkaho123@unaffiliated/ngkaho1234) has quit (Client Quit)
+2016-04-24 11:14:17	jeromelanteri	netz, yes sure, but i just want to check if it can start or not... if i can not make it start, it could not start alone too... so my problem is not resolved. the problem is that it goes to call modules i don't want it goes to load... and i don't know how to remove these listed modules...
+2016-04-24 11:14:25	◥	Kiyan (~kiyan@5.200.72.154) has joined #archlinux
+2016-04-24 11:14:29	◣	somaReve1 (~amos@2001:cc0:2026:1a00:6af7:28ff:fe78:6901) has quit (Ping timeout: 250 seconds)
+2016-04-24 11:14:34	netz	jeromelanteri: see my above statement
+2016-04-24 11:14:43	jeromelanteri	netz, ok i'm going to read it
+2016-04-24 11:15:06	◣	qubitnerd (~neutrino@unaffiliated/electron/x-8286743) has quit (Ping timeout: 246 seconds)
+2016-04-24 11:15:08	Xakersas	Okay so what I noticed is that if I press e before booting arch in grub where you edit the boot parameters before booting it's not the same as /boot/grub/grub.cfg
+2016-04-24 11:15:35	jeromelanteri	netz... woooo there is 3 directories for search wich modules to load !!! paranoiac and totaly not KISS
+2016-04-24 11:15:38	alyptik	Xakersas: grub syntax there is so complicated it makes me cry
+2016-04-24 11:15:46	alyptik	i only edit that as last resort lol
+2016-04-24 11:15:54	netz	Xakersas: are you sure you're using the correct boot disk?
+2016-04-24 11:16:08	◥	BradPJ (~brad@90.210.254.108) has joined #archlinux
+2016-04-24 11:16:26	Xakersas	You mean if it's booting from the hdd? 
+2016-04-24 11:16:33	Xakersas	Or the USB? 
+2016-04-24 11:16:35	ozmage	jeromelanteri, my main stable kernel is 4.1 which support everything on my laptop hibernation hdmi 
+2016-04-24 11:16:42	◣	Kiyan (~kiyan@5.200.72.154) has quit (Client Quit)
+2016-04-24 11:16:51	◥	Kiyan (~kiyan@5.200.72.154) has joined #archlinux
+2016-04-24 11:16:51	ozmage	but on 4.4 and 4.5 i have problems
+2016-04-24 11:16:55	◥	kotto (~kotto@200-101-113-31.cbace700.dsl.brasiltelecom.net.br) has joined #archlinux
+2016-04-24 11:17:12	jeromelanteri	ozmage, is it the lts one ? it seems to be on 4.4.8 (mine is 4.5.1-1-VFIO) 
+2016-04-24 11:17:19	netz	jeromelanteri: no, its very KISS. /usr/lib/ is for packages only to write to, /etc/ is for the administtrator, you, to write to, and overrides /usr/lib
+2016-04-24 11:17:37	ozmage	jeromelanteri, yeah 4.1 is lts
+2016-04-24 11:17:44	◥	andyrtr (~andyrtr_l@archlinux/developer/andyrtr) has joined #archlinux
+2016-04-24 11:17:50	◥	finishingmove (~finishing@unaffiliated/finishingmove) has joined #archlinux
+2016-04-24 11:18:03	netz	jeromelanteri: the /run one is at runtime only and in general doesn't exist, and is destroyed at shutdown if it does.
+2016-04-24 11:18:11	Xakersas	So I'm chrooted in
+2016-04-24 11:18:32	netz	Xakersas: are you certain you had the right disk when you ran install?
+2016-04-24 11:18:39	◣	Kiyan (~kiyan@5.200.72.154) has quit (Client Quit)
+2016-04-24 11:18:49	◥	Kiyan (~kiyan@5.200.72.154) has joined #archlinux
+2016-04-24 11:18:57	Xakersas	Yeah 
+2016-04-24 11:18:58	jeromelanteri	netz, ok then... (i have no /run/modules-load.d/, and i'(m happy with that), but in these directories, there is no file where is named these modules that systemd-modules-load call... how this could be possible ?
+2016-04-24 11:19:10	◥	llorephie1 (~Thunderbi@broadband-46-188-19-171.2com.net) has joined #archlinux
+2016-04-24 11:19:10	◣	mnemonic (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.4)
+2016-04-24 11:19:39	krator44	guys any known fix for graphics issues on foobillard++ and neverball on intel graphics
+2016-04-24 11:19:39	◣	llorephie (~Thunderbi@2001:470:6f:6b7::980) has quit (Read error: Connection reset by peer)
+2016-04-24 11:19:39	ℹ 	llorephie1 is now known as llorephie
+2016-04-24 11:19:48	jeromelanteri	ozmage, core/linux-lts 4.4.8-1
+2016-04-24 11:20:12	jeromelanteri	ozmage, is the last lts one. maybe an update could save you ?
+2016-04-24 11:20:13	◥	Maeda (~Maeda@im.apinc.org) has joined #archlinux
+2016-04-24 11:20:17	◣	Lomex (~Lomex@ip1f1358b9.dynamic.kabel-deutschland.de) has quit (Remote host closed the connection)
+2016-04-24 11:20:18	◥	KlausedSource_ (~KlausedSo@ip588658db.dynamic.kabel-deutschland.de) has joined #archlinux
+2016-04-24 11:20:29	krator44	neverball seems to have zfighting issues maybe increasing depth buffer bitdepth will fix it
+2016-04-24 11:20:37	krator44	but foobillard++ is totally broken
+2016-04-24 11:21:09	◣	KlausedSource_ (~KlausedSo@ip588658db.dynamic.kabel-deutschland.de) has quit (Read error: Connection reset by peer)
+2016-04-24 11:21:09	jeromelanteri	krator44, by follow a good information here just not long time ago, i remove my xf86-video-intel driver and my config file and i'm much more happy (all works better)
+2016-04-24 11:21:17	krator44	no way
+2016-04-24 11:21:24	jeromelanteri	???
+2016-04-24 11:21:25	◣	mathemancer (~mathemanc@gateway/vpn/privateinternetaccess/mathemancer) has quit (Quit: leaving)
+2016-04-24 11:21:26	krator44	but.. isn't that the driver
+2016-04-24 11:21:31	ozmage	jeromelanteri, nope i have problems with kernels up to 4.3 that is why i build my own custom kernel 4.1 with -ck fbcondecor and other stuff
+2016-04-24 11:21:53	krator44	does it default to software render?
+2016-04-24 11:21:54	ozmage	Client: HexChat 2.12.0 • OS: ArchLinux • CPU: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz (1.07GHz) • Memory: Physical: 3.5 GiB Total (2.6 GiB Free) Swap: 4.6 GiB Total (4.6 GiB Free) • Storage: 60.7 GB / 102.9 GB (42.2 GB Free) • VGA: Intel Corporation Core Processor Integrated Graphics Controller @ Intel Corporation Core Processor DRAM Controller • Uptime: 13m 25s
+2016-04-24 11:21:55	netz	jeromelanteri: the name of the file doesn't matter, as long as it ends in .conf
+2016-04-24 11:21:56	jeromelanteri	ozmage, ho my God, it's definitly no luck.
+2016-04-24 11:22:06	krator44	sounds terrible
+2016-04-24 11:22:09	◥	Shinryuu (~shn@85-76-77-232-nat.elisa-mobile.fi) has joined #archlinux
+2016-04-24 11:22:09	krator44	but i can try it
+2016-04-24 11:22:12	netz	CPU~Hexa core AMD FX-6300 Six-Core (-MCP-) speed/max~1400/3500 MHz Kernel~4.5.2-1-ARCH x86_64 Up~6:31 Mem~1989.8/32130.6MB HDD~2480.5GB(3.1% used) Procs~161 Client~WeeChat 1.4  inxi~2.2.38  
+2016-04-24 11:22:19	netz	:P
+2016-04-24 11:22:37	jeromelanteri	netz, i know that, i look INSIDE the files... there is no vboxsf or vboxguest call
+2016-04-24 11:22:41	◣	finishingmove (~finishing@unaffiliated/finishingmove) has quit (Ping timeout: 260 seconds)
+2016-04-24 11:22:56	netz	jeromelanteri: iirc there is some sort of caching involved. 
+2016-04-24 11:23:16	krator44	there goes my uptime
+2016-04-24 11:23:20	◥	bert1 (~bert@2a02:8109:a0c0:f28:bf36:1cdd:ad11:be2e) has joined #archlinux
+2016-04-24 11:23:32	downtime	krator44: hello
+2016-04-24 11:23:38	jeromelanteri	netz, i not understand that last part of message... lol
+2016-04-24 11:24:02	netz	jeromelanteri: it 'remembers'. try 'restart' isntead of 'start'
+2016-04-24 11:24:37	jeromelanteri	netz, ok, i try it.
+2016-04-24 11:25:14	jeromelanteri	netz, failed
+2016-04-24 11:25:44	netz	jeromelanteri: either way. if you've removed those modules from the files, it will no longer try to autoload them. give it a reboot.
+2016-04-24 11:26:00	krator44	and we're back
+2016-04-24 11:26:02	krator44	downtime: hah
+2016-04-24 11:26:09	jeromelanteri	ok, i will try it
+2016-04-24 11:27:03	krator44	jeromelanteri: hey thats not bad

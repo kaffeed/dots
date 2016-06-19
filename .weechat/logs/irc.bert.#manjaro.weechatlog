@@ -1,0 +1,66 @@
+2016-04-21 19:21:37	◥	kelaun (kelaun@2a01:7e00::f03c:91ff:fe6e:7f8b) has joined #manjaro
+2016-04-21 19:21:37	ℹ 	Topic for #manjaro is "Welcome to official Manjaro Linux IRC channel | See the Logs @ http://echelog.com/?manjaro | http://www.manjaro.org/ - wiki.manjaro.org -http://irc.manjaro-nl.org |  15.12 Release! [Upd news:] http://bit.ly/1Qbsr99"
+2016-04-21 19:21:37	ℹ 	Topic set by ringo32 (~ringo_man@unaffiliated/ringo32) on Mon, 22 Feb 2016 12:06:48
+2016-04-21 19:21:37	ℹ 	Channel #manjaro: 170 nicks (1 op, 7 voices, 162 normals)
+2016-04-21 19:21:37	***	Buffer Playback...
+2016-04-21 19:21:37	mtn	belmont: which one did you choose?
+2016-04-21 19:21:37	belmont	mtn: maybe i shouldn't use meta
+2016-04-21 19:21:37	mtn	belmont: meta is the best choice
+2016-04-21 19:21:37	belmont	plasma does not start, second plasma is ok, media center also ok
+2016-04-21 19:21:37	mtn	belmont: did you notice if anything was being removed when you did the install?
+2016-04-21 19:21:37	belmont	perhaps first 'plasma' is on wayland ? 
+2016-04-21 19:21:37	mtn	belmont: that is possible
+2016-04-21 19:21:37	belmont	mtn: hard to say, is there a log for pacman?
+2016-04-21 19:21:37	mtn	belmont: yes there is
+2016-04-21 19:21:37	mtn	belmont: /var/log
+2016-04-21 19:21:37	belmont	yup, checked it no removals
+2016-04-21 19:21:37	mtn	belmont: make a new user, test using the new user
+2016-04-21 19:21:37	belmont	mtn: good one, will also start a new session on xfce
+2016-04-21 19:21:37	belmont	brb
+2016-04-21 19:21:37	belmont	mtn: so, other user is perfectly fine - no issues
+2016-04-21 19:21:37	belmont	mtn: some script must changed sth in cfg files in home dir
+2016-04-21 19:21:37	mtn	belmont: ok, that means you have some problem in your xfce config folders/files in your normal user
+2016-04-21 19:21:37	mtn	belmont: not related to kde/xfce conflict
+2016-04-21 19:21:37	belmont	mtn: don't think so, it was fine before plasma-meta, any ideas what can couse issues with themes?
+2016-04-21 19:21:37	mtn	belmont: it has to be a problem in the configs, since a new user with default configs works fine. no other expanation
+2016-04-21 19:21:37	belmont	mtn: i'll try to copy .config/xfce4 to my home and check it out
+2016-04-21 19:21:37	mtn	belmont: just rename your config folder. log out and back in.  a new one will be created
+2016-04-21 19:21:37	belmont	mtn: did that no luck
+2016-04-21 19:21:37	mtn	belmont: did what?
+2016-04-21 19:21:37	belmont	mtn: rename .config/xfce4
+2016-04-21 19:21:37	mtn	belmont: maybe there are more xfce folders? some des have 3 of them :P
+2016-04-21 19:21:37	mtn	belmont: I would research resetting xfce configs to default
+2016-04-21 19:21:37	belmont	mtn: ok, has to be home setting though ;) thanks
+2016-04-21 19:21:37	mtn	belmont: welcome and good luck
+2016-04-21 19:21:37	CountryfiedLinux	howdy
+2016-04-21 19:21:37	CountryfiedLinux	I'm back on Linux. http://imgur.com/a/CKGGa
+2016-04-21 19:21:37	ℹ 	Notice(FatalException): [http://is.gd/bSEFzP] Imgur: The most awesome images on the Internet
+2016-04-21 19:21:37	PMunch	Please tell me you have created some XP-sounding startup sounds as well CountryfiedLinux 
+2016-04-21 19:21:37	manots	linux_dream
+2016-04-21 19:21:37	manots	hi
+2016-04-21 19:21:37	linux_dream	wow manots you remember me? nice.  hello
+2016-04-21 19:21:37	manots	hi
+2016-04-21 19:21:37	manots	yup lol
+2016-04-21 19:21:37	manots	linux_dream: join ##freeosc
+2016-04-21 19:21:37	manots	its basically a chunk of the old manjaro crew
+2016-04-21 19:21:37	linux_dream	busy right now but will do it
+2016-04-21 19:21:37	manots	ok
+2016-04-21 19:21:37	thid	manots: rly?
+2016-04-21 19:21:37	manots	thid: he counts
+2016-04-21 19:21:37	manots	thid: i  invited you  the same say thid
+2016-04-21 19:21:37	thid	huh?
+2016-04-21 19:21:37	manots	thid: i told you old manjaro pepolz are welcome
+2016-04-21 19:21:37	thid	I'm not old! I'm still count as young
+2016-04-21 19:21:37	manots	thid: i mean old as in pepole who have been in  the channel   for a while
+2016-04-21 19:21:37	thid	how can u walk around and just say ppl they are old
+2016-04-21 19:21:37	***	Playback Complete.
+2016-04-21 19:21:41	ℹ 	Channel created on Thu, 15 Nov 2012 07:14:49
+2016-04-21 19:21:43	ℹ 	irc: disconnected from server
+2016-04-21 19:22:18	◥	kelaun (kelaun@2a01:7e00::f03c:91ff:fe6e:7f8b) has joined #manjaro
+2016-04-21 19:22:18	ℹ 	Topic for #manjaro is "Welcome to official Manjaro Linux IRC channel | See the Logs @ http://echelog.com/?manjaro | http://www.manjaro.org/ - wiki.manjaro.org -http://irc.manjaro-nl.org |  15.12 Release! [Upd news:] http://bit.ly/1Qbsr99"
+2016-04-21 19:22:18	ℹ 	Topic set by ringo32 (~ringo_man@unaffiliated/ringo32) on Mon, 22 Feb 2016 12:06:48
+2016-04-21 19:22:18	ℹ 	Channel #manjaro: 170 nicks (1 op, 7 voices, 162 normals)
+2016-04-21 19:22:23	ℹ 	Channel created on Thu, 15 Nov 2012 07:14:49
+2016-04-21 19:22:26	SkepticalParrot	Anybody know of any good CLI alternatives to cmus?
+2016-04-21 19:22:35	◥	superbia (~superbia@unaffiliated/superbia) has joined #manjaro
+2016-04-21 19:22:44	ℹ 	irc: disconnected from server
