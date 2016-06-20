@@ -8,7 +8,7 @@ set showmatch
 set viminfo="NONE"
 " Set color scheme
 set t_Co=16
-colorscheme gruvbox 
+colorscheme gruvbox
 set background=dark
 
 " Enable syntax highlight
@@ -31,6 +31,11 @@ Plug 'OmniSharp/omnisharp-vim'
 Plug 'chriskempson/base16-vim'
 call plug#end()
 
+" Bashscript stuff
+filetype plugin on
+
+let g:BASH_AuthorName = 'SebastianSchubert'
+let g:BASH_Email      = 'sschubert932@gmail.com'
 
 " Airline stuff
 

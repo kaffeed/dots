@@ -39,8 +39,8 @@ signal=2
 border=#d79921
 
 [ethernet]
-label= 
-command=ifconfig enp8s0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+label=
+command=ifconfig enp8s0 | grep 'inet' | cut -d: -f2 | awk '{ print $2}'
 interval=5
 border=#b16286
 

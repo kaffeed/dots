@@ -516,3 +516,36 @@
 2016-06-18 10:30:13		script: 309 scripts for WeeChat 1.5
 2016-06-18 18:16:50		perl: scripts unloaded
 2016-06-18 18:16:50		fifo: pipe closed
+2016-06-19 16:56:44		anotify: No module named pynotify
+2016-06-19 16:56:44		python: stdout/stderr: Traceback (most recent call last):
+2016-06-19 16:56:44		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-06-19 16:56:44		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-06-19 16:56:44		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-06-19 16:56:44	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-06-19 16:56:44		perl scripts loaded: beep, buffers
+2016-06-19 16:56:44		script: 309 scripts for WeeChat 1.5
+2016-06-19 16:56:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-19 17:04:56		perl: scripts unloaded
+2016-06-19 17:04:56		fifo: pipe closed
+2016-06-19 17:04:56		anotify: No module named pynotify
+2016-06-19 17:04:56		python: stdout/stderr: Traceback (most recent call last):
+2016-06-19 17:04:56		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-06-19 17:04:56		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-06-19 17:04:56		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-06-19 17:04:56	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-06-19 17:04:56		perl scripts loaded: beep, buffers
+2016-06-19 17:04:56		script: 309 scripts for WeeChat 1.5
+2016-06-19 17:04:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-19 17:05:00		perl: scripts unloaded
+2016-06-19 17:05:00		fifo: pipe closed
+2016-06-19 20:23:22		anotify: No module named pynotify
+2016-06-19 20:23:22		python: stdout/stderr: Traceback (most recent call last):
+2016-06-19 20:23:22		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-06-19 20:23:22		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-06-19 20:23:22		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-06-19 20:23:22	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-06-19 20:23:22		perl scripts loaded: beep, buffers
+2016-06-19 20:23:22		script: 309 scripts for WeeChat 1.5
+2016-06-19 20:23:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-19 20:23:55		perl: scripts unloaded
+2016-06-19 20:23:55		fifo: pipe closed
