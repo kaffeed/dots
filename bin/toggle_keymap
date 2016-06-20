@@ -1,0 +1,45 @@
+#!/bin/bash
+#===============================================================================
+#
+#          FILE: toggle_keymap.sh
+# 
+#         USAGE: ./toggle_keymap.sh 
+# 
+#   DESCRIPTION: 
+# 
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: YOUR NAME (), 
+#  ORGANIZATION: 
+#       CREATED: 06/19/2016 22:37
+#      REVISION:  ---
+#===============================================================================
+
+kbl=$( setxkbmap -query | grep layout | awk -v OFS='\t' '{print $2}' )
+title=" Keymap"
+msg="Switched to layout: "
+
+if [ "$#" -eq 1 ] ; then
+	layout=$1
+	case $layout in
+		us)
+		setxkbmap -layout us -variant altgr-intl -option nodeadkeys && notify-send "$title" "$msg us"	;;
+
+		de)
+		setxkbmap -layout de && notify-send "$title" "$msg de"	;;
+
+		*)
+		setxkbmap -layout us -variant altgr-intl -option nodeadkeys && notify-send "$title" "$msg us"	;;
+	esac    # --- end of case ---
+else
+	kbl=$( setxkbmap -query | grep layout | awk -v OFS='\t' '{print $2}' )
+	if [ "$kbl" == "us" ] ; then
+		setxkbmap -layout de
+		notify-send "$title" "$msg de"
+	else
+		setxkbmap -layout us -variant altgr-intl -option nodeadkeys
+		notify-send "$title" "$msg us"
+	fi
+fi
