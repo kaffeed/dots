@@ -34,7 +34,7 @@ call plug#end()
 " Bashscript stuff
 filetype plugin on
 
-let g:BASH_AuthorName = 'SebastianSchubert'
+let g:BASH_AuthorName = 'Sebastian Schubert'
 let g:BASH_Email      = 'sschubert932@gmail.com'
 
 " Airline stuff

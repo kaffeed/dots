@@ -19004,3 +19004,18 @@
 2016-06-19 20:23:39	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
 2016-06-19 20:23:39	ℹ 	NickServ (NickServ@services.): You are now identified for Sinex.
 2016-06-19 20:23:55	ℹ 	irc: disconnected from server
+2016-06-20 16:44:45	ℹ 	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2016-06-20 16:44:45	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-06-20 16:44:45	ℹ 	gnutls: receiving 3 certificates
+2016-06-20 16:44:45	ℹ 	 - certificate[1] info:
+2016-06-20 16:44:45	ℹ 	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-12-14 00:00:00 UTC', expires `2017-02-16 23:59:59 UTC', SHA-1 fingerprint `b0c1578208ed07682b9439a0b010f32b290c1956'
+2016-06-20 16:44:45	ℹ 	 - certificate[2] info:
+2016-06-20 16:44:45	ℹ 	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-06-20 16:44:45	ℹ 	 - certificate[3] info:
+2016-06-20 16:44:45	ℹ 	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-06-20 16:44:45	ℹ 	gnutls: peer's certificate is trusted
+2016-06-20 16:44:45	ℹ 	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2016-06-20 16:44:46	ℹ 	kornbluth.freenode.net: *** Looking up your hostname...
+2016-06-20 16:44:46	ℹ 	kornbluth.freenode.net: *** Checking Ident
+2016-06-20 16:44:46	ℹ 	kornbluth.freenode.net: *** Found your hostname
+2016-06-20 16:44:46	ℹ 	irc: disconnected from server

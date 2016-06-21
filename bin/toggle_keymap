@@ -2,17 +2,17 @@
 #===============================================================================
 #
 #          FILE: toggle_keymap.sh
-# 
-#         USAGE: ./toggle_keymap.sh 
-# 
-#   DESCRIPTION: 
-# 
+#
+#         USAGE: ./toggle_keymap.sh
+#
+#   DESCRIPTION: Toggles the keymap between us and de
+#
 #       OPTIONS: ---
 #  REQUIREMENTS: ---
 #          BUGS: ---
 #         NOTES: ---
-#        AUTHOR: YOUR NAME (), 
-#  ORGANIZATION: 
+#        AUTHOR: Sebastian Schubert
+#  ORGANIZATION:
 #       CREATED: 06/19/2016 22:37
 #      REVISION:  ---
 #===============================================================================
@@ -43,3 +43,5 @@ else
 		notify-send "$title" "$msg us"
 	fi
 fi
+
+
