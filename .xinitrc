@@ -24,19 +24,20 @@ xset s noblank
 
 #us international, yaaay
 setxkbmap -layout us -variant altgr-intl -option nodeadkeys
-
-
-# desktop wallpaper
-sh ~/.fehbg &
+numlockx &
 
 #get rid of ugly cross
 xsetroot -cursor_name left_ptr
 
 #starting compton
-compton --config ~/.config/compton.conf -b
+compton --config ~/.config/compton.conf -b &
 
+dunst &
+
+exec_always sleep 0.01
+mpd &
 # urxvt daemon
 urxvtd -q -f -o &
 
-# window manager
-exec i3
+unclutter &
+sh ~/bin/select_wm.sh $1

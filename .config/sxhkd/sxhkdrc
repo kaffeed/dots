@@ -30,7 +30,7 @@ super + d
     sh ~/bin/rofi.sh
 # web browser
 super + F
-   google-chrome-stable 
+    firefox
 # file manager
 super + e
     urxvtc -e "ranger"

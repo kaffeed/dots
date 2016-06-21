@@ -21,9 +21,4 @@ bspc config urgent_border_color '#cc241d'
 
 bspc rule -a Screenkey manage=off
 
-mpd &
-numlockx &
-unclutter &
-#dropbox &
-wmname LG3D &
 sh ~/bin/start_lemonbuddy.sh
