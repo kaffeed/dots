@@ -8,7 +8,15 @@ set showmatch
 set viminfo="NONE"
 " Set color scheme
 set t_Co=16
-colorscheme gruvbox
+
+" Load colorscheme depending on wm
+let current_wm=$CURRENT_WM
+if current_wm=="bspwm" 
+	execute "colorscheme base16-paraiso"
+elseif current_wm=="i3"
+	execute "colorscheme gruvbox"
+endif
+
 set background=dark
 
 " Enable syntax highlight

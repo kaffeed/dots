@@ -18,11 +18,9 @@
 #===============================================================================
 
 
-case $1 in
-	[yY][eE][sS]|[yY])
-	echo "Loading i3" && sh ~/bin/init_i3.sh
-		;;
-	*)
-	echo "Loading bspwm" && sh ~/bin/init_bspwm.sh
-		;;
-esac
+if [ $# -eq 1 ] ; then
+	echo "Loading $1" && sh "$HOME/bin/init_$1.sh"
+else
+	echo "Loading default i3" && sh "$HOME/bin/init_i3.sh"
+fi
+
