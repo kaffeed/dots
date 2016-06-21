@@ -18,5 +18,6 @@
 #===============================================================================
 
 xrdb -merge $XDG_CONFIG_HOME/i3/colors
-
+xrdb -merge $XDG_COFNIG_HOME/i3/rofi
+export VIM_COLORSCHEME=gruvbox
 exec i3

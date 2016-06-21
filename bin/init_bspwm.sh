@@ -19,6 +19,8 @@
 
 sxhkd -f 100 &
 xrdb -merge $XDG_CONFIG_HOME/bspwm/colors
-sh ~/.fehbg &
+xrdb -merge $XDG_CONFIG_HOME/bspwm/rofi
+export VIM_COLORSCHEME=paraiso
+feh --bg-fill $HOME/.wallpapers/image_072.jpg
 wmname LG3D &
 exec bspwm
