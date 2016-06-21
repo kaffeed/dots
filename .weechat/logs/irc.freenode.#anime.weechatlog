@@ -8030,3 +8030,553 @@
 2016-06-19 17:04:08	bagelsan	so things are implied
 2016-06-19 17:04:42	koromo	amigojapan: but you say dubed sailormoon is trash...
 2016-06-19 17:04:56	ℹ 	irc: disconnected from server
+2016-06-21 14:07:01	◥	Sinex (~Sinex@88-117-87-104.adsl.highway.telekom.at) has joined #anime
+2016-06-21 14:07:01	ℹ 	Topic for #anime is "Welcome to #anime: If there's room in the heart, there's room in the butt. | https://i.imgur.com/YbaXYAs.jpg | Rules: http://j.mp/anirule | Anime of the Week: Kodomo no Omocha (chosen by trohrt) | Manga of the Week: Chobits! (chosen by Amalynn) | Warm welcomes to the new members of the OP team: amigojapan and Smeef | take all hostility to ##anime-drama"
+2016-06-21 14:07:01	ℹ 	Topic set by ImoutoBot on Sun, 19 Jun 2016 12:52:20
+2016-06-21 14:07:01	ℹ 	Channel #anime: 254 nicks (1 op, 2 voices, 251 normals)
+2016-06-21 14:07:01	ℹ 	PvNotice(ChanServ): Rules for #anime: Be nice to each other. Tag NSFW links as NSFW. No harassment over sex, gender identity, race, sexual orientation, or mental disabilities. If you feel you were banned unfairly, don't try to rejoin; PM an op instead. See http://freenodeanime.wikia.com/wiki/Rules for more.
+2016-06-21 14:07:03	ℹ 	Channel created on Sun, 26 Nov 2006 07:42:57
+2016-06-21 14:07:25	◥	natsurelf (c1713009@gateway/web/freenode/ip.193.113.48.9) has joined #anime
+2016-06-21 14:07:47	pyon	“<Illya> pyon: do you use nixos” --> I don't.
+2016-06-21 14:07:50	◣	BrambleG (~brad@137.205.0.224) has quit (Quit: Konversation terminated!)
+2016-06-21 14:08:10	crutchy	i think Myrl-saki is the nixos guy
+2016-06-21 14:08:16	pyon	Illya: Myrl-saki does, at least in one of his VPSs, though.
+2016-06-21 14:08:26	Myrl-saki	pyon: On all my machines.
+2016-06-21 14:08:29	pyon	Myrl-saki: Ah.
+2016-06-21 14:08:46	Myrl-saki	pyon: Except for my lightweight emacs VM which uses AL.
+2016-06-21 14:08:52	pyon	:-O
+2016-06-21 14:09:01	Myrl-saki	Illya: I'll help you soon. I'm still finishing my work.
+2016-06-21 14:09:02	pyon	lol @ Emacs VM
+2016-06-21 14:09:22	pyon	Myrl-saki: EmacsOS virtualized on top of Arch?
+2016-06-21 14:09:51	◣	spider_jerusalem (~spiderjer@unaffiliated/spider-jerusalem/x-8979644) has quit (Read error: Connection reset by peer)
+2016-06-21 14:10:12	Myrl-saki	pyon: I'd do the "emacs as init" but I want to use zsh for other stuff.
+2016-06-21 14:10:13	◥	Nimrod (~Nimrod@unaffiliated/nimrod) has joined #anime
+2016-06-21 14:10:21	Sadale	Have been doing quite a lot VBA recently
+2016-06-21 14:10:32	Sadale	Perhaps some javascript tomorrow
+2016-06-21 14:10:35	Myrl-saki	pyon: Also, I'm still trying to find out how to work with nix sandboxes and emacs.
+2016-06-21 14:10:41	crutchy	Sadale, yummy
+2016-06-21 14:10:58	amigojapan__	Sadale: ah. Vba.  Can't you use c#?
+2016-06-21 14:10:59	Sadale	crutchy, Personally I do not like VBA because, uh, I'm not familiar with it :P
+2016-06-21 14:11:12	Sadale	amigojapan__, No idea. I just want to program in excel.
+2016-06-21 14:11:26	Sadale	And AFAIK, the most standard way is to do it with VBA.
+2016-06-21 14:11:27	amigojapan__	Sadale: hold on a sec
+2016-06-21 14:11:27	crutchy	its ok for simple macros
+2016-06-21 14:11:37	Sadale	I like python more :p
+2016-06-21 14:11:47	◥	CosmicWitch_ (~DarkPrinc@unaffiliated/darkprincess) has joined #anime
+2016-06-21 14:11:50	Sadale	I meant I'm more used to python. You know, I'm a linux guy
+2016-06-21 14:14:08	amigojapan__	Sadale: I think this article explains how to use c# instead of vba http://www.nullskull.com/articles/create_macro_at_runtime_in_dotnet.asp
+2016-06-21 14:14:09	@Suzuka	[title] Excel Macro - Create And Run At Runtime in C# / .NET By Robbe Morris
+2016-06-21 14:14:23	Sadale	amigojapan__, I don't bother using C# :P
+2016-06-21 14:14:30	Sadale	That's just scripting for simple stuffs. :P
+2016-06-21 14:14:45	Sadale	I think VBA vs C# is like python vs Java. for simple stuffs, go for python/VBA. :)
+2016-06-21 14:14:54	◣	CosmicWitch (~DarkPrinc@unaffiliated/darkprincess) has quit (Ping timeout: 250 seconds)
+2016-06-21 14:15:08	amigojapan__	Sadale: no
+2016-06-21 14:15:15	Sadale	huh?
+2016-06-21 14:15:21	Sadale	Why not?
+2016-06-21 14:15:26	amigojapan__	Sadale: c# is way simpler than vba
+2016-06-21 14:15:39	confact	i disagree
+2016-06-21 14:15:56	confact	but i disagree with humanity today.
+2016-06-21 14:16:04	Sadale	amigojapan__, o rly?
+2016-06-21 14:16:10	amigojapan__	You contrarian confact
+2016-06-21 14:16:24	Sadale	What I know is that C# definitely has more in-language features.
+2016-06-21 14:16:36	amigojapan__	Yes Sadale and given your familiarity with java even more so
+2016-06-21 14:16:57	pyon	Myrl-saki: Well, dunno. I just want a system that's simple to use, so I'm not going to do as much research as you do about this kind of thing.
+2016-06-21 14:16:59	Sadale	It seems that your definition of "simple" is different form mine.
+2016-06-21 14:17:21	Sadale	Your definition of simple is "it's easy to use"
+2016-06-21 14:17:27	Sadale	mine is "it's quicker to get the work done"
+2016-06-21 14:18:14	confact	C# is simple for those who already know it, but it also exist differnet view of simplicity. to make less code in less time as one. C# is powerful but not simple in the way i see it.
+2016-06-21 14:18:16	amigojapan__	Sadale: well.  It could be quicker if you didn't know java. 
+2016-06-21 14:18:31	◥	Qpax (~qpax@unaffiliated/qpax) has joined #anime
+2016-06-21 14:18:57	amigojapan__	Sadale: c# is also easier to maintain
+2016-06-21 14:19:02	pyon	amigojapan__: C# is a better language than VBA, but there's no way on Earth it's simpler.
+2016-06-21 14:19:27	Sadale	amigojapan__, probably true that it's easier to maintain.
+2016-06-21 14:19:55	confact	I think all this is relative.
+2016-06-21 14:19:55	natsurelf	simpler is easier to use, getting a job done quicker is more efficient
+2016-06-21 14:20:16	Sadale	natsurelf, right.
+2016-06-21 14:20:20	confact	natsurelf: those two work so well together.
+2016-06-21 14:20:21	pyon	amigojapan__: C# has delegates, generics, declaration-site variance, attributes/reflection/metaprogramming, which make it a more powerful language than VBA, but also a more complicated one.
+2016-06-21 14:20:36	Illya	Myrl-saki arigatou <333
+2016-06-21 14:20:53	amigojapan__	pyon: he won't need to know all that
+2016-06-21 14:21:04	Sadale	BTW, my program is more or less a maintainance-free one.
+2016-06-21 14:21:11	pyon	natsurelf: “Simple” doesn't mean “easy”. The untyped lambda calculus is stupidly simple, but even writing toy programs in it requires a lot of effort.
+2016-06-21 14:21:18	Illya	pyon: wait, what do you use then?
+2016-06-21 14:21:26	Sadale	Illya, he use everything :)
+2016-06-21 14:21:28	amigojapan__	Ok Sadale
+2016-06-21 14:21:31	Sadale	just like most users here :)
+2016-06-21 14:21:37	confact	Sadale: C# is more complicated than vba and Java imo. But have some nice features.
+2016-06-21 14:21:39	pyon	amigojapan__: You need to understand variances to use .NET standard library. Variances are *NOT* simple.
+2016-06-21 14:21:44	confact	Sadale: but you dont need that shit
+2016-06-21 14:21:49	Sadale	confact, ah. :)
+2016-06-21 14:21:54	confact	Sadale: just go with something that works well for you.
+2016-06-21 14:22:00	pyon	the* .NET standard library
+2016-06-21 14:22:00	Sadale	confact, just like C++. That's probably one of the most complicated programming language.
+2016-06-21 14:22:03	Illya	pyon I mean 
+2016-06-21 14:22:05	Illya	OS
+2016-06-21 14:22:09	pyon	Illya: Arch.
+2016-06-21 14:22:12	Illya	ohright
+2016-06-21 14:22:20	Illya	when did you stop using gentoo?
+2016-06-21 14:22:22	amigojapan__	pyon: I don't know that and I have used .NET many times
+2016-06-21 14:22:24	pyon	Illya: I never used Gentoo.
+2016-06-21 14:22:28	confact	Sadale: yea, almost like c++.
+2016-06-21 14:22:31	Illya	oh
+2016-06-21 14:22:34	Sadale	confact, Yet I couldn't find it useful, except for larger scale software which is probably useless for engineering purpose for 99% of cases :P
+2016-06-21 14:22:53	Sadale	I was involved in a C++ project, tho :)
+2016-06-21 14:22:54	confact	I had a classmate who did a compiler for c# in c#.
+2016-06-21 14:23:01	Sadale	wow. cool.
+2016-06-21 14:23:05	Sadale	self-hosting compiler
+2016-06-21 14:23:10	pyon	Wow, writing a compiler in C# is a giant pain.
+2016-06-21 14:23:13	pyon	All those fucking visitors.
+2016-06-21 14:23:16	pyon	To traverse ASTs.
+2016-06-21 14:23:23	pyon	s/giant/gigantic/
+2016-06-21 14:23:27	confact	it sounded cool, but he talking avout it annoyed me. He loved to brag.
+2016-06-21 14:24:01	amigojapan__	pyon: you don't need to know everything in a language to just use it
+2016-06-21 14:24:02	confact	pyon: he is a crazy programmer.. a good programmer.. but crazy.
+2016-06-21 14:24:15	natsurelf	pyon: ok simpler isnt an exact word for easy but it certainly isnt for quicker, that would defo be efficent not simple
+2016-06-21 14:24:26	◥	unit73e (d412acc1@gateway/web/cgi-irc/kiwiirc.com/ip.212.18.172.193) has joined #anime
+2016-06-21 14:24:27	⚡	ImoutoBot_ welcomes u​nit73e (1 / 1): <u​nit73e> the web sucks
+2016-06-21 14:24:31	confact	amigojapan__: you always use the language in a good way if you know everything you could use in it.
+2016-06-21 14:24:36	pyon	natsurelf: Of course, “simple” means “simple”, not “easy” and not “quick”.
+2016-06-21 14:24:52	unit73e	define simple :P
+2016-06-21 14:25:01	◥	ezekielnoob (~ezekielno@120.28.121.179) has joined #anime
+2016-06-21 14:25:01	⚡	ImoutoBot_ welcomes e​zekielnoob (1 / 3): <e​zekielnoob> a cockroach walked to my Snickers chocolate <e​zekielnoob> i still ate it <e​zekielnoob> the cockroach <M​yrl-saki> e​zekielnoob: Goddammit, you had Snickers on your cockroach?
+2016-06-21 14:25:05	◥	armistace (~armistace@c.06.01a8.ip4.static.sl-reverse.com) has joined #anime
+2016-06-21 14:25:09	pyon	unit73e: Admitting a short precise description.
+2016-06-21 14:25:11	amigojapan__	confact: I am not a perfectionist
+2016-06-21 14:25:12	confact	unit73e: you served a mum joke.. should I?
+2016-06-21 14:25:26	unit73e	confact: go ahead, now I'm curious
+2016-06-21 14:25:39	unit73e	confact: I won't be offended
+2016-06-21 14:26:04	confact	unit73e: you mum defines simple - simple to seduce ;)
+2016-06-21 14:26:05	◣	jellylemon (~jellylemo@2001:5b0:262e:1668:74fd:4378:7fd3:b5b2) has quit (Ping timeout: 260 seconds)
+2016-06-21 14:26:15	unit73e	confact: lol ok
+2016-06-21 14:26:16	natsurelf	unit73e: simple, easily understood or plain in description
+2016-06-21 14:26:23	natsurelf	#google
+2016-06-21 14:26:26	confact	you hope for too much from me. i deliver too high hopes.
+2016-06-21 14:26:54	pyon	natsurelf: Agree with the latter half of your definition. “Easily understood” is too subjective.
+2016-06-21 14:26:59	confact	amigojapan__: who is?
+2016-06-21 14:27:08	unit73e	I guess that one is easy but something the simple words are the hardest to define
+2016-06-21 14:27:10	amigojapan__	Stupid restaurant refused to sell me kimchi fried rice with extra kimchi.  They did it before but they said their policy changed
+2016-06-21 14:27:13	natsurelf	pyon: not mine goole
+2016-06-21 14:27:21	unit73e	sometimes*
+2016-06-21 14:27:23	pyon	natsurelf: Okay, true that.
+2016-06-21 14:27:26	confact	amigojapan__: what? make no sense.
+2016-06-21 14:27:50	◥	jellylemon (~jellylemo@2001:5b0:262e:1668:5557:7bc8:f250:30ec) has joined #anime
+2016-06-21 14:28:06	natsurelf	pyon: maybe we should change it to, simple, not simple to define?
+2016-06-21 14:28:08	Illya	Myrl-saki can I dev on nixos? like, can I run/use packages without installing them "The NixOS Way™"
+2016-06-21 14:28:22	amigojapan__	confact: many programmers fancy themselves perfectionists and masters of a certain programming language.  I tend to be a generalist and not focus on one language
+2016-06-21 14:28:23	pyon	natsurelf: If it isn't simple to define, it isn't simple.
+2016-06-21 14:28:27	Sadale	natsurelf, well, I think we don't always use words so precisely.
+2016-06-21 14:28:35	Sadale	natsurelf, for the precise definition, you're right.
+2016-06-21 14:29:09	Sadale	But when we speak, it's difficult to ensure that each words are carefully chosen so that the exact meaning in my mind is delivered.
+2016-06-21 14:29:13	confact	amigojapan__: ofc I am more of a generic programmer myself as well but I also feel more comfortable and feel i can do better code the more i know about the language.
+2016-06-21 14:29:22	Sadale	And it often depends on the context to get the full understanding of words.
+2016-06-21 14:29:35	unit73e	all you need to know is that javascript sucks
+2016-06-21 14:29:59	amigojapan__	Sadale: I would say using vb is like trying to learn Korean when you could use Spanish and you already know French
+2016-06-21 14:30:01	Illya	which one
+2016-06-21 14:30:01	natsurelf	iv been learning some basic japanese and loads of their words are the same word that changes depending on the context, good system
+2016-06-21 14:30:04	confact	Like, i have been tried out Java, C++, C#, PHP, python, ruby, PERL, asembler.
+2016-06-21 14:30:18	Sadale	amigojapan__, agreed. BTW, I didn't really learn it.
+2016-06-21 14:30:33	amigojapan__	Ok Sadale
+2016-06-21 14:30:34	Sadale	amigojapan__, actually, programming language doesn't matter much in my case. The program that I did was simple anyway.
+2016-06-21 14:30:46	Sadale	I just use whatever works :P
+2016-06-21 14:30:49	amigojapan__	Ok Sadale
+2016-06-21 14:30:59	confact	Sadale: like HTML? :p
+2016-06-21 14:31:01	unit73e	the paradigm matters
+2016-06-21 14:31:05	unit73e	learn haskell
+2016-06-21 14:31:13	Sadale	confact, :P
+2016-06-21 14:31:24	confact	unit73e: oh pls, we have a Haskell guy here.
+2016-06-21 14:31:33	unit73e	confact: more than one
+2016-06-21 14:31:37	natsurelf	wtf is haskell??
+2016-06-21 14:31:43	unit73e	a programming language
+2016-06-21 14:31:50	natsurelf	used for?
+2016-06-21 14:31:50	Sadale	natsurelf, it's quite popular among freenode guys.
+2016-06-21 14:32:00	confact	I found the most "my programming language is better than yours" in Go programmers.
+2016-06-21 14:32:02	amigojapan__	confact: I usually don't really mind much what programming language I need to use as long as I get paid :)
+2016-06-21 14:32:07	Sadale	I haven't learn it, tho. Seems that there aren't much real world application of Haskell
+2016-06-21 14:32:23	unit73e	natsurelf: used to make correct programs
+2016-06-21 14:32:33	unit73e	natsurelf: you should check it out
+2016-06-21 14:32:39	confact	Sadale: it is a lot of backend stuff is done in haskell.
+2016-06-21 14:32:44	Sadale	amigojapan__, BTW, the VBA script that I wrote earlier today isn't even required. But that saved my time :)
+2016-06-21 14:32:47	confact	it is = ""*
+2016-06-21 14:33:09	Sadale	And I've sent the script to my colleague(another intern). It's probably useful for him :)
+2016-06-21 14:33:12	Sadale	AFK dinner
+2016-06-21 14:33:32	confact	Sadale: where do you work?
+2016-06-21 14:33:41	natsurelf	just looked at a haskell script and my tiny brain melted
+2016-06-21 14:33:42	amigojapan__	Bon apetit Sadale
+2016-06-21 14:33:44	unit73e	natsurelf: even if you don't use it for anything you will program better in your current language of choice
+2016-06-21 14:33:51	Sadale	confact, an engineering firm, as an intern.
+2016-06-21 14:34:05	Sadale	confact, AFK dinner.
+2016-06-21 14:34:05	confact	natsurelf: exactly my thoughts.
+2016-06-21 14:34:11	confact	Sadale: OKAI
+2016-06-21 14:34:34	unit73e	natsurelf: haskell for newbies: http://learnyouahaskell.com/chapters
+2016-06-21 14:34:34	@Suzuka	[title] Chapters - Learn You a Haskell for Great Good!
+2016-06-21 14:34:59	unit73e	scala book is good too
+2016-06-21 14:35:16	unit73e	Java = C++ = python = whatever imperative language
+2016-06-21 14:35:31	unit73e	they're all the same
+2016-06-21 14:36:07	unit73e	now go learn haskell noobs!
+2016-06-21 14:36:39	unit73e	(don't take me seriously I don't care that much :P)
+2016-06-21 14:37:20	◣	Tylak (~tylak@cpe-24-93-121-59.columbus.res.rr.com) has quit (Quit: Nettalk6 - www.ntalk.de)
+2016-06-21 14:37:25	unit73e	also haskell is unix friendly
+2016-06-21 14:37:37	unit73e	and java not really
+2016-06-21 14:37:38	natsurelf	hah thanks il take a look
+2016-06-21 14:37:52	crutchy	shitbags
+2016-06-21 14:37:53	crutchy	https://www.youtube.com/watch?v=n2W9ZdqHVws
+2016-06-21 14:37:53	@Suzuka	[title] YouTube: 6 TERABYTES of DDR4!? | Views: 436.7k
+2016-06-21 14:38:05	crutchy	noice soiver
+2016-06-21 14:38:58	amigojapan__	crutchy: who are you calling "shitbags"?
+2016-06-21 14:39:03	◥	Shinra (~Shinra@host86-183-213-171.range86-183.btcentralplus.com) has joined #anime
+2016-06-21 14:39:03	⚡	ImoutoBot_ welcomes S​hinra (1 / 8): <S​hinra> ask the bot b​eaky =D
+2016-06-21 14:39:07	crutchy	that soiver
+2016-06-21 14:39:23	◣	Manikandan (Manikandan@nat/redhat/x-pimjjhihlfowplhj) has quit (Ping timeout: 244 seconds)
+2016-06-21 14:39:28	amigojapan__	What is a soiver?
+2016-06-21 14:39:47	crutchy	its like a poota
+2016-06-21 14:39:52	crutchy	that soives :p
+2016-06-21 14:40:10	natsurelf	anyone heard about when we getting SAO season ???????
+2016-06-21 14:40:14	amigojapan__	Ok. As long as it isn't someone in the channel
+2016-06-21 14:40:18	natsurelf	unless u dont like it then ignore ^^
+2016-06-21 14:43:56	◥	Tylak (~tylak@cpe-24-93-121-59.columbus.res.rr.com) has joined #anime
+2016-06-21 14:43:57	⚡	ImoutoBot_ welcomes T​ylak (1 / 1): <T​ylak> whole lotta waaah in here
+2016-06-21 14:47:50	⚡	Shinra poots
+2016-06-21 14:49:24	Shinra	do you eat with chopsticks amigojapan__ 
+2016-06-21 14:50:20	amigojapan__	Yes Shinra     But fried rice you are supposed to eat using a renge
+2016-06-21 14:50:47	amigojapan__	Shinra: it's a kind of spoon
+2016-06-21 14:51:22	Shinra	googling renge shows a million pix of Renchon <3
+2016-06-21 14:51:41	rr-	amigojapan__: any tips on how to differentiate verbs like 始める, 上がる from verbs like 始まる, 上げる?
+2016-06-21 14:52:32	rr-	there's also 付く vs 付ける which i completely fail to understand
+2016-06-21 14:52:45	rr-	i mean, the rules behind them
+2016-06-21 14:52:47	amigojapan__	rr-: I don't know what is the differece. Transitive?
+2016-06-21 14:52:50	rr-	yes
+2016-06-21 14:53:30	amigojapan__	rr-: you don't understand how transitive works?
+2016-06-21 14:54:03	rr-	amigojapan__: i don't understand when the subject is me, and when it's someone else besides memorizing each verb variant; does it have to do 「え」 sound?
+2016-06-21 14:55:51	amigojapan__	Sorry rr- I never seemed to have that problem
+2016-06-21 14:56:11	rr-	amigojapan__: so you go by intuition?
+2016-06-21 14:56:15	Shinra	https://media.giphy.com/media/xT4uQoj67Mq3SjKeRO/giphy.gif
+2016-06-21 14:56:22	amigojapan__	Yup rr-
+2016-06-21 14:56:36	rr-	ah
+2016-06-21 14:56:37	@Suzuka	[title] Image type: Animated GIF  Dimensions: 536x302  Size: 2.0MB
+2016-06-21 14:56:40	rr-	thanks anyway amigojapan__ 
+2016-06-21 14:57:20	amigojapan__	Sorry not to be of help rr- :(
+2016-06-21 14:58:02	natsurelf	how do you guys get the hirigana etc keyboard?
+2016-06-21 14:58:13	rr-	natsurelf: we switch input method
+2016-06-21 14:58:13	natsurelf	i just started learning japanes a few weeks ago
+2016-06-21 14:58:17	natsurelf	ah ok
+2016-06-21 14:58:23	rr-	so that when we press 'A' it results in あ
+2016-06-21 14:58:37	unit73e	you can install it on windows natsurelf
+2016-06-21 14:58:41	amigojapan__	natsurelf: nobody uses the hiragana keyboard. Use romaji and an ime
+2016-06-21 14:58:44	natsurelf	TEACH ME! (mind blown)
+2016-06-21 14:58:52	natsurelf	ah ok
+2016-06-21 14:58:53	rr-	natsurelf: if you type enough hiragana, you can convert it to predicted kanji with space, e.g. はじめる-->space-->始める
+2016-06-21 14:59:05	unit73e	go to windows regional settings and there's a keyboard for japanese natsurelf
+2016-06-21 14:59:11	natsurelf	legend
+2016-06-21 14:59:14	unit73e	if you have windows 10 at least
+2016-06-21 14:59:21	unit73e	I don't know about the others
+2016-06-21 14:59:28	grawity	there's been one since XP at least
+2016-06-21 14:59:37	unit73e	yeah makes sense
+2016-06-21 14:59:46	grawity	(probably Win2000 actually)
+2016-06-21 14:59:50	unit73e	other OS also have
+2016-06-21 14:59:52	rr-	(...and if you're on linux, you can use ibus-anthy)
+2016-06-21 14:59:55	natsurelf	im onm ten so should eb there
+2016-06-21 15:00:41	unit73e	I find it funny that some people think it takes a special keyboard to write japanese :p
+2016-06-21 15:01:01	unit73e	because I used to think so too :P
+2016-06-21 15:01:17	rr-	unit73e: https://upload.wikimedia.org/wikipedia/commons/2/21/MacBookProJISKeyboard-1.jpg here you go :3
+2016-06-21 15:01:22	@Suzuka	[title] Image type: JPEG  Dimensions: 2874x1162  Size: 463.5KB
+2016-06-21 15:01:34	◥	hgoel_ (~hgoel@207-38-183-136.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com) has joined #anime
+2016-06-21 15:01:34	natsurelf	ahah yeah i figured people were using software i had no idea it was built into windows though i thought it was like a digitial overlay tyupe thing
+2016-06-21 15:01:43	unit73e	yeah but you don't need it :p rr-. That's cool though
+2016-06-21 15:01:54	grawity	bit surprised that amigojapan__ says nobody uses it
+2016-06-21 15:02:07	grawity	or does nobody really use it
+2016-06-21 15:02:10	amigojapan__	unit73e: there is a hiragana keyboard but Japanese people don't use it that way.  Although it would be faster than romaji
+2016-06-21 15:02:36	rr-	amigojapan__: really? i mean, there's japanese layout that doesn't match with romaji
+2016-06-21 15:02:40	rr-	amigojapan__: do japanese use romaji too?
+2016-06-21 15:02:43	◣	koromo (d293a29d@gateway/web/freenode/ip.210.147.162.157) has quit (Ping timeout: 250 seconds)
+2016-06-21 15:02:56	unit73e	imagine a kanji keyboard
+2016-06-21 15:03:07	◥	hgoel (~hgoel@207-38-183-136.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com) has joined #anime
+2016-06-21 15:03:18	amigojapan__	grawity: I am living 14 years in Japan. Only kids that don't know romaji so under 6 or old people use it. Cause they can only use that
+2016-06-21 15:03:43	amigojapan__	rr-: Japanese use romaji only
+2016-06-21 15:03:52	grawity	huh that's interesting
+2016-06-21 15:04:09	rr-	unit73e: imagine https://www.keychatter.com/wp-content/uploads/2015/03/keychatter_2015-03-27_11-47-07.jpg
+2016-06-21 15:04:20	rr-	with each key representing one radical
+2016-06-21 15:04:23	@Suzuka	[title] Image type: JPEG  Dimensions: 2000x1125  Size: 1.3MB
+2016-06-21 15:05:16	amigojapan__	rr-: what's that Russian?
+2016-06-21 15:05:18	rr-	unit73e: or even better, http://www.kbdmania.net/xe/review/files/attach/images/42106/582/014/001/tipro128_23.JPG
+2016-06-21 15:05:21	@Suzuka	[title] Image type: JPEG  Dimensions: 700x193  Size: 87.6KB
+2016-06-21 15:05:28	rr-	amigojapan__: yes, it is
+2016-06-21 15:05:39	rr-	amigojapan__: but it's a customized board, the original keyboard looks different afaik
+2016-06-21 15:05:47	unit73e	rr-: wtf lol
+2016-06-21 15:05:59	grawity	reminds me of https://en.wikipedia.org/wiki/Chinese_input_methods_for_computers#/media/File:Large_chinese_keyboard.jpg
+2016-06-21 15:05:59	@Suzuka	[title] Chinese input methods for computers - Wikipedia, the free encyclopedia
+2016-06-21 15:06:03	◥	Corin (~noble@unaffiliated/corin) has joined #anime
+2016-06-21 15:06:03	⚡	ImoutoBot_ welcomes C​orin (1 / 2): <feep​bot> C​orin: Not authorized.
+2016-06-21 15:07:52	amigojapan__	rr-: the most common is the 104 key Japanese keyboard
+2016-06-21 15:07:52	Shinra	suck a butt
+2016-06-21 15:08:10	Nanashi	https://cdn.discordapp.com/attachments/186726554288652288/194800050960859137/3922430.png
+2016-06-21 15:08:16	@Suzuka	[title] Image type: PNG  Dimensions: 468x498  Size: 437.3KB
+2016-06-21 15:08:18	rr-	amigojapan__: afaik this russian keyboard is used in POS (point of sale) systems and the owner modded it into a 'normal' pc keyboard
+2016-06-21 15:08:46	amigojapan__	rr-: in Japan?
+2016-06-21 15:09:02	⚡	Sadale back :3
+2016-06-21 15:09:03	rr-	amigojapan__: ?
+2016-06-21 15:09:35	amigojapan__	rr-: I am unsure why a Russian keyboard got into the conversation
+2016-06-21 15:09:40	◥	CEnnis91 (uid3543@gateway/web/irccloud.com/x-cxmehlclgijxmuox) has joined #anime
+2016-06-21 15:09:49	rr-	amigojapan__: i meant https://www.keychatter.com/wp-content/uploads/2015/03/keychatter_2015-03-27_11-47-07.jpg
+2016-06-21 15:10:03	@Suzuka	[title] Image type: JPEG  Dimensions: 2000x1125  Size: 1.3MB
+2016-06-21 15:10:05	beaky	hello
+2016-06-21 15:10:13	beaky	how much weight will i gain if i eat two boxes of donuts
+2016-06-21 15:10:26	rr-	beaky: much
+2016-06-21 15:10:47	rr-	beaky: replace two boxes of donuts with donut
+2016-06-21 15:10:56	amigojapan__	rr-: yeah. Why did you post that image?
+2016-06-21 15:11:21	rr-	amigojapan__: it was mentioned earlier in the conversation
+2016-06-21 15:12:03	Shinra	You'll gain happiness beaky
+2016-06-21 15:12:09	Shinra	do it do it do it
+2016-06-21 15:12:10	amigojapan__	Ok rr- I seem to have missed that and thought you were talking about Japanese keyboards
+2016-06-21 15:12:15	◣	natsurelf (c1713009@gateway/web/freenode/ip.193.113.48.9) has quit (Ping timeout: 250 seconds)
+2016-06-21 15:12:23	beaky	but im fat
+2016-06-21 15:12:31	Shinra	being fat is cool
+2016-06-21 15:12:33	beaky	i havent lost weight in a week
+2016-06-21 15:12:33	rr-	nah, just speculating how could they look like if we were to input kanji by radicals
+2016-06-21 15:12:39	Shinra	means you eat tasty things
+2016-06-21 15:12:45	Shinra	eating tasty things is great
+2016-06-21 15:12:48	beaky	but also means i will be unnattractive
+2016-06-21 15:12:52	beaky	to female people
+2016-06-21 15:13:06	Shinra	your personality probably covers that anyway
+2016-06-21 15:13:10	rr-	beaky: who would want you, or any male, these days - people are not interested in relationships anyway
+2016-06-21 15:13:12	Shinra	might as well be fat
+2016-06-21 15:13:26	crutchy	got a letter about NBN connection today :D
+2016-06-21 15:13:33	◣	karel0 (4da9d859@gateway/web/freenode/ip.77.169.216.89) has quit (Ping timeout: 250 seconds)
+2016-06-21 15:13:33	◣	SailorHaumea (68381739@gateway/web/freenode/ip.104.56.23.57) has quit (Ping timeout: 250 seconds)
+2016-06-21 15:13:40	crutchy	i'm assuming that means it will be soon
+2016-06-21 15:13:40	Illya	rr- why would you want 3 layers for Fn keys
+2016-06-21 15:13:57	beaky	idk i feel unsatisfied eating donuts
+2016-06-21 15:13:58	crutchy	hopefully i'll be able to get 100mbps
+2016-06-21 15:13:59	rr-	Illya: beats me, ask that russian guy :D also look how many arrows there are
+2016-06-21 15:14:06	Illya	lol
+2016-06-21 15:14:07	beaky	eating donuts is how i felt watching boku dake ga inai machi
+2016-06-21 15:14:18	beaky	its amazing at first but then everything falls apart
+2016-06-21 15:14:26	beaky	(konosuba is like eating pizza)
+2016-06-21 15:14:40	rr-	beaky: i ate pizza today and im losing weight
+2016-06-21 15:14:42	amigojapan__	rr-: there was a crazy Chinese typewriter.  Look it up on YouTube.  I am not on my computer
+2016-06-21 15:14:51	◣	IceFireXD (323716a7@gateway/web/freenode/ip.50.55.22.167) has quit (Ping timeout: 250 seconds)
+2016-06-21 15:14:55	Shinra	you love fatty foods too much beaky, just accept it
+2016-06-21 15:15:00	rr-	beaky: the secret is that i stopped after one slice and shared the rest with coworkers :-3
+2016-06-21 15:15:12	beaky	i love fatty foods
+2016-06-21 15:15:26	Shinra	me too
+2016-06-21 15:15:27	beaky	rr- but i have no coworkers
+2016-06-21 15:15:30	beaky	im a neet
+2016-06-21 15:15:38	beaky	i have one slice and share the rest of the slices with myself
+2016-06-21 15:15:51	rr-	beaky: try sharing tasty food at local homeless care center
+2016-06-21 15:16:03	rr-	beaky: this will change your perspective to many things
+2016-06-21 15:16:16	beaky	what kind of change
+2016-06-21 15:16:24	rr-	positive for your mindset
+2016-06-21 15:16:43	Illya	rr-: you're beating a dead horse
+2016-06-21 15:16:52	rr-	i am?
+2016-06-21 15:17:01	Illya	yes
+2016-06-21 15:17:07	Illya	trying to help beaky doesn't work
+2016-06-21 15:17:21	beaky	yes my life is hopeless
+2016-06-21 15:17:30	rr-	but i believe that one day.. one day beaky will quit his hikkikomori ways! *sparkles and bubbles*
+2016-06-21 15:17:31	Illya	he is forever doom to be a fat, helpless neet with no girlfriend :)
+2016-06-21 15:17:40	Illya	so did we all
+2016-06-21 15:18:01	Illya	> people are not interested in relationships anyway
+2016-06-21 15:18:01	Illya	really?
+2016-06-21 15:18:16	rr-	i think so
+2016-06-21 15:18:34	Illya	you're probably right
+2016-06-21 15:18:37	◣	Venusaur (~wdwrwf@wikipedia/Antonio-Lopez) has quit (Ping timeout: 252 seconds)
+2016-06-21 15:19:01	Illya	Life has become so empty
+2016-06-21 15:19:02	rr-	i can't think of any acquaintance my age (20..30), be it a girl or a boy, that has a partner
+2016-06-21 15:19:02	Illya	and worthless
+2016-06-21 15:19:15	rr-	safe for a few normies i have no clue what to talk about with
+2016-06-21 15:19:32	Illya	wagecucks have no time for relationships
+2016-06-21 15:19:41	rr-	hey :P
+2016-06-21 15:19:44	Illya	they have to work so that their bosses can buy that new boat
+2016-06-21 15:20:11	rr-	i know people other than wagecucks tho
+2016-06-21 15:21:09	rr-	Illya: i don't think anything's sad nor worthless, it's just that the world is changing, and it has been changing since its creation so that's not exactly a big news
+2016-06-21 15:22:01	Illya	not for the better htough
+2016-06-21 15:22:07	Illya	we're all just slaves
+2016-06-21 15:22:18	Illya	Slavery was never abolished, it just evolved
+2016-06-21 15:22:31	rr-	Illya: the important part is that we can watch anime :-3
+2016-06-21 15:22:45	◣	LucaTM (~LucaTM@unaffiliated/lucatm) has quit (Quit: To infinity and beyond...)
+2016-06-21 15:22:50	Illya	not without guilt
+2016-06-21 15:23:05	rr-	better things are coming
+2016-06-21 15:23:24	beaky	https://www.youtube.com/watch?v=PmZrdhuww0o&feature=youtu.be
+2016-06-21 15:23:24	@Suzuka	[title] YouTube: rip anime prom ;( | Views: 769.0
+2016-06-21 15:23:59	rr-	google is scary
+2016-06-21 15:24:16	rr-	i just listened to an album on bandcamp and now they show it to me on youtube's recommendations
+2016-06-21 15:24:31	Myrl-saki	Illya: i wanna leck you so hard
+2016-06-21 15:25:10	Illya	Myrl-saki: leck
+2016-06-21 15:25:11	◣	Qpax (~qpax@unaffiliated/qpax) has quit (Read error: Connection reset by peer)
+2016-06-21 15:25:20	Myrl-saki	Illya: you want my deck?
+2016-06-21 15:25:31	Illya	I want your cumfig
+2016-06-21 15:25:35	Myrl-saki	lewd.
+2016-06-21 15:26:19	Illya	srsly tho
+2016-06-21 15:27:01	Illya	wen do you staph work
+2016-06-21 15:27:11	Illya	I want nixos
+2016-06-21 15:27:14	Illya	without the systemd
+2016-06-21 15:27:16	Illya	bullshit
+2016-06-21 15:27:24	rr-	why is systemd bullshit
+2016-06-21 15:27:32	Illya	because of systemdv230
+2016-06-21 15:28:23	rr-	*quick internet search* people are overjoyed though?
+2016-06-21 15:28:26	beaky	systemd  is my waifu
+2016-06-21 15:29:16	⚡	amigojapan__ prefers autoexec.bat :)
+2016-06-21 15:29:31	Illya	rr-: "systemd-logind will now by default terminate user processes that are part of the user session scope unit"
+2016-06-21 15:29:33	Illya	why the uck
+2016-06-21 15:29:53	rr-	Illya: what does it even mean?
+2016-06-21 15:30:02	Illya	it means
+2016-06-21 15:30:05	Illya	if you log out
+2016-06-21 15:30:08	rr-	Illya: what is it to tmux + ssh?
+2016-06-21 15:30:09	Illya	and you started tmux
+2016-06-21 15:30:15	Illya	then you lose
+2016-06-21 15:30:21	rr-	what the fuck? are you sure?
+2016-06-21 15:30:27	amigojapan__	Illya: use nohup
+2016-06-21 15:30:31	Illya	yes
+2016-06-21 15:31:22	◥	Maverick (~Maverick@unaffiliated/maverick) has joined #anime
+2016-06-21 15:31:41	rr-	:-|
+2016-06-21 15:31:47	grawity	they were planning on saying "use loginctl enable-something to go back to the old behavior", except it doesn't really bring the old behavior, you need to edit /etc for that
+2016-06-21 15:32:13	rr-	isn't that like, backwards incompatible, and something that linus would be furious about?
+2016-06-21 15:32:18	grawity	yes, and no
+2016-06-21 15:32:25	amigojapan__	My cram school owner was laughing at me after I told them my computer is broken and I have no computer
+2016-06-21 15:32:26	grawity	linus doesn't give a fuck about *userspace* breaking compat
+2016-06-21 15:32:37	grawity	he gives a fuck about the *kernel* breaking compat with existing userspace
+2016-06-21 15:32:46	rr-	yes
+2016-06-21 15:32:48	Illya	does he even use systemd
+2016-06-21 15:32:55	grawity	systemd, as it happens, is not the kernel yet.
+2016-06-21 15:32:59	rr-	but i don't know of any distro that doesn't use systemd 
+2016-06-21 15:33:08	grawity	gentoo, slackware, devuan
+2016-06-21 15:33:09	rr-	maybe uhh suse? gentoo?
+2016-06-21 15:33:35	unit73e	systemd fight still going on?
+2016-06-21 15:33:44	rr-	not much of a fight unit73e 
+2016-06-21 15:33:56	unit73e	rr-: it used to be
+2016-06-21 15:34:03	rr-	we're like, ":-/"
+2016-06-21 15:34:08	◥	Venusaur (~wdwrwf@wikipedia/Antonio-Lopez) has joined #anime
+2016-06-21 15:34:22	unit73e	at least systemd normalized all the crap
+2016-06-21 15:34:25	unit73e	imo
+2016-06-21 15:34:35	bagelsan	people born blind use the same facial expressions as sighted people when expressing emotions, meaning that our facial expressions are innate and not learned behaviour.
+2016-06-21 15:34:48	bagelsan	thats kinda neat to know
+2016-06-21 15:35:13	rr-	cool
+2016-06-21 15:35:31	unit73e	what about god and stuff?
+2016-06-21 15:35:41	⚡	amigojapan__ gives bagelsan a gnarly state
+2016-06-21 15:35:48	unit73e	how do you put god into the equation?
+2016-06-21 15:35:49	grawity	unit73e: have you accepted Poettering as your Lord and Savior?
+2016-06-21 15:35:53	bagelsan	amigojapan__, huh?
+2016-06-21 15:36:18	unit73e	grawity: lol no
+2016-06-21 15:36:24	amigojapan__	bagelsan: nah. Just kidding about what you said about facial expressions
+2016-06-21 15:36:46	unit73e	grawity: he looks like sort of an asshole tbh but I don't know him so I'll give the benefit of the doubt
+2016-06-21 15:37:11	bagelsan	o.o ok
+2016-06-21 15:37:54	unit73e	gnarly is so gnarly
+2016-06-21 15:38:14	bagelsan	¨If we build wall around Australia, are we defending Australians from illegal immigrants, or the rest of the world from Australians?¨
+2016-06-21 15:38:27	bagelsan	lel
+2016-06-21 15:38:32	◣	crocodisle (~crocodisl@2600:8801:8308:a500:5d1a:69d4:8ebd:484d) has quit
+2016-06-21 15:38:32	rr-	bagelsan: neither
+2016-06-21 15:38:35	rr-	walls can be climbed
+2016-06-21 15:39:02	bagelsan	rr-, but theys gonna build dems trump towers walls
+2016-06-21 15:39:15	amigojapan__	I really want to know what is outside the walls of haibane renmei
+2016-06-21 15:39:16	bagelsan	nobodies climbs da trump towas
+2016-06-21 15:39:22	unit73e	how about a wall with automatic gattling guns?
+2016-06-21 15:39:33	bagelsan	the only wall ive climbed was vaginal
+2016-06-21 15:39:38	unit73e	a wall sure makes the job harder
+2016-06-21 15:39:50	rr-	unit73e: have you played n?
+2016-06-21 15:40:00	bagelsan	unit73e, i know right. they gott build tunnels
+2016-06-21 15:40:04	unit73e	rr-: uh?
+2016-06-21 15:40:13	bagelsan	gotta
+2016-06-21 15:40:16	unit73e	bagelsan: land mines
+2016-06-21 15:40:27	unit73e	bagelsan: maybe turrets
+2016-06-21 15:40:35	rr-	unit73e: http://www.thewayoftheninja.org/nv2.html proof gatlings don't work
+2016-06-21 15:40:36	@Suzuka	[title] N v2.0 Full Online Version
+2016-06-21 15:40:38	bagelsan	unit73e, geneva convention prevents such things as land mines
+2016-06-21 15:40:58	unit73e	rr-: I beat that whole game
+2016-06-21 15:41:00	unit73e	lol
+2016-06-21 15:41:12	unit73e	bagelsan: :(
+2016-06-21 15:41:12	⚡	rr- tips a hat
+2016-06-21 15:41:17	◣	mosasaur (~mosasaur@unaffiliated/mosasaur) has quit (Quit: Leaving.)
+2016-06-21 15:41:32	unit73e	how about annoying people
+2016-06-21 15:41:48	amigojapan__	Nobody here watched haibane?
+2016-06-21 15:41:54	rr-	amigojapan__: i have
+2016-06-21 15:42:01	unit73e	like jehovah's witnesses
+2016-06-21 15:42:14	rr-	amigojapan__: better not to know, plus who'd want to leave such a nice town
+2016-06-21 15:42:18	unit73e	you place them in the wall
+2016-06-21 15:42:29	unit73e	and they'll annoy the illegal immigrants
+2016-06-21 15:42:33	rr-	unit73e: you win
+2016-06-21 15:42:35	amigojapan__	rr-: I am dying to know more. The show does not explain anything
+2016-06-21 15:42:55	rr-	amigojapan__: there was this uh, successor to lain and haibane in the making
+2016-06-21 15:43:10	rr-	amigojapan__: it was announced quite some time ago though, and haven't heard of it again
+2016-06-21 15:43:14	◥	pupae (~metawyrm@c-24-9-82-37.hsd1.co.comcast.net) has joined #anime
+2016-06-21 15:43:35	bagelsan	http://techraptor.net/content/mighty-no-9-review
+2016-06-21 15:43:36	@Suzuka	[title] Mighty No. 9 Review - Not the MegaMan for the Job - TechRaptor
+2016-06-21 15:43:39	amigojapan__	rr-: great
+2016-06-21 15:43:51	bagelsan	i really want to pirate this so i can see what all the fuss is
+2016-06-21 15:43:53	rr-	amigojapan__: https://en.wikipedia.org/wiki/Despera
+2016-06-21 15:43:53	@Suzuka	[title] Despera - Wikipedia, the free encyclopedia
+2016-06-21 15:44:17	rr-	>ABe announced that production will continue
+2016-06-21 15:44:18	rr-	ha
+2016-06-21 15:44:40	amigojapan__	rr-: I was happy that that show had no fan service or anything lewd
+2016-06-21 15:45:02	rr-	amigojapan__: yeah
+2016-06-21 15:45:13	rr-	(it doesn't mean that lewd isn't good though! :P)
+2016-06-21 15:45:18	◥	bagels (~bagels@2606:a000:1120:c022:f01b:532c:a5f9:16af) has joined #anime
+2016-06-21 15:45:39	◣	bagels (~bagels@2606:a000:1120:c022:f01b:532c:a5f9:16af) has quit (Client Quit)
+2016-06-21 15:45:58	bagelsan	is there fanservice in mighty no 9?
+2016-06-21 15:46:24	rr-	the only series from the ones i've watched, that imho managed to come close to haibane level, is mushishi
+2016-06-21 15:46:48	◣	metawyrm (~metawyrm@c-24-9-82-37.hsd1.co.comcast.net) has quit (Ping timeout: 240 seconds)
+2016-06-21 15:46:50	amigojapan__	rr-: it's good when the writer respects the characters
+2016-06-21 15:48:17	bagelsan	amigojapan__, https://www.twitch.tv/qttsix
+2016-06-21 15:48:17	@Suzuka	[title] Twitch
+2016-06-21 15:48:39	◥	anku (~ankush@unaffiliated/anku) has joined #anime
+2016-06-21 15:48:44	bagelsan	japanese player streaming mighty no 9
+2016-06-21 15:48:49	amigojapan__	bagelsan: I am on my phone
+2016-06-21 15:48:59	bagelsan	ah no twitch? your phone sucks
+2016-06-21 15:49:08	anku	Are there any good anime streaming app for Android?? 
+2016-06-21 15:49:11	rr-	amigojapan__: your phone's great
+2016-06-21 15:49:12	anku	Hi
+2016-06-21 15:49:23	Shinra	the kissanime website works anku
+2016-06-21 15:49:24	rr-	for you can irc from it :-3
+2016-06-21 15:49:34	amigojapan__	Yep rr-
+2016-06-21 15:49:40	◣	Yube (~Yube@95.76.24.149) has quit (Quit: .o/)
+2016-06-21 15:49:45	unit73e	I use kissanime as well
+2016-06-21 15:49:59	unit73e	anime apps are taken down
+2016-06-21 15:49:59	anku	K
+2016-06-21 15:50:03	anku	I'll try
+2016-06-21 15:50:11	◣	anku (~ankush@unaffiliated/anku) has quit (Client Quit)
+2016-06-21 15:50:18	unit73e	crunchy roll works for phone right?
+2016-06-21 15:50:24	unit73e	nvm he quit
+2016-06-21 15:50:40	bagelsan	it is but its region resticted
+2016-06-21 15:50:51	bagelsan	unit73e, check the stream out
+2016-06-21 15:51:23	amigojapan__	unit73e: apparently not iPhones or at least not from Japan
+2016-06-21 15:51:42	beaky	i love non non byori
+2016-06-21 15:51:48	beaky	!a non non byori
+2016-06-21 15:51:48	Shinra	me too
+2016-06-21 15:51:48	ImoutoBot_	beaky: I don't recognize that anime.
+2016-06-21 15:51:49	bagelsan	amigojapan__, iphones from japan dont support twitch app?
+2016-06-21 15:51:57	beaky	ImoutoBot_ you just have shit taste
+2016-06-21 15:52:09	beaky	non non byori is the best anime ever made
+2016-06-21 15:52:11	amigojapan__	beaky: stop abusing the bot
+2016-06-21 15:52:19	beaky	oh right i typoed non non byoir
+2016-06-21 15:52:40	amigojapan__	bagelsan: they do.  I just don't want to install it
+2016-06-21 15:52:40	beaky	amigojapan__ but imoutobot is a chuunibyo
+2016-06-21 15:52:43	bagelsan	beaky is the only one that uses that bot for !a
+2016-06-21 15:52:50	bagelsan	lel
+2016-06-21 15:52:53	beaky	chuunibyou are made teo be bullied
+2016-06-21 15:53:19	amigojapan__	beaky: you have been warmed
+2016-06-21 15:53:30	bagelsan	unit73e, you know what mighy no 9 reminds me of? metaknight kirby stealth bastard mega man disney cross
+2016-06-21 15:53:35	bagelsan	i think thats it
+2016-06-21 15:53:35	⚡	beaky is warm
+2016-06-21 15:53:52	⚡	Shinra cuddles beaky
+2016-06-21 15:53:53	unit73e	bagelsan: lol I'll wait for the real reviews
+2016-06-21 15:53:55	bagelsan	im gonna try a pirated copy soon since its out
+2016-06-21 15:54:04	unit73e	bagelsan: not expecting much tbh
+2016-06-21 15:54:04	bagelsan	unit73e, just pirate it and then buy it if it dont suck
+2016-06-21 15:54:07	Shinra	kimochiiii
+2016-06-21 15:54:15	unit73e	bagelsan: nah I don't pirate anymore
+2016-06-21 15:54:21	bagelsan	thats what i did with the binding of isaac rebirth
+2016-06-21 15:54:33	bagelsan	unit73e, i do it very rarely
+2016-06-21 15:54:38	bagelsan	it usually results in a sale
+2016-06-21 15:54:41	unit73e	pirated software bring malware
+2016-06-21 15:55:01	bagelsan	agree
+2016-06-21 15:55:26	◣	scire (~scire@94.207.125.209) has quit (Ping timeout: 250 seconds)
+2016-06-21 15:55:39	Shinra	you better have BURN HEAL
+2016-06-21 15:55:59	bagelsan	Shinra, whur dat pussy at
+2016-06-21 15:56:03	beaky	i like puss
+2016-06-21 15:56:10	Shinra	blood and pus
+2016-06-21 15:56:13	Shinra	or puss in boots
+2016-06-21 15:56:18	bagelsan	bloody puss
+2016-06-21 15:56:40	beaky	rem
+2016-06-21 15:56:46	Shinra	ram
+2016-06-21 15:56:56	Shinra	Emilia-Tan!
+2016-06-21 15:57:50	beaky	i hope theres more of priscilla 
+2016-06-21 15:57:52	beaky	and crusch
+2016-06-21 15:58:01	beaky	and cat boi
+2016-06-21 15:58:20	Shinra	cat boi is a trap I wanna fall in to

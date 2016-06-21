@@ -6,10 +6,9 @@ export LANG=en_US.UTF-8
 
 if [ -z "$SSH_AUTH_SOCK" ] ; then
 	eval `ssh-agent -s`
-	ssh-add
 fi
 
-
+#CURRENTLY POSSIBLE: i3 and bspwm
 export CURRENT_WM=bspwm
 
 # automatically start x server on same tty used for login

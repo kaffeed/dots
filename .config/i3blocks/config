@@ -17,8 +17,7 @@ signal=3
 urgent=true
 
 [music]
-label=
-command=mpc current
+command=$HOME/bin/music.sh
 interval=3
 markup=pango
 border=#ebdbb2
