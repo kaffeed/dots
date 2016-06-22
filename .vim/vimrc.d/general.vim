@@ -1,4 +1,3 @@
-set nocompatible
 set showmode
 set showcmd
 set showmatch
@@ -16,8 +15,10 @@ let g:airline_powerline_fonts = 1 "Nicer word wrapping
 set laststatus=2
 set ttimeoutlen=50
 
+set lazyredraw
+
 " Highlight cursor line
-set cursorline
+" set cursorline
 set formatoptions=1
 set linebreak
 set breakat=\ |@-+;:,./?^I
@@ -87,5 +88,11 @@ set magic
 
 set noshowmatch
 
+let g:livepreview_previewer = 'zathura'
 
-
+"Bufferline stuff
+let g:bufferline_echo = 1
+let g:bufferline_active_buffer_left = '['
+let g:bufferline_active_buffer_right = ']'
+let g:bufferline_inactive_highlight = 'StatusLineNC'
+let g:bufferline_active_highlight = 'StatusLine'
