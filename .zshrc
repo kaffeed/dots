@@ -1,6 +1,7 @@
 # aliases
-alias ls='ls --color=auto'
-alias classify='classify -d 30'
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
 
 source ~/.vim/plugged/gruvbox/gruvbox_256palette.sh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -25,35 +26,6 @@ promptinit
 
 # prompt
 prompt elite
-
-#-------------------
-# Personnal Aliases
-#-------------------
-#alias aimee='mpv --shuffle "https://soundcloud.com/reynolds-ame/likes"'
-alias redshift='redshift -l 35.22:-80.84'
-alias nightmode='redshift -r -O 3600 -b .5'
-alias youtube='mpsyt'
-
-alias newmusic='find ~/Music -name "*.mp3" -mtime -5 | sort'
-
-alias testpl='echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"'
-
-alias rm='rm -iv'
-alias cp='cp -iv'
-alias mv='mv -iv'
-alias la='ls -la'
-# -> Prevents accidentally clobbering files.
-alias mkdir='mkdir -p'
-alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
-# Pretty-print of some PATH variables:
-alias path='echo -e ${PATH//:/\\n}'
-alias libpath='echo -e ${LD_LIBRARY_PATH//:/\\n}'
-
-#-------------------------------------------------------------
-# The 'ls' family (this assumes you use a recent GNU ls).
-#-------------------------------------------------------------
-
-alias ls='ls -l --color'
 
 #-------------------------------------------------------------
 # File & strings related functions:

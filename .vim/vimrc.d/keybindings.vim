@@ -9,13 +9,15 @@ nmap <leader>Q :qall<cr>
 nnoremap ; :
 imap jj <esc>
 
+" Change pwd of current buffer and prompt for file to edit
+map <leader>s :lcd %:p:h<cr>:new <c-r>=expand("%:p:h")<cr>/
+map <leader>v :lcd %:p:h<cr>:vnew <c-r>=expand("%:p:h")<cr>/
+map <leader>e :lcd %:p:h<cr>:edit <c-r>=expand("%:p:h")<cr>/
 
 
 " Toggle line wrapping
 nmap <leader><c-w> :set wrap!<cr>
 
-
-" Treat long lines as break lines
 map j gj
 map k gk
 

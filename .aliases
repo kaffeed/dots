@@ -1,0 +1,73 @@
+#!/usr/bin/env sh
+alias dots='git --git-dir=$HOME/.dots.git --work-tree=$HOME'
+alias dots-ls='dots ls-files'
+alias dots-ls-untracked='dots status -u .'
+
+alias externalip="curl -s checkip.dyndns.org | sed 's/[^0-9.]//g'"
+
+alias xorglog="vim /var/log/Xorg.0.log"
+alias xorglogbumblebee="vim /var/log/Xorg.8.log"
+alias xorgconf="vim /etc/X11/xorg.conf.d/20-gpu.conf"
+alias xorgconfbumblebee="vim /etc/bumblebee/xorg.conf.nvidia"
+
+alias ga="git add"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias gco="git checkout"
+alias gst="git status"
+alias ggpur="git pull --rebase"
+
+alias vim="nvim"
+alias vi="nvim"
+alias reboot="sudo reboot"
+alias poweroff="sudo poweroff"
+alias halt="sudo halt"
+alias lemonbar-striptags='sed -u -r "s/%\{[^}]+\}//g"'
+alias lemonbar-striptags-trim='lemonbar-striptags | tr -s " "'
+
+alias cmake-debug="cmake -DCMAKE_BUILD_TYPE=debug"
+alias cmake-release="cmake -DCMAKE_BUILD_TYPE=release"
+alias cmake-release-globalinstall="cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr"
+alias cmake-uninstall='if [ -e install_manifest.txt ]; then sudo rm -i -v "$(cat install_manifest.txt)" install_manifest.txt; else echo "Cannot find install_manifest.txt"; fi'
+alias cmake-clean='[[ $(basename $(pwd)) == "build" ]] && cd .. && rm -rf build && mkdir build && cd build && cmake ..'
+
+# Default command flags
+alias mv="mv -v"
+alias ln="ln -v"
+alias cp="cp -v"
+alias rm="rm -v"
+alias ls="ls -l --group-directories-first --dereference-command-line-symlink-to-dir --color=auto"
+alias ll="ls --dereference-command-line-symlink-to-dir -lh"
+alias la="ls -la --dereference-command-line-symlink-to-dir --color=auto"
+alias info="info --vi-keys"
+alias pgrep="pgrep -l"
+alias grep="grep -i --color=auto"
+alias egrep="egrep --color=auto"
+
+# Personal stuff
+alias reshift='redshift -l 35.22:-80.84'
+alias nightmode='redshift -r -0 3600 -b .5'
+alias youtube='mpsyt'
+
+alias path='echo -e ${PATH//:/\\n}'
+alias libpath='echo -e ${LD_LIBRARY_PATH//:/\\n}'
+
+
+
+# Sudo cmds
+alias sv="sudo sv"
+alias lvs="sudo lvs"
+alias vgs="sudo vgs"
+alias lvdisplay="sudo lvdisplay"
+alias vgdisplay="sudo vgdisplay"
+
+# Spelling corrections
+alias vmi="nvim"
+alias exi="exit"
+alias exti="exit"
+alias eitx="exit"
+alias eixt="exit"
+alias exiyt="exit"
+alias exity="exit"
+
+# vim:ft=sh
