@@ -96,3 +96,13 @@ let g:bufferline_active_buffer_left = '['
 let g:bufferline_active_buffer_right = ']'
 let g:bufferline_inactive_highlight = 'StatusLineNC'
 let g:bufferline_active_highlight = 'StatusLine'
+
+" OmniSharp stuff
+let g:OmniSharp_timeout = 1
+let g:OmniSharp_selector_ui = 'ctrlp'
+
+set completeopt=longest,menuone,preview
+let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
+
+" Enable snippet completion, requires completeopt-=preview
+let g:OmniSharp_want_snippet=1
