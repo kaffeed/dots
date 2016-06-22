@@ -19,8 +19,11 @@ if has('python') || has('python3')
     Plug 'SirVer/ultisnips'
     Plug 'honza/vim-snippets'
     Plug 'Valloric/YouCompleteMe'
+    Plug 'OmniSharp/omnisharp-vim'
 endif
-Plug 'edkolev/tmuxline.vim'
+
+Plug 'tpope/vim-dispatch'
+Plug 'OrangeT/vim-csharp'
 Plug 'bling/vim-bufferline'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'morhetz/gruvbox'
