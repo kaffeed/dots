@@ -106,3 +106,12 @@ let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
 
 " Enable snippet completion, requires completeopt-=preview
 let g:OmniSharp_want_snippet=1
+
+set encoding=utf-8
+
+let python_highlight_all=1
+
+
+" NERDTreeStuff
+
+let NERDTreeIgnore=['\.pyc$', '\~$']

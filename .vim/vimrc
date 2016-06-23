@@ -10,7 +10,6 @@ set runtimepath^=$HOME/.vim
 set runtimepath^=$HOME/.vim/after
 set runtimepath^=/usr/share/vim/vimfiles/eclim
 
-
 " Plug
 
 call plug#begin('~/.vim/plugged')
@@ -22,6 +21,9 @@ if has('python') || has('python3')
     Plug 'OmniSharp/omnisharp-vim'
 endif
 
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'nvie/vim-flake8'
+Plug 'vim-scripts/a.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'OrangeT/vim-csharp'
 Plug 'bling/vim-bufferline'
