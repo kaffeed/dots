@@ -48,7 +48,7 @@ super + u
 super + i
    urxvtc -e "weechat"
 
-super + L
+ctrl + alt + l
    lock
 
 # make sxhkd reload its configuration files:

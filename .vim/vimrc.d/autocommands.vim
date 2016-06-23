@@ -88,5 +88,4 @@ augroup omnisharp_commands
 
 augroup END
 
-
 " vim:foldmethod=marker
