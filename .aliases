@@ -46,7 +46,7 @@ alias egrep="egrep --color=auto"
 
 # Personal stuff
 alias reshift='redshift -l 35.22:-80.84'
-alias nightmode='redshift -r -0 3600 -b .5'
+alias nightmode='redshift -r 0 3600 -b .5'
 alias youtube='mpsyt'
 
 alias path='echo -e ${PATH//:/\\n}'

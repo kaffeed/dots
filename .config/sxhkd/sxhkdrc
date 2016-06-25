@@ -49,7 +49,7 @@ super + i
    urxvtc -e "weechat"
 
 ctrl + alt + l
-   lock
+   lock_screen
 
 # make sxhkd reload its configuration files:
 super + Escape
