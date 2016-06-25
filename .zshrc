@@ -52,8 +52,6 @@ function extract()      # Handy Extract Program
 
 ttyctl -f
 
-#PROMPT='%{%f%b%k%}$(build_prompt) '
-
 source ~/.zpreztorc
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
