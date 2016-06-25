@@ -63,7 +63,3 @@ zstyle ':completion:*' menu select
 setopt completealiases
 
 neofetch --ascii
-
-[ -s "/home/sebastian/.dnx/dnvm/dnvm.sh" ] && . "/home/sebastian/.dnx/dnvm/dnvm.sh" # Load dnvm
-source ~/.dnx/dnvm/dnvm.sh
-source /usr/share/nvm/init-nvm.sh

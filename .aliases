@@ -17,7 +17,7 @@ alias gco="git checkout"
 alias gst="git status"
 alias ggpur="git pull --rebase"
 
-alias vim="nvim"
+#alias vim="nvim"
 alias vi="nvim"
 alias reboot="sudo reboot"
 alias poweroff="sudo poweroff"
