@@ -1,0 +1,9 @@
+
+[Thu Jul  7 2016]
+
+
+Connection failed!  Not re-establishing connection.  [13:19]
+
+
+*** ERC terminated: deleted
+

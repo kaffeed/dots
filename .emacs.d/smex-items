@@ -1,0 +1,34 @@
+
+;; ----- smex-history -----
+(
+ erc
+ pdf-tools-help
+ pdf-tools-install
+ rcirc
+ erc-tls
+ auto-fill-mode
+ package-install
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 12)
+ (customize-variable . 2)
+ (customize-group . 1)
+ (rcirc . 2)
+ (emms-play-dired . 3)
+ (emms-play-file . 1)
+ (emms-player-simple-mpv-loop-to . 1)
+ (doctor . 1)
+ (undo-tree-mode . 1)
+ (replace-regexp . 1)
+ (nyan-mode . 1)
+ (tramp-unload-tramp . 1)
+ (text-mode . 2)
+ (auto-fill-mode . 1)
+ (erc-tls . 1)
+ (erc . 4)
+ (pdf-tools-install . 1)
+ (pdf-tools-help . 1)
+ (pdf-tools-customize . 1)
+)

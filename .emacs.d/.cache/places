@@ -1,0 +1,129 @@
+;;; -*- coding: utf-8 -*-
+(("/home/sebastian/.emacs.d/.cache/recentf" . 2744)
+ ("/home/sebastian/git/swe/swe2/.gitignore" . 2)
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/RestSimulator.java" . 4653)
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/domain/annotated/Played.java" . 1308)
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/domain/annotated/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/domain/annotated/Played.java"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/domain"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/daos/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/daos/IDao.java"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at"))
+ ("/home/sebastian/git/swe/swe2/src/main/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/domain/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/domain/annotated"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/daos/exceptions/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/daos/exceptions/DaoException.java"))
+ ("/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/daos/hibernate/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main/java/at/hagenberg/ue02/daos/hibernate/AbstractHibernateDao.java"))
+ ("/home/sebastian/"
+  (dired-filename . "/home/sebastian/git"))
+ ("/home/sebastian/git/"
+  (dired-filename . "/home/sebastian/git/swe"))
+ ("/home/"
+  (dired-filename . "/home/sebastian"))
+ ("/home/sebastian/git/swe/"
+  (dired-filename . "/home/sebastian/git/swe/swe2"))
+ ("/home/sebastian/git/swe/swe2/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src"))
+ ("/home/sebastian/git/swe/swe2/src/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/src/main"))
+ ("/home/sebastian/.gitkraken/"
+  (dired-filename . "/home/sebastian/.gitkraken/search"))
+ ("/home/sebastian/git/tachiyomi/"
+  (dired-filename . "/home/sebastian/git/tachiyomi/app"))
+ ("/home/sebastian/git/swe/swe2/myplaylist/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/myplaylist/log"))
+ ("/home/sebastian/git/swe/swe2/log/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/log/playlist.log"))
+ ("/home/sebastian/.adobe/"
+  (dired-filename . "/home/sebastian/.adobe/Flash_Player"))
+ ("/home/sebastian/.android/"
+  (dired-filename . "/home/sebastian/.android/avd"))
+ ("/home/sebastian/.AndroidStudio2.1/"
+  (dired-filename . "/home/sebastian/.AndroidStudio2.1/config"))
+ ("/home/sebastian/AndroidStudioProjects/"
+  (dired-filename . "/home/sebastian/AndroidStudioProjects/MovieBase"))
+ ("/home/sebastian/.antigen/"
+  (dired-filename . "/home/sebastian/.antigen/repos"))
+ ("/home/sebastian/.AnyLogicPLE/"
+  (dired-filename . "/home/sebastian/.AnyLogicPLE/Config7"))
+ ("/home/sebastian/.dropbox/"
+  (dired-filename . "/home/sebastian/.dropbox/command_socket"))
+ ("/home/sebastian/Downloads/"
+  (dired-filename . "/home/sebastian/Downloads/AI"))
+ ("/home/sebastian/downloads/" . 51)
+ ("/home/sebastian/.dots.git.bfg-report/"
+  (dired-filename . "/home/sebastian/.dots.git.bfg-report/2016-06-19"))
+ ("/home/sebastian/.dots.git/"
+  (dired-filename . "/home/sebastian/.dots.git/branches"))
+ ("/home/sebastian/.dotnet/"
+  (dired-filename . "/home/sebastian/.dotnet/optimizationdata"))
+ ("/home/sebastian/Documents/"
+  (dired-filename . "/home/sebastian/Documents/pwds.kdbx"))
+ ("/home/sebastian/documents/" . 51)
+ ("/home/sebastian/.dockbarx/"
+  (dired-filename . "/home/sebastian/.dockbarx/log"))
+ ("/home/sebastian/.dnx/"
+  (dired-filename . "/home/sebastian/.dnx/alias"))
+ ("/home/sebastian/Desktop/"
+  (dired-filename . "/home/sebastian/Desktop/jws_app_shortcut_1464174858043.desktop"))
+ ("/home/sebastian/.freemind/"
+  (dired-filename . "/home/sebastian/.freemind/osm"))
+ ("/home/sebastian/git/dotawesome/"
+  (dired-filename . "/home/sebastian/git/dotawesome/.git"))
+ ("/home/sebastian/git/dotnet/"
+  (dired-filename . "/home/sebastian/git/dotnet/cli"))
+ ("/home/sebastian/git/i3dots/"
+  (dired-filename . "/home/sebastian/git/i3dots/.bash.d"))
+ ("/home/sebastian/git/i3lock/"
+  (dired-filename . "/home/sebastian/git/i3lock/.git"))
+ ("/home/sebastian/git/jaagr/"
+  (dired-filename . "/home/sebastian/git/jaagr/dots"))
+ ("/home/sebastian/git/ki/"
+  (dired-filename . "/home/sebastian/git/ki/ai_lecture10_uncertainty_2up.pdf"))
+ ("/home/sebastian/git/kne/"
+  (dired-filename . "/home/sebastian/git/kne/Protegestuff"))
+ ("/home/sebastian/git/lemonbuddy/"
+  (dired-filename . "/home/sebastian/git/lemonbuddy/cmake"))
+ ("/home/sebastian/git/lispstuff/"
+  (dired-filename . "/home/sebastian/git/lispstuff/initproject"))
+ ("/home/sebastian/git/MAL/"
+  (dired-filename . "/home/sebastian/git/MAL/ue4"))
+ ("/home/sebastian/git/.metadata/"
+  (dired-filename . "/home/sebastian/git/.metadata/.mylyn"))
+ ("/home/sebastian/git/MOS/"
+  (dired-filename . "/home/sebastian/git/MOS/mitschrift"))
+ ("/home/sebastian/git/openbox/"
+  (dired-filename . "/home/sebastian/git/openbox/dotfiles"))
+ ("/home/sebastian/git/RoboCode/"
+  (dired-filename . "/home/sebastian/git/RoboCode/bin"))
+ ("/home/sebastian/git/rtlwifi_new/"
+  (dired-filename . "/home/sebastian/git/rtlwifi_new/btcoexist"))
+ ("/home/sebastian/git/snakemake-tutorial/"
+  (dired-filename . "/home/sebastian/git/snakemake-tutorial/00-start"))
+ ("/home/sebastian/git/super-octo-chainsaw/"
+  (dired-filename . "/home/sebastian/git/super-octo-chainsaw/.git"))
+ ("/home/sebastian/git/swe/demo/"
+  (dired-filename . "/home/sebastian/git/swe/demo/.idea"))
+ ("/home/sebastian/git/swe/swe2/.git/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/.git/branches"))
+ ("/home/sebastian/git/swe/swe2/.idea/"
+  (dired-filename . "/home/sebastian/git/swe/swe2/.idea/copyright"))
+ ("/home/sebastian/.zshrc" . 193)
+ ("/home/sebastian/.config/bspwm/bspwmrc" . 717)
+ ("/home/sebastian/.config/i3/config" . 916)
+ ("/home/sebastian/.config/lemonbuddy/config" . 1182)
+ ("/home/sebastian/git/jaagr/dots/.config/bspwm/bspwmrc" . 5888)
+ ("/home/sebastian/git/lispstuff/initproject/main.lisp" . 1443)
+ ("/usr/share/lightdm-webkit/"
+  (dired-filename . "/usr/share/lightdm-webkit/themes"))
+ ("/usr/share/lightdm-webkit/themes/"
+  (dired-filename . "/usr/share/lightdm-webkit/themes/material")))
