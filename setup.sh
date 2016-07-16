@@ -13,6 +13,8 @@ pacaur -Syu --noconfirm \
     git \
     bspwm \
     neovim \
+    lemonbuddy-git \
+    lemonbar-sm-git \
     emacs25-git \
     dropbox \
     google-chrome-stable \
@@ -84,7 +86,9 @@ pacaur -Syu --noconfirm \
     xf86-input-libinput \
     xf86-video-intel \
     xorg-setxkbmap \
-    compton
+    compton \
+    fontconfig-infinality \
+    freetype2-infinality
 
 echo "Cloning dots repository"
 
