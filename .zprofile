@@ -8,8 +8,12 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
 	eval `ssh-agent -s`
 fi
 
-#CURRENTLY POSSIBLE: i3 and bspwm
+#CURRENTLY POSSIBLE: i3, awesome, openbox, xfce and bspwm
 export CURRENT_WM=bspwm
+
+if [ -d $HOME/bin ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 
 # automatically start x server on same tty used for login
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx ~/.xinitrc $CURRENT_WM

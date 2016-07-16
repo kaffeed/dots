@@ -627,3 +627,74 @@
 2016-06-24 18:24:56		perl scripts loaded: beep, buffers
 2016-06-24 18:24:56		script: 309 scripts for WeeChat 1.5
 2016-06-24 18:24:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-25 13:17:53		fifo: removing old fifo pipe "/home/sebastian/.weechat/weechat_fifo_3970"
+2016-06-25 13:17:54		anotify: No module named pynotify
+2016-06-25 13:17:54		python: stdout/stderr: Traceback (most recent call last):
+2016-06-25 13:17:54		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-06-25 13:17:54		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-06-25 13:17:54		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-06-25 13:17:54	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-06-25 13:17:54		perl scripts loaded: beep, buffers
+2016-06-25 13:17:54		script: downloading list of scripts...
+2016-06-25 13:17:54		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-25 13:17:54		script: 309 scripts for WeeChat 1.5
+2016-06-26 14:09:45		fifo: removing old fifo pipe "/home/sebastian/.weechat/weechat_fifo_4335"
+2016-06-26 14:09:45		anotify: No module named pynotify
+2016-06-26 14:09:45		python: stdout/stderr: Traceback (most recent call last):
+2016-06-26 14:09:45		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-06-26 14:09:45		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-06-26 14:09:45		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-06-26 14:09:45	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-06-26 14:09:46		perl scripts loaded: beep, buffers
+2016-06-26 14:09:46		script: downloading list of scripts...
+2016-06-26 14:09:46		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-26 14:09:46		script: 309 scripts for WeeChat 1.5
+2016-06-26 18:43:25		perl: scripts unloaded
+2016-06-26 18:43:25		fifo: pipe closed
+2016-06-27 16:41:59		anotify: No module named pynotify
+2016-06-27 16:41:59		python: stdout/stderr: Traceback (most recent call last):
+2016-06-27 16:41:59		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-06-27 16:41:59		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-06-27 16:41:59		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-06-27 16:41:59	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-06-27 16:41:59		perl scripts loaded: beep, buffers
+2016-06-27 16:41:59		script: downloading list of scripts...
+2016-06-27 16:41:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-27 16:42:00		script: 309 scripts for WeeChat 1.5
+2016-06-27 22:43:47		perl: scripts unloaded
+2016-06-27 22:43:47		fifo: pipe closed
+2016-06-28 16:29:26		anotify: No module named pynotify
+2016-06-28 16:29:26		python: stdout/stderr: Traceback (most recent call last):
+2016-06-28 16:29:26		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-06-28 16:29:26		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-06-28 16:29:26		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-06-28 16:29:26	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-06-28 16:29:26		perl scripts loaded: beep, buffers
+2016-06-28 16:29:26		script: 309 scripts for WeeChat 1.5
+2016-06-28 16:29:26		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-06-28 16:29:28		perl: scripts unloaded
+2016-06-28 16:29:28		fifo: pipe closed
+2016-07-03 18:50:59		anotify: No module named pynotify
+2016-07-03 18:50:59		python: stdout/stderr: Traceback (most recent call last):
+2016-07-03 18:50:59		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-07-03 18:50:59		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-07-03 18:50:59		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-07-03 18:50:59	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-07-03 18:50:59		perl scripts loaded: beep, buffers
+2016-07-03 18:50:59		script: downloading list of scripts...
+2016-07-03 18:50:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-07-03 18:51:00		script: 309 scripts for WeeChat 1.5
+2016-07-03 19:12:02		perl: scripts unloaded
+2016-07-03 19:12:02		fifo: pipe closed
+2016-07-07 10:08:52		anotify: No module named pynotify
+2016-07-07 10:08:52		python: stdout/stderr: Traceback (most recent call last):
+2016-07-07 10:08:52		python: stdout/stderr:   File "/home/sebastian/.weechat/python/autoload/anotify.py", line 406, in <module>
+2016-07-07 10:08:52		python: stdout/stderr:     def a_notify(notification, title, description, priority=pynotify.URGENCY_LOW):
+2016-07-07 10:08:52		python: stdout/stderr: NameError: name 'pynotify' is not defined
+2016-07-07 10:08:52	⚠ 	python: unable to parse file "/home/sebastian/.weechat/python/autoload/anotify.py"
+2016-07-07 10:08:52		perl scripts loaded: beep, buffers
+2016-07-07 10:08:52		script: downloading list of scripts...
+2016-07-07 10:08:52		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-07-07 10:08:53		script: 309 scripts for WeeChat 1.5
+2016-07-07 10:08:53		perl: scripts unloaded
+2016-07-07 10:08:53		fifo: pipe closed

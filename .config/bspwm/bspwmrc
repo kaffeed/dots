@@ -20,6 +20,6 @@ bspc config focused_sticky_border_color '#d5c4a1'
 bspc config urgent_border_color '#cc241d'
 
 bspc rule -a Screenkey manage=off
-bspc rule -a mpc "state=floating"
+bspc rule -a URxvt "state=floating"
 
 sh ~/bin/start_lemonbuddy.sh

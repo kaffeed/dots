@@ -1,106 +1,135 @@
-(require 'package) ;; You might already have this line
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/"))
-(when (< emacs-major-version 24)
-  ;; For important compatibility libraries like cl-lib
-  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-(package-initialize) ;; You might already have this line
+;;; init.el --- Prelude's configuration entry point.
+;;
+;; Copyright (c) 2011-2016 Bozhidar Batsov
+;;
+;; Author: Bozhidar Batsov <bozhidar@batsov.com>
+;; URL: http://batsov.com/prelude
+;; Version: 1.0.0
+;; Keywords: convenience
 
-;; hide scrollbar
-(scroll-bar-mode -1)
+;; This file is not part of GNU Emacs.
 
-;; always refresh buffers
-(global-auto-revert-mode t)
+;;; Commentary:
 
-;; undo tree
-(global-undo-tree-mode)
+;; This file simply sets up the default load path and requires
+;; the various modules defined within Emacs Prelude.
 
-;; Hide line numbers
-(global-linum-mode 1)
+;;; License:
 
-;; IDO Mode
-(ido-mode 1)
-(ido-vertical-mode 1)
-(setq ido-vertical-define-keys 'C-n-and-C-p-only)
-(setq ido-enable-flex-matching t)
-(setq ido-everywhere t)
+;; This program is free software; you can redistribute it and/or
+;; modify it under the terms of the GNU General Public License
+;; as published by the Free Software Foundation; either version 3
+;; of the License, or (at your option) any later version.
+;;
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with GNU Emacs; see the file COPYING.  If not, write to the
+;; Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
 
-;; autocomplete
-(ac-config-default)
+;;; Code:
+(defvar current-user
+      (getenv
+       (if (equal system-type 'windows-nt) "USERNAME" "USER")))
 
-;; Windmove stuff
-(when (fboundp 'windmove-default-keybindings)
-  (windmove-default-keybindings))
+(message "Prelude is powering up... Be patient, Master %s!" current-user)
 
-;; elpy
-(elpy-enable)
+(when (version< emacs-version "24.4")
+  (error "Prelude requires at least GNU Emacs 24.4, but you're running %s" emacs-version))
 
-;; whichkey
-(which-key-mode)
-(which-key-setup-side-window-bottom)
+;; Always load newest byte code
+(setq load-prefer-newer t)
 
-;; smex
-(smex-initialize)
+(defvar prelude-dir (file-name-directory load-file-name)
+  "The root dir of the Emacs Prelude distribution.")
+(defvar prelude-core-dir (expand-file-name "core" prelude-dir)
+  "The home of Prelude's core functionality.")
+(defvar prelude-modules-dir (expand-file-name  "modules" prelude-dir)
+  "This directory houses all of the built-in Prelude modules.")
+(defvar prelude-personal-dir (expand-file-name "personal" prelude-dir)
+  "This directory is for your personal configuration.
 
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+Users of Emacs Prelude are encouraged to keep their personal configuration
+changes in this directory.  All Emacs Lisp files there are loaded automatically
+by Prelude.")
+(defvar prelude-personal-preload-dir (expand-file-name "preload" prelude-personal-dir)
+  "This directory is for your personal configuration, that you want loaded before Prelude.")
+(defvar prelude-vendor-dir (expand-file-name "vendor" prelude-dir)
+  "This directory houses packages that are not yet available in ELPA (or MELPA).")
+(defvar prelude-savefile-dir (expand-file-name "savefile" prelude-dir)
+  "This folder stores all the automatically generated save/history-files.")
+(defvar prelude-modules-file (expand-file-name "prelude-modules.el" prelude-dir)
+  "This files contains a list of modules that will be loaded by Prelude.")
 
-;; Instantly get to scratch
-(setq inhibit-startup-message t
-      inhibit-startup-echo-area-message t)
+(unless (file-exists-p prelude-savefile-dir)
+  (make-directory prelude-savefile-dir))
 
-;; can change the path here
-(add-to-list 'load-path "~/.emacs.d/lisp")
+(defun prelude-add-subfolders-to-load-path (parent-dir)
+ "Add all level PARENT-DIR subdirs to the `load-path'."
+ (dolist (f (directory-files parent-dir))
+   (let ((name (expand-file-name f parent-dir)))
+     (when (and (file-directory-p name)
+                (not (string-prefix-p "." f)))
+       (add-to-list 'load-path name)
+       (prelude-add-subfolders-to-load-path name)))))
 
-;; Auto indent
-(define-key global-map (kbd "RET") 'newline-and-indent)
+;; add Prelude's directories to Emacs's `load-path'
+(add-to-list 'load-path prelude-core-dir)
+(add-to-list 'load-path prelude-modules-dir)
+(add-to-list 'load-path prelude-vendor-dir)
+(prelude-add-subfolders-to-load-path prelude-vendor-dir)
 
-;; Stack exchange
-(define-prefix-command 'launcher-map)
-(global-set-key (kbd "s-l") 'launcher-map)
-(define-key launcher-map "qq" #'sx-tab-all-questions)
-(define-key launcher-map "qi" #'sx-inbox)
-(define-key launcher-map "qo" #'sx-open-link)
-(define-key launcher-map "qu" #'sx-tab-unanswered-my-tags)
-(define-key launcher-map "qa" #'sx-ask)
-(define-key launcher-map "qs" #'sx-search)
+;; reduce the frequency of garbage collection by making it happen on
+;; each 50MB of allocated data (the default is on every 0.76MB)
+(setq gc-cons-threshold 50000000)
 
-;; Powerline
-(require 'spaceline-config)
-(spaceline-emacs-theme)
+;; warn when opening files bigger than 100MB
+(setq large-file-warning-threshold 100000000)
 
-;; Google-this
-(google-this-mode 1)
+;; preload the personal settings from `prelude-personal-preload-dir'
+(when (file-exists-p prelude-personal-preload-dir)
+  (message "Loading personal configuration files in %s..." prelude-personal-preload-dir)
+  (mapc 'load (directory-files prelude-personal-preload-dir 't "^[^#].*el$")))
 
-;; pdf rendering
-(pdf-tools-install)
+(message "Loading Prelude's core...")
 
-;; gruvbox theme
-(load-theme 'gruvbox t)
+;; the core stuff
+(require 'prelude-packages)
+(require 'prelude-custom)  ;; Needs to be loaded before core, editor and ui
+(require 'prelude-ui)
+(require 'prelude-core)
+(require 'prelude-mode)
+(require 'prelude-editor)
+(require 'prelude-global-keybindings)
 
-;; rainbow delimitiers
-(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+;; OSX specific settings
+(when (eq system-type 'darwin)
+  (require 'prelude-osx))
 
-;; SLIME
-;; Set your lisp system and, optionally, some contribs
-(setq inferior-lisp-program "/usr/bin/sbcl")
-(setq slime-contribs '(slime-fancy))
+(message "Loading Prelude's modules...")
 
-;; org
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;; the modules
+(if (file-exists-p prelude-modules-file)
+    (load prelude-modules-file)
+  (message "Missing modules file %s" prelude-modules-file)
+  (message "You can get started by copying the bundled example file"))
 
-;; webmode
-(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+;; config changes made through the customize UI will be store here
+(setq custom-file (expand-file-name "custom.el" prelude-personal-dir))
 
-;; skewer live preview
-(add-hook 'js2-mode-hook 'skewer-mode)
-(add-hook 'css-mode-hook 'skewer-css-mode)
-(add-hook 'html-mode-hook 'skewer-html-mode)
+;; load the personal settings (this includes `custom-file')
+(when (file-exists-p prelude-personal-dir)
+  (message "Loading personal configuration files in %s..." prelude-personal-dir)
+  (mapc 'load (directory-files prelude-personal-dir 't "^[^#].*el$")))
+
+(message "Prelude is ready to do thy bidding, Master %s!" current-user)
+
+(prelude-eval-after-init
+ ;; greet the use with some useful tip
+ (run-at-time 5 nil 'prelude-tip-of-the-day))
+
+;;; init.el ends here

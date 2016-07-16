@@ -24,6 +24,7 @@ xset s noblank
 
 #us international, yaaay
 setxkbmap -layout us -variant altgr-intl -option nodeadkeys
+xmodmap ~/.Xmodmap
 numlockx &
 
 #get rid of ugly cross
@@ -38,6 +39,6 @@ exec_always sleep 0.01
 mpd &
 # urxvt daemon
 urxvtd -q -f -o &
-
+emacs --daemon &
 unclutter &
 sh ~/bin/select_wm.sh $1

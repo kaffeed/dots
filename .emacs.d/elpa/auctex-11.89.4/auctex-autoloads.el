@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "bib-cite" "bib-cite.el" (22399 35570 927186
-;;;;;;  761000))
+;;;### (autoloads nil "bib-cite" "bib-cite.el" (22403 20069 630988
+;;;;;;  295000))
 ;;; Generated autoloads from bib-cite.el
 
 (autoload 'bib-cite-minor-mode "bib-cite" "\
@@ -22,8 +22,8 @@ Unconditionally turn on Bib Cite mode.
 
 ;;;***
 
-;;;### (autoloads nil "context" "context.el" (22399 35588 971186
-;;;;;;  438000))
+;;;### (autoloads nil "context" "context.el" (22403 20087 756987
+;;;;;;  970000))
 ;;; Generated autoloads from context.el
 
 (defalias 'ConTeXt-mode 'context-mode)
@@ -42,8 +42,8 @@ of ConTeXt-mode-hook.
 
 ;;;***
 
-;;;### (autoloads nil "context-en" "context-en.el" (22399 35572 127186
-;;;;;;  740000))
+;;;### (autoloads nil "context-en" "context-en.el" (22403 20070 983988
+;;;;;;  271000))
 ;;; Generated autoloads from context-en.el
 
 (autoload 'context-en-mode "context-en" "\
@@ -60,8 +60,8 @@ of context-mode-hook.
 
 ;;;***
 
-;;;### (autoloads nil "context-nl" "context-nl.el" (22399 35589 195186
-;;;;;;  434000))
+;;;### (autoloads nil "context-nl" "context-nl.el" (22403 20087 913987
+;;;;;;  967000))
 ;;; Generated autoloads from context-nl.el
 
 (autoload 'context-nl-mode "context-nl" "\
@@ -78,8 +78,8 @@ of context-mode-hook.
 
 ;;;***
 
-;;;### (autoloads nil "font-latex" "font-latex.el" (22399 35570 972186
-;;;;;;  760000))
+;;;### (autoloads nil "font-latex" "font-latex.el" (22403 20069 674988
+;;;;;;  294000))
 ;;; Generated autoloads from font-latex.el
 
 (autoload 'font-latex-setup "font-latex" "\
@@ -89,7 +89,7 @@ Setup this buffer for LaTeX font-lock.  Usually called from a hook.
 
 ;;;***
 
-;;;### (autoloads nil "latex" "latex.el" (22399 35587 624186 462000))
+;;;### (autoloads nil "latex" "latex.el" (22403 20086 592987 991000))
 ;;; Generated autoloads from latex.el
 
 (autoload 'BibTeX-auto-store "latex" "\
@@ -128,12 +128,12 @@ runs the hooks in `docTeX-mode-hook'.
 
 ;;;***
 
-;;;### (autoloads nil "multi-prompt" "multi-prompt.el" (22399 35587
-;;;;;;  366186 467000))
+;;;### (autoloads nil "multi-prompt" "multi-prompt.el" (22403 20086
+;;;;;;  311987 996000))
 ;;; Generated autoloads from multi-prompt.el
 
 (autoload 'multi-prompt "multi-prompt" "\
-Completing prompt for a list of strings.  
+Completing prompt for a list of strings.
 The first argument SEPARATOR should be the string (of length 1) to
 separate the elements in the list.  The second argument UNIQUE should
 be non-nil, if each element must be unique.  The remaining elements
@@ -158,8 +158,8 @@ The return value is the string as entered in the minibuffer.
 
 ;;;***
 
-;;;### (autoloads nil "plain-tex" "plain-tex.el" (22399 35587 578186
-;;;;;;  463000))
+;;;### (autoloads nil "plain-tex" "plain-tex.el" (22403 20086 536987
+;;;;;;  992000))
 ;;; Generated autoloads from plain-tex.el
 
 (autoload 'TeX-plain-tex-mode "plain-tex" "\
@@ -190,8 +190,8 @@ of `AmS-TeX-mode-hook'.
 
 ;;;***
 
-;;;### (autoloads nil "preview" "preview.el" (22399 35587 264186
-;;;;;;  469000))
+;;;### (autoloads nil "preview" "preview.el" (22403 20086 210987
+;;;;;;  998000))
 ;;; Generated autoloads from preview.el
 
 (autoload 'preview-install-styles "preview" "\
@@ -221,7 +221,7 @@ Report a bug in the preview-latex package.
 
 ;;;***
 
-;;;### (autoloads nil "tex" "tex.el" (22399 35589 150186 435000))
+;;;### (autoloads nil "tex" "tex.el" (22403 20087 869987 968000))
 ;;; Generated autoloads from tex.el
 
 (defalias 'TeX-assoc-string (symbol-function (if (featurep 'xemacs) 'assoc 'assoc-string)))
@@ -264,8 +264,8 @@ information about your AUCTeX version and AUCTeX configuration.
 
 ;;;***
 
-;;;### (autoloads nil "tex-bar" "tex-bar.el" (22399 35587 410186
-;;;;;;  466000))
+;;;### (autoloads nil "tex-bar" "tex-bar.el" (22403 20086 367987
+;;;;;;  995000))
 ;;; Generated autoloads from tex-bar.el
 
 (autoload 'TeX-install-toolbar "tex-bar" "\
@@ -280,8 +280,8 @@ Install toolbar buttons for LaTeX mode.
 
 ;;;***
 
-;;;### (autoloads nil "tex-fold" "tex-fold.el" (22399 35572 283186
-;;;;;;  737000))
+;;;### (autoloads nil "tex-fold" "tex-fold.el" (22403 20071 142988
+;;;;;;  268000))
 ;;; Generated autoloads from tex-fold.el
  (autoload 'TeX-fold-mode "tex-fold" "Minor mode for hiding and revealing macros and environments." t)
 
@@ -289,8 +289,8 @@ Install toolbar buttons for LaTeX mode.
 
 ;;;***
 
-;;;### (autoloads nil "tex-font" "tex-font.el" (22399 35572 71186
-;;;;;;  741000))
+;;;### (autoloads nil "tex-font" "tex-font.el" (22403 20070 927988
+;;;;;;  272000))
 ;;; Generated autoloads from tex-font.el
 
 (autoload 'tex-font-setup "tex-font" "\
@@ -300,8 +300,8 @@ Setup font lock support for TeX.
 
 ;;;***
 
-;;;### (autoloads nil "tex-info" "tex-info.el" (22399 35571 858186
-;;;;;;  745000))
+;;;### (autoloads nil "tex-info" "tex-info.el" (22403 20070 714988
+;;;;;;  275000))
 ;;; Generated autoloads from tex-info.el
 
 (defalias 'Texinfo-mode 'texinfo-mode)
@@ -319,7 +319,7 @@ value of `Texinfo-mode-hook'.
 
 ;;;***
 
-;;;### (autoloads nil "tex-jp" "tex-jp.el" (22399 35584 102186 525000))
+;;;### (autoloads nil "tex-jp" "tex-jp.el" (22403 20082 960988 56000))
 ;;; Generated autoloads from tex-jp.el
 
 (autoload 'japanese-plain-tex-mode "tex-jp" "\
@@ -336,15 +336,15 @@ Set `japanese-TeX-mode' to t, and enter `TeX-latex-mode'.
 
 ;;;***
 
-;;;### (autoloads nil "tex-site" "tex-site.el" (22399 35570 278186
-;;;;;;  773000))
+;;;### (autoloads nil "tex-site" "tex-site.el" (22403 20068 952988
+;;;;;;  307000))
 ;;; Generated autoloads from tex-site.el
  (require 'tex-site)
 
 ;;;***
 
-;;;### (autoloads nil "texmathp" "texmathp.el" (22399 35587 309186
-;;;;;;  468000))
+;;;### (autoloads nil "texmathp" "texmathp.el" (22403 20086 255987
+;;;;;;  997000))
 ;;; Generated autoloads from texmathp.el
 
 (autoload 'texmathp "texmathp" "\
@@ -364,8 +364,8 @@ Limit searched to BOUND.
 
 ;;;***
 
-;;;### (autoloads nil "toolbar-x" "toolbar-x.el" (22399 35584 270186
-;;;;;;  522000))
+;;;### (autoloads nil "toolbar-x" "toolbar-x.el" (22403 20083 128988
+;;;;;;  53000))
 ;;; Generated autoloads from toolbar-x.el
  (autoload 'toolbarx-install-toolbar "toolbar-x")
 
@@ -373,7 +373,7 @@ Limit searched to BOUND.
 
 ;;;### (autoloads nil nil ("auctex-pkg.el" "auctex.el" "prv-emacs.el"
 ;;;;;;  "prv-xemacs.el" "tex-buf.el" "tex-mik.el" "tex-style.el"
-;;;;;;  "tex-wizard.el") (22399 35589 375445 944000))
+;;;;;;  "tex-wizard.el") (22403 20088 28601 474000))
 
 ;;;***
 

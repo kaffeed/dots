@@ -4,7 +4,7 @@ if [ -f ~/.aliases ]; then
 fi
 
 source ~/.vim/plugged/gruvbox/gruvbox_256palette.sh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.z
 
 # History
 HISTFILE=~/.histfile

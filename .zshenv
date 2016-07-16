@@ -8,7 +8,7 @@ export LO_USE_NOTEBOOKBAR=1
 export NNTPSERVER='snews://news.eternal-september.org:563'
 export PANEL_FIFO=/tmp/panel-fifo
 export EDITOR=nvim
-export BROWSER=firefox
+export BROWSER=google-chrome-stable
 
 if [ -d "$HOME/bin" ] ; then
   PATH="$HOME/bin:$PATH"

@@ -1,10 +1,10 @@
 
 ;; ----- smex-history -----
 (
- erc
  pdf-tools-help
  pdf-tools-install
  rcirc
+ erc
  erc-tls
  auto-fill-mode
  package-install
@@ -27,7 +27,7 @@
  (text-mode . 2)
  (auto-fill-mode . 1)
  (erc-tls . 1)
- (erc . 4)
+ (erc . 3)
  (pdf-tools-install . 1)
  (pdf-tools-help . 1)
  (pdf-tools-customize . 1)
